@@ -13,11 +13,23 @@ import java.io.IOException;
 
 public class Controller {
     final static String ERROR="Incorrect command!";
+    public Button bEggPowderPlant;
+    public Button EggPowderPlant;
+    public Button CookieBakery;
+    public Button bCookieBakery;
+    public Button bTailoringFactory;
+    public Button TailoringFactory;
+    public Button bBoxedMilk;
+    public Button BoxedMilk;
+    public Button bIceCreamFactory;
+    public Button IceCreamFactory;
+    public Button bFeatherFactory;
+    public Button FeatherFactory;
+
     public void signUp() throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("signUpScene.fxml"));
         Main.window.setScene(new Scene(root , 800 , 495));
     }
-
 
     public void logIn(){
         System.out.println("log in pressed ...");
@@ -60,22 +72,32 @@ public class Controller {
     public void buildCookieBakery(){
         if(!Manager.buildWorkShop("CookieBakery"))
             ReadWriteFile.WriteLogger(false,ERROR);
+        else
+            bCookieBakery.setDisable(true);
     }
     public void buildBoxedMilk(){
         if(!Manager.buildWorkShop("BoxedMilk"))
             ReadWriteFile.WriteLogger(false,ERROR);
+        else
+            bBoxedMilk.setDisable(true);
     }
     public void buildIceCreamFactory(){
         if(!Manager.buildWorkShop("IceCreamFactory"))
             ReadWriteFile.WriteLogger(false,ERROR);
+        else
+            bIceCreamFactory.setDisable(true);
     }
     public void buildFeatherFactory(){
         if(!Manager.buildWorkShop("FeatherFactory"))
             ReadWriteFile.WriteLogger(false,ERROR);
+        else
+            bFeatherFactory.setDisable(true);
     }
     public void buildTailoringFactory(){
         if(!Manager.buildWorkShop("TailoringFactory"))
             ReadWriteFile.WriteLogger(false,ERROR);
+        else
+            bTailoringFactory.setDisable(true);
     }
 
 
