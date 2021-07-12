@@ -5,6 +5,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import noGraphic.Manager;
+import noGraphic.ReadWriteFile;
 
 public class Main extends Application {
 
@@ -13,15 +15,24 @@ public class Main extends Application {
     }
 
     static Stage window;
-
     @Override
     public void start(Stage primaryStage) throws Exception{
         window = primaryStage;
-
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        window.setTitle("Hello World");
+        window.setTitle("Farm Frenzy");
         window.setScene(new Scene(root, 800 , 500));
         window.show();
+    }
+    public void play(Stage window) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("game.fxml"));
+        window.setTitle("Farm Frenzy");
+        window.setScene(new Scene(root, 800 , 500));
+        boolean win=false, lose=false;
+        while ( !win && !lose){
+            Manager.update(1);
+            window.show();
+        }
+
     }
 
 

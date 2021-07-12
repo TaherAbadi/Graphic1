@@ -156,7 +156,7 @@ public class Manager {
         if(caged==false)
             ReadWriteFile.WriteLogger(false,"There is no wild animal in");
     }
-    static int update(int n){
+    public static int update(int n){
         for (int i = 0; i <n ; i++) {
             time++;
             produceWild();
