@@ -13,12 +13,12 @@
    <center>
       <VBox alignment="TOP_CENTER" prefHeight="214.0" prefWidth="548.0" BorderPane.alignment="TOP_CENTER">
          <children>
-            <Button fx:id="signUp" mnemonicParsing="false" onAction="#signUp" prefHeight="38.0" prefWidth="89.0" text="Sign up">
+            <Button fx:id="signUp" mnemonicParsing="false" onAction="#signUpScene" prefHeight="38.0" prefWidth="89.0" text="Sign up">
                <VBox.margin>
                   <Insets bottom="5.0" top="35.0" />
                </VBox.margin>
             </Button>
-            <Button fx:id="logIn" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#logIn" prefHeight="25.0" prefWidth="93.0" text="Log in">
+            <Button fx:id="logIn" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#logInScene" prefHeight="25.0" prefWidth="93.0" text="Log in">
                <VBox.margin>
                   <Insets top="10.0" />
                </VBox.margin>

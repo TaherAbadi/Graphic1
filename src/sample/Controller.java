@@ -4,6 +4,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 import noGraphic.Manager;
 import noGraphic.ReadWriteFile;
 
@@ -12,16 +13,42 @@ import java.awt.*;
 import java.io.IOException;
 
 public class Controller {
+    @FXML
+    TextField usernameTextField;
+    @FXML
+    TextField passwordTextField;
+
     final static String ERROR="Incorrect command!";
-    public void signUp() throws IOException {
+    public void signUpScene() throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("signUpScene.fxml"));
-        Main.window.setScene(new Scene(root , 800 , 495));
+        Main.window.setScene(new Scene(root , 630 , 495));
     }
 
+    public void signUp(){
+        if (!Manager.isUser(usernameTextField.getText())) {
+            Manager.addUser(usernameTextField.getText(),passwordTextField.getText());
+            ReadWriteFile.WriteLogger(true,usernameTextField.getText()+" signed up");
+        }
+        else {
+
+        }
+    }
+
+    public void logInScene() throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("logInScene.fxml"));
+        Main.window.setScene(new Scene(root , 630 , 495));
+    }
 
     public void logIn(){
-        System.out.println("log in pressed ...");
+        if (Manager.isUser(usernameTextField.getText())){
+
+        }
+        else {
+            Manager.addUser(usernameTextField.getText(),passwordTextField.getText());
+        }
     }
+
+
     public void setting(){
         System.out.println("setting pressed ...");
     }
