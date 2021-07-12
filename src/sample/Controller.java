@@ -66,6 +66,7 @@ public class Controller {
         }
         else {
             Manager.addUser(usernameTextField.getText(),passwordTextField.getText());
+            ReadWriteFile.WriteLogger(true,usernameTextField.getText()+" logged in!");
         }
     }
 
