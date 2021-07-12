@@ -34,6 +34,12 @@ public class Controller {
     @FXML
     TextField passwordTextField;
 
+    public void mainMenuScene() throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Main.window.setScene(new Scene(root, 800 , 500));
+
+    }
+
     public void signUpScene() throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("signUpScene.fxml"));
         Main.window.setScene(new Scene(root , 630 , 495));
