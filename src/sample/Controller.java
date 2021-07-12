@@ -4,12 +4,15 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 import noGraphic.Manager;
 import noGraphic.ReadWriteFile;
 
 import javax.swing.*;
 import java.awt.*;
 import java.io.IOException;
+
+
 
 public class Controller {
     final static String ERROR="Incorrect command!";
@@ -26,14 +29,47 @@ public class Controller {
     public Button bFeatherFactory;
     public Button FeatherFactory;
 
-    public void signUp() throws IOException {
+    @FXML
+    javafx.scene.control.TextField usernameTextField;
+    @FXML
+    TextField passwordTextField;
+
+    public void mainMenuScene() throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Main.window.setScene(new Scene(root, 800 , 500));
+
+    }
+
+    public void signUpScene() throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("signUpScene.fxml"));
-        Main.window.setScene(new Scene(root , 800 , 495));
+        Main.window.setScene(new Scene(root , 630 , 495));
+    }
+
+    public void signUp(){
+        if (!Manager.isUser(usernameTextField.getText())) {
+            Manager.addUser(usernameTextField.getText(),passwordTextField.getText());
+            ReadWriteFile.WriteLogger(true,usernameTextField.getText()+" signed up");
+        }
+        else {
+
+        }
+    }
+
+    public void logInScene() throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("logInScene.fxml"));
+        Main.window.setScene(new Scene(root , 630 , 495));
     }
 
     public void logIn(){
-        System.out.println("log in pressed ...");
+        if (Manager.isUser(usernameTextField.getText())){
+
+        }
+        else {
+            Manager.addUser(usernameTextField.getText(),passwordTextField.getText());
+        }
     }
+
+
     public void setting(){
         System.out.println("setting pressed ...");
     }
@@ -72,32 +108,22 @@ public class Controller {
     public void buildCookieBakery(){
         if(!Manager.buildWorkShop("CookieBakery"))
             ReadWriteFile.WriteLogger(false,ERROR);
-        else
-            bCookieBakery.setDisable(true);
     }
     public void buildBoxedMilk(){
         if(!Manager.buildWorkShop("BoxedMilk"))
             ReadWriteFile.WriteLogger(false,ERROR);
-        else
-            bBoxedMilk.setDisable(true);
     }
     public void buildIceCreamFactory(){
         if(!Manager.buildWorkShop("IceCreamFactory"))
             ReadWriteFile.WriteLogger(false,ERROR);
-        else
-            bIceCreamFactory.setDisable(true);
     }
     public void buildFeatherFactory(){
         if(!Manager.buildWorkShop("FeatherFactory"))
             ReadWriteFile.WriteLogger(false,ERROR);
-        else
-            bFeatherFactory.setDisable(true);
     }
     public void buildTailoringFactory(){
         if(!Manager.buildWorkShop("TailoringFactory"))
             ReadWriteFile.WriteLogger(false,ERROR);
-        else
-            bTailoringFactory.setDisable(true);
     }
 
 
