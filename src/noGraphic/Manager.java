@@ -122,7 +122,7 @@ public class Manager {
         land.fields[x-1][y-1].products.removeAll(toRemove);
         return returnn;
     }
-    static boolean drainge(){
+    public static boolean drainge(){
         return well.drainage();
     }
     static public boolean plantGrass(int x,int y){
