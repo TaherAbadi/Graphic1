@@ -46,6 +46,11 @@ public class Controller {
         Main.window.setScene(new Scene(root , 800 , 500));
     }
 
+    public void logInScene() throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("logInScene.fxml"));
+        Main.window.setScene(new Scene(root , 800 , 500));
+    }
+
     public void signUp() throws IOException {
         if (!Manager.isUser(usernameTextField.getText())) {
             Manager.addUser(usernameTextField.getText(),passwordTextField.getText());
@@ -56,15 +61,11 @@ public class Controller {
         }
     }
 
-    public void logInScene() throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("logInScene.fxml"));
-        Main.window.setScene(new Scene(root , 800 , 500));
-    }
-
     public void logIn() throws IOException {
         if (Manager.isUser(usernameTextField.getText())){
             if (Manager.isPass(usernameTextField.getText(),passwordTextField.getText())){
             ReadWriteFile.WriteLogger(true,usernameTextField.getText()+" logged in!");
+            Manager.level(LevelTakerBox.display());
             }
             else
                 AlertBox.display("ERROR","Wrong password!");
@@ -130,11 +131,4 @@ public class Controller {
         if(!Manager.buildWorkShop("TailoringFactory"))
             ReadWriteFile.WriteLogger(false,ERROR);
     }
-
-
-
-
-
-
-
 }
