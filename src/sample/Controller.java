@@ -28,6 +28,7 @@ public class Controller {
     public Button IceCreamFactory;
     public Button bFeatherFactory;
     public Button FeatherFactory;
+    public Button signUpButton;
 
     @FXML
     javafx.scene.control.TextField usernameTextField;
@@ -108,6 +109,8 @@ public class Controller {
     public void buildCookieBakery(){
         if(!Manager.buildWorkShop("CookieBakery"))
             ReadWriteFile.WriteLogger(false,ERROR);
+        else
+            bCookieBakery.setDisable(true);
     }
     public void buildBoxedMilk(){
         if(!Manager.buildWorkShop("BoxedMilk"))

@@ -2,7 +2,6 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
@@ -67,37 +66,6 @@
          </padding>
       </VBox>
    </left>
-   <top>
-      <GridPane prefHeight="96.0" prefWidth="594.0" BorderPane.alignment="CENTER">
-        <columnConstraints>
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-        </columnConstraints>
-        <rowConstraints>
-          <RowConstraints maxHeight="25.60001220703125" minHeight="8.80000820159912" prefHeight="15.200002098083495" vgrow="SOMETIMES" />
-          <RowConstraints maxHeight="51.99999179840088" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
-          <RowConstraints maxHeight="77.6" minHeight="10.0" prefHeight="77.6" vgrow="SOMETIMES" />
-        </rowConstraints>
-         <children>
-            <Button fx:id="well" mnemonicParsing="false" onAction="#well" prefHeight="91.0" prefWidth="171.0" text="well" GridPane.rowIndex="2" />
-            <Label prefHeight="18.0" prefWidth="103.0" text="farm frenzy" />
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="level:" wrappingWidth="102.5113525390625" GridPane.columnIndex="1">
-               <GridPane.margin>
-                  <Insets bottom="10.0" />
-               </GridPane.margin>
-            </Text>
-            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
-               <children>
-                  <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
-                  <Button mnemonicParsing="false" prefHeight="82.0" prefWidth="269.0" text="truck" />
-               </children>
-            </HBox>
-         </children>
-         <BorderPane.margin>
-            <Insets bottom="8.0" left="5.0" right="5.0" top="8.0" />
-         </BorderPane.margin>
-      </GridPane>
-   </top>
    <center>
       <GridPane BorderPane.alignment="CENTER">
         <columnConstraints>
@@ -141,4 +109,54 @@
          </children>
       </VBox>
    </bottom>
+   <top>
+      <GridPane BorderPane.alignment="CENTER">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="254.5999755859375" minWidth="10.0" prefWidth="254.5999755859375" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="295.20001220703125" minWidth="10.0" prefWidth="73.80002441406248" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="271.99997558593753" minWidth="10.0" prefWidth="271.99997558593753" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="44.799984741210935" minHeight="0.0" prefHeight="26.399990844726563" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="60.8" minHeight="10.0" prefHeight="35.200009155273435" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="well" mnemonicParsing="false" onAction="#well" prefHeight="45.0" prefWidth="122.0" text="well" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="58.0" prefWidth="52.0" text="Button">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button layoutX="15.0" layoutY="10.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="52.0" text="Button">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button layoutX="72.0" layoutY="10.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="52.0" text="Button">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button layoutX="124.0" layoutY="10.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="52.0" text="Button">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button layoutX="176.0" layoutY="10.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="52.0" text="Button">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Region prefHeight="200.0" prefWidth="200.0" />
+               </children>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" />
+         </children>
+      </GridPane>
+   </top>
 </fx:root>
