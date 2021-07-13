@@ -28,6 +28,7 @@ public class Controller {
     public Button IceCreamFactory;
     public Button bFeatherFactory;
     public Button FeatherFactory;
+    public Button logInButton;
 
     @FXML
     javafx.scene.control.TextField usernameTextField;
@@ -42,31 +43,34 @@ public class Controller {
 
     public void signUpScene() throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("signUpScene.fxml"));
-        Main.window.setScene(new Scene(root , 630 , 495));
+        Main.window.setScene(new Scene(root , 800 , 500));
     }
 
-    public void signUp(){
+    public void signUp() throws IOException {
         if (!Manager.isUser(usernameTextField.getText())) {
             Manager.addUser(usernameTextField.getText(),passwordTextField.getText());
             ReadWriteFile.WriteLogger(true,usernameTextField.getText()+" signed up");
         }
         else {
-
+        AlertBox.display("ERROR","Already signed up!");
         }
     }
 
     public void logInScene() throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("logInScene.fxml"));
-        Main.window.setScene(new Scene(root , 630 , 495));
+        Main.window.setScene(new Scene(root , 800 , 500));
     }
 
-    public void logIn(){
+    public void logIn() throws IOException {
         if (Manager.isUser(usernameTextField.getText())){
-
+            if (Manager.isPass(usernameTextField.getText(),passwordTextField.getText())){
+            ReadWriteFile.WriteLogger(true,usernameTextField.getText()+" logged in!");
+            }
+            else
+                AlertBox.display("ERROR","Wrong password!");
         }
         else {
-            Manager.addUser(usernameTextField.getText(),passwordTextField.getText());
-            ReadWriteFile.WriteLogger(true,usernameTextField.getText()+" logged in!");
+            AlertBox.display("ERROR",usernameTextField.getText() + " doesn't have an account");
         }
     }
 
