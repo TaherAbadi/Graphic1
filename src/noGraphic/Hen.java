@@ -2,6 +2,10 @@
  * Created by user on 29/05/2021.
  */
 package noGraphic;
+import javafx.scene.image.ImageView;
+import javafx.scene.image.Image;
+import javafx.scene.image.Image;
+
 public class Hen extends DomesticAnimal {
     static final int PRICE=100;
     private final int TIME_TO_PRODUCE=2;
@@ -9,8 +13,9 @@ public class Hen extends DomesticAnimal {
 
 
     public Hen() {
-
         super("Hen"+String.valueOf(hens+1));
+        Image image=new Image("../sample/image/hen.png");
+        this.setImage(image);
         this.price=PRICE;
         this.produce=0;
         hens++;

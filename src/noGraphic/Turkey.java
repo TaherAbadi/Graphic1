@@ -1,4 +1,6 @@
 package noGraphic;
+import javafx.scene.image.Image;
+
 import java.time.temporal.ValueRange;
 
 /**
@@ -11,6 +13,8 @@ public class Turkey extends DomesticAnimal {
 
     public Turkey() {
         super("Turkey"+ String.valueOf(turkeys+1));
+        Image image=new Image("../sample/image/turkey1.png");
+        this.setImage(image);
         this.price=PRICE;
         this.produce=0;
         turkeys++;

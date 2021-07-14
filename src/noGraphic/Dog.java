@@ -1,4 +1,12 @@
 package noGraphic;
+import javafx.scene.image.ImageView;
+import sample.AnimalAnim;
+import sample.Main;
+
+import noGraphic.ReadWriteFile;
+import javafx.scene.image.ImageView;
+import javafx.scene.image.Image;
+
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -20,17 +28,26 @@ public class Dog extends Animal {
         if(attack) toRemove.add(this);
         return toRemove;
     }
+
+    public Dog() {
+        Image image=new Image("../sample/image/dog1.png");
+        this.setImage(image);
+        this.name="Dog"+ String.valueOf(numberOfDogs+1);
+        numberOfDogs++;
+        Random random=new Random();
+        this.width=0; this.length=0;
+        while (this.width<1 || this.length<1){
+            this.length=random.nextInt(7);
+            this.width=random.nextInt(7);
+        }
+        AnimalAnim animalAnim=new AnimalAnim(this);
+        Main.animalAnims.add(animalAnim);
+    }
+
     public static boolean purchase(int coin) {
         if(coin>=PRICE){
             Dog dog=new Dog();
-            dog.name="Dog"+ String.valueOf(numberOfDogs+1);
             numberOfDogs++;
-            Random random=new Random();
-            dog.width=0; dog.length=0;
-            while (dog.width<1 || dog.length<1){
-                dog.length=random.nextInt(7);
-                dog.width=random.nextInt(7);
-            }
             Manager.land.fields[dog.length-1][dog.width-1].animals.add(dog);
             Manager.coin-=PRICE;
             return true;
