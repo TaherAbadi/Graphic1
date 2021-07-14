@@ -11,7 +11,7 @@ import java.util.concurrent.ForkJoinPool;
  */
 public class Manager {
     static int prize;
-    static int time=0;
+    public static int time=0;
     static int goldTime;
     static Users user;
     static HashMap<String,String> users=new HashMap <String,String>();
@@ -31,7 +31,7 @@ public class Manager {
     static TailoringFactory tailoringFactory=new TailoringFactory();
     static WorkShop[] workShops={milkBoxing,iceCreamFactory,eggPowderPlant,cookieBakery,featherFactory,tailoringFactory};
     static Truck truck=new Truck();
-    static int coin=1000;
+    public static int coin=1000;
 
     static public void addUser(String name, String pass){
         Users user1 = new Users(name , pass,1);

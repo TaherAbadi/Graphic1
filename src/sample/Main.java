@@ -28,10 +28,7 @@ public class Main extends Application {
         window.setTitle("Farm Frenzy");
         window.setScene(new Scene(root, 800 , 500));
         boolean win=false, lose=false;
-        while ( !win && !lose){
-            Manager.update(1);
-            window.show();
-        }
+        window.show();
 
     }
 

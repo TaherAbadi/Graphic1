@@ -5,6 +5,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.text.Text;
 import noGraphic.Manager;
 import noGraphic.ReadWriteFile;
 
@@ -30,6 +31,9 @@ public class Controller {
     public Button FeatherFactory;
     public Button logInButton;
     public Button signUpButton;
+    public Text coin;
+    public Text time;
+    public Button wareHouse;
 
     @FXML
     javafx.scene.control.TextField usernameTextField;
@@ -121,18 +125,54 @@ public class Controller {
     public void buildBoxedMilk(){
         if(!Manager.buildWorkShop("BoxedMilk"))
             ReadWriteFile.WriteLogger(false,ERROR);
+        else
+            bBoxedMilk.setDisable(true);
     }
     public void buildIceCreamFactory(){
         if(!Manager.buildWorkShop("IceCreamFactory"))
             ReadWriteFile.WriteLogger(false,ERROR);
+        else
+            bIceCreamFactory.setDisable(true);
     }
     public void buildFeatherFactory(){
         if(!Manager.buildWorkShop("FeatherFactory"))
             ReadWriteFile.WriteLogger(false,ERROR);
+        bFeatherFactory.setDisable(true);
     }
     public void buildTailoringFactory(){
         if(!Manager.buildWorkShop("TailoringFactory"))
             ReadWriteFile.WriteLogger(false,ERROR);
+        bTailoringFactory.setDisable(true);
+    }
+    public void buyHen(){
+        Manager.buyAnimal("Hen");
+    }
+    public void buyTurkey(){
+        Manager.buyAnimal("Turkey");
+    }
+    public void buyBuffalo(){
+        Manager.buyAnimal("Buffalo");
+    }
+    public void buyCat(){
+        Manager.buyAnimal("Cat");
+    }
+    public void buyDog(){
+        Manager.buyAnimal("Dog");
+    }
+    public void turn(){
+       int temp= Manager.update(1);
+       coin.setText("coin:"+String.valueOf(Manager.coin));
+       time.setText("time:"+String.valueOf(Manager.time));
+       if(temp==1){
+           //todo goldMedal
+       }
+       else if(temp==-1){
+           //todo silverMedal
+       }
+    }
+    public void openWareHouse(){
+        System.out.println("");
+        //todo
     }
 
 
