@@ -62,9 +62,13 @@ public class Controller {
         if (!Manager.isUser(usernameTextField.getText())) {
             Manager.addUser(usernameTextField.getText(),passwordTextField.getText());
             ReadWriteFile.WriteLogger(true,usernameTextField.getText()+" signed up");
+
+            Parent root = FXMLLoader.load(getClass().getResource("game.fxml"));
+            Main.window.setScene(new Scene(root , 800 , 500));
         }
         else {
-        AlertBox.display("ERROR","Already signed up!");
+        AlertBox.display("ERROR",usernameTextField.getText() + " Already signed up!");
+            ReadWriteFile.WriteLogger(false,usernameTextField.getText() + " Already signed up!");
         }
     }
 
@@ -72,13 +76,27 @@ public class Controller {
         if (Manager.isUser(usernameTextField.getText())){
             if (Manager.isPass(usernameTextField.getText(),passwordTextField.getText())){
             ReadWriteFile.WriteLogger(true,usernameTextField.getText()+" logged in!");
-            Manager.level(LevelTakerBox.display());
+            int level;
+            level=LevelTakerBox.display();
+            if(Manager.level(level)){
+                ReadWriteFile.WriteLogger(true,"level "+ level +" started");
+                //pass to game
+                Parent root = FXMLLoader.load(getClass().getResource("game.fxml"));
+                Main.window.setScene(new Scene(root , 800 , 500));
             }
-            else
+            else{
+                AlertBox.display("Error" , "level "+ level +" is not available!");
+                ReadWriteFile.WriteLogger(false,"level "+ level +" is not available!");
+            }
+            }
+            else{
                 AlertBox.display("ERROR","Wrong password!");
+                ReadWriteFile.WriteLogger(false,"Wrong password!");
+            }
         }
         else {
             AlertBox.display("ERROR",usernameTextField.getText() + " doesn't have an account");
+            ReadWriteFile.WriteLogger(false,"There isn`t any user with this username!");
         }
     }
 
@@ -117,6 +135,12 @@ public class Controller {
         }
         else
             ReadWriteFile.WriteLogger(true,"Drainaged successfully");
+    }
+    public void buildEggPowderPlant(){
+        if(!Manager.buildWorkShop("EggPowderPlant"))
+            ReadWriteFile.WriteLogger(false,ERROR);
+        else
+            bEggPowderPlant.setDisable(true);
     }
     public void buildCookieBakery(){
         if(!Manager.buildWorkShop("CookieBakery"))
