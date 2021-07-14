@@ -11,165 +11,165 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" type="BorderPane" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
-   <right>
-      <VBox prefHeight="246.0" prefWidth="23.0" spacing="10.0" BorderPane.alignment="CENTER_RIGHT">
-         <children>
-            <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-               <children>
-                  <Button fx:id="bEggPowderPlant" mnemonicParsing="false" onAction="#buildEggPowderPlant" prefHeight="71.0" prefWidth="98.0" text="build eggPowder plant" VBox.vgrow="ALWAYS" />
-                  <Button fx:id="EggPowderPlant" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#workEggPowderFac" prefHeight="60.0" prefWidth="98.0" text="work" VBox.vgrow="ALWAYS" />
-               </children>
-            </VBox>
-            <VBox layoutX="10.0" layoutY="210.0" prefHeight="200.0" prefWidth="100.0" VBox.vgrow="ALWAYS">
-               <children>
-                  <Button fx:id="bCookieBakery" mnemonicParsing="false" onAction="#buildCookieBakery" prefHeight="86.0" prefWidth="112.0" text="build  cookieBakery" VBox.vgrow="ALWAYS" />
-                  <Button fx:id="CookieBakery" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#workCookieBakery" prefHeight="86.0" prefWidth="112.0" text="work" VBox.vgrow="ALWAYS" />
-               </children>
-            </VBox>
-            <VBox layoutX="10.0" layoutY="277.0" prefHeight="200.0" prefWidth="100.0">
-               <children>
-                  <Button fx:id="bTailoringFactory" mnemonicParsing="false" onAction="#buildTailoringFactory" prefHeight="83.0" prefWidth="105.0" text="build tailoring fac." VBox.vgrow="ALWAYS" />
-                  <Button fx:id="TailoringFactory" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#workTailoringFactory" prefHeight="83.0" prefWidth="105.0" text="work" VBox.vgrow="ALWAYS" />
-               </children>
-            </VBox>
-         </children>
-         <BorderPane.margin>
-            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-         </BorderPane.margin>
-      </VBox>
-   </right>
-   <left>
-      <VBox prefHeight="242.0" prefWidth="8.0" spacing="10.0" BorderPane.alignment="CENTER_LEFT">
-         <children>
-            <VBox layoutX="10.0" layoutY="210.0" prefHeight="200.0" prefWidth="100.0">
-               <children>
-                  <Button fx:id="bBoxedMilk" mnemonicParsing="false" onAction="#buildBoxedMilk" prefHeight="106.0" prefWidth="132.0" text="build milkBoxing" VBox.vgrow="ALWAYS" />
-                  <Button fx:id="BoxedMilk" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#workBoxedMilk" prefHeight="106.0" prefWidth="132.0" text="work" VBox.vgrow="ALWAYS" />
-               </children>
-            </VBox>
-            <VBox layoutX="10.0" layoutY="277.0" prefHeight="200.0" prefWidth="100.0">
-               <children>
-                  <Button fx:id="bIceCreamFactory" mnemonicParsing="false" onAction="#buildIceCreamFactory" prefHeight="98.0" prefWidth="125.0" text="build icecream factory" VBox.vgrow="ALWAYS" />
-                  <Button fx:id="IceCreamFactory" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#workIceCreamFactory" prefHeight="98.0" prefWidth="125.0" text="work" VBox.vgrow="ALWAYS" />
-               </children>
-            </VBox>
-            <VBox layoutX="10.0" layoutY="310.0" prefHeight="200.0" prefWidth="100.0">
-               <children>
-                  <Button fx:id="bFeatherFactory" mnemonicParsing="false" onAction="#buildFeatherFactory" prefHeight="83.0" prefWidth="154.0" text="build feather fac." VBox.vgrow="ALWAYS" />
-                  <Button fx:id="FeatherFactory" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#workFeatherFactory" prefHeight="83.0" prefWidth="154.0" text="work" VBox.vgrow="ALWAYS" />
-               </children>
-            </VBox>
-         </children>
-         <padding>
-            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-         </padding>
-      </VBox>
-   </left>
-   <center>
-      <GridPane BorderPane.alignment="CENTER">
-        <columnConstraints>
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-        </columnConstraints>
-        <rowConstraints>
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-        </rowConstraints>
-      </GridPane>
-   </center>
-   <top>
-      <GridPane BorderPane.alignment="CENTER">
-        <columnConstraints>
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="329.6" minWidth="10.0" prefWidth="249.40001220703124" />
-          <ColumnConstraints hgrow="SOMETIMES" maxWidth="305.60002441406243" minWidth="0.0" prefWidth="286.19998779296867" />
-          <ColumnConstraints hgrow="SOMETIMES" maxWidth="271.99997558593753" minWidth="10.0" prefWidth="64.59994506835938" />
-        </columnConstraints>
-        <rowConstraints>
-          <RowConstraints />
-          <RowConstraints maxHeight="53.599981689453124" minHeight="0.0" prefHeight="21.599993896484374" vgrow="SOMETIMES" />
-            <RowConstraints maxHeight="60.8" minHeight="8.800018310546875" prefHeight="41.60000610351563" vgrow="SOMETIMES" />
-        </rowConstraints>
-         <children>
-            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="2">
-               <GridPane.margin>
-                  <Insets />
-               </GridPane.margin>
-            </HBox>
-            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1">
-               <children>
-                  <Button fx:id="Hen" minWidth="49.0" mnemonicParsing="false" onAction="#buyHen" prefHeight="22.0" prefWidth="49.0" text="100">
-                     <HBox.margin>
-                        <Insets bottom="10.0" left="5.0" right="1.0" />
-                     </HBox.margin>
-                  </Button>
-                  <Button fx:id="Turkey" mnemonicParsing="false" onAction="#buyTurkey" prefHeight="58.0" prefWidth="52.0" text="200">
-                     <HBox.margin>
-                        <Insets bottom="10.0" left="1.0" right="1.0" />
-                     </HBox.margin>
-                  </Button>
-                  <Button fx:id="Buffalo" mnemonicParsing="false" onAction="#buyBuffalo" prefHeight="58.0" prefWidth="52.0" text="400">
-                     <HBox.margin>
-                        <Insets bottom="10.0" left="1.0" right="1.0" />
-                     </HBox.margin>
-                  </Button>
-                  <Button fx:id="Dog" mnemonicParsing="false" onAction="#buyDog" prefHeight="58.0" prefWidth="52.0" text="100">
-                     <HBox.margin>
-                        <Insets bottom="10.0" left="1.0" right="1.0" />
-                     </HBox.margin>
-                  </Button>
-                  <Button fx:id="Cat" mnemonicParsing="false" onAction="#buyCat" prefHeight="58.0" prefWidth="52.0" text="150">
-                     <HBox.margin>
-                        <Insets bottom="10.0" left="1.0" right="1.0" />
-                     </HBox.margin>
-                  </Button>
-               </children></HBox>
-            <Button fx:id="turn" mnemonicParsing="false" onAction="#turn" prefHeight="27.0" prefWidth="64.0" text="turn" GridPane.columnIndex="2" />
-            <Button fx:id="well" mnemonicParsing="false" onAction="#well" prefHeight="54.0" prefWidth="70.0" text="well" GridPane.columnIndex="1" GridPane.rowIndex="2">
-               <GridPane.margin>
-                  <Insets left="5.0" />
-               </GridPane.margin>
-            </Button>
-            <HBox prefHeight="18.0" prefWidth="286.0" GridPane.columnIndex="1" />
-         </children>
-      </GridPane>
-   </top>
-   <bottom>
-      <GridPane prefHeight="82.0" prefWidth="600.0" BorderPane.alignment="CENTER">
-        <columnConstraints>
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="245.0" minWidth="10.0" prefWidth="245.0" />
-          <ColumnConstraints hgrow="SOMETIMES" maxWidth="193.60003662109375" minWidth="10.0" prefWidth="110.8000244140625" />
-          <ColumnConstraints hgrow="SOMETIMES" maxWidth="252.0" minWidth="10.0" prefWidth="243.5999755859375" />
-        </columnConstraints>
-        <rowConstraints>
-          <RowConstraints maxHeight="22.599951171875" minHeight="7.400000476837157" prefHeight="7.400000476837157" vgrow="SOMETIMES" />
-          <RowConstraints maxHeight="47.39999952316284" minHeight="10.0" prefHeight="34.79998779296875" vgrow="SOMETIMES" />
-          <RowConstraints maxHeight="40.400000000000006" minHeight="10.0" prefHeight="39.600012207031256" vgrow="SOMETIMES" />
-        </rowConstraints>
-         <children>
-            <Button fx:id="wareHouse" mnemonicParsing="false" onAction="#openWareHouse" prefHeight="58.0" prefWidth="111.0" text="wareHouse" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <Text fx:id="coin" strokeType="OUTSIDE" strokeWidth="0.0" text="coin:" wrappingWidth="61.183082580566406" GridPane.rowIndex="2" />
-            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
-               <children>
-                  <Region prefHeight="40.0" prefWidth="176.0" />
-                  <Text fx:id="time" strokeType="OUTSIDE" strokeWidth="0.0" text="time:" wrappingWidth="53.98307228088379">
-                     <HBox.margin>
-                        <Insets top="10.0" />
-                     </HBox.margin>
-                  </Text>
-               </children>
-            </HBox>
-         </children>
-      </GridPane>
-   </bottom>
-</fx:root>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <right>
+        <VBox prefHeight="246.0" prefWidth="23.0" spacing="10.0" BorderPane.alignment="CENTER_RIGHT">
+            <children>
+                <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <Button fx:id="bEggPowderPlant" mnemonicParsing="false" onAction="#buildEggPowderPlant" prefHeight="71.0" prefWidth="98.0" text="build eggPowder plant" VBox.vgrow="ALWAYS" />
+                        <Button fx:id="EggPowderPlant" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#workEggPowderFac" prefHeight="60.0" prefWidth="98.0" text="work" VBox.vgrow="ALWAYS" />
+                    </children>
+                </VBox>
+                <VBox layoutX="10.0" layoutY="210.0" prefHeight="200.0" prefWidth="100.0" VBox.vgrow="ALWAYS">
+                    <children>
+                        <Button fx:id="bCookieBakery" mnemonicParsing="false" onAction="#buildCookieBakery" prefHeight="86.0" prefWidth="112.0" text="build  cookieBakery" VBox.vgrow="ALWAYS" />
+                        <Button fx:id="CookieBakery" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#workCookieBakery" prefHeight="86.0" prefWidth="112.0" text="work" VBox.vgrow="ALWAYS" />
+                    </children>
+                </VBox>
+                <VBox layoutX="10.0" layoutY="277.0" prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <Button fx:id="bTailoringFactory" mnemonicParsing="false" onAction="#buildTailoringFactory" prefHeight="83.0" prefWidth="105.0" text="build tailoring fac." VBox.vgrow="ALWAYS" />
+                        <Button fx:id="TailoringFactory" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#workTailoringFactory" prefHeight="83.0" prefWidth="105.0" text="work" VBox.vgrow="ALWAYS" />
+                    </children>
+                </VBox>
+            </children>
+            <BorderPane.margin>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </BorderPane.margin>
+        </VBox>
+    </right>
+    <left>
+        <VBox prefHeight="242.0" prefWidth="8.0" spacing="10.0" BorderPane.alignment="CENTER_LEFT">
+            <children>
+                <VBox layoutX="10.0" layoutY="210.0" prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <Button fx:id="bBoxedMilk" mnemonicParsing="false" onAction="#buildBoxedMilk" prefHeight="106.0" prefWidth="132.0" text="build milkBoxing" VBox.vgrow="ALWAYS" />
+                        <Button fx:id="BoxedMilk" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#workBoxedMilk" prefHeight="106.0" prefWidth="132.0" text="work" VBox.vgrow="ALWAYS" />
+                    </children>
+                </VBox>
+                <VBox layoutX="10.0" layoutY="277.0" prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <Button fx:id="bIceCreamFactory" mnemonicParsing="false" onAction="#buildIceCreamFactory" prefHeight="98.0" prefWidth="125.0" text="build icecream factory" VBox.vgrow="ALWAYS" />
+                        <Button fx:id="IceCreamFactory" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#workIceCreamFactory" prefHeight="98.0" prefWidth="125.0" text="work" VBox.vgrow="ALWAYS" />
+                    </children>
+                </VBox>
+                <VBox layoutX="10.0" layoutY="310.0" prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <Button fx:id="bFeatherFactory" mnemonicParsing="false" onAction="#buildFeatherFactory" prefHeight="83.0" prefWidth="154.0" text="build feather fac." VBox.vgrow="ALWAYS" />
+                        <Button fx:id="FeatherFactory" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#workFeatherFactory" prefHeight="83.0" prefWidth="154.0" text="work" VBox.vgrow="ALWAYS" />
+                    </children>
+                </VBox>
+            </children>
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+        </VBox>
+    </left>
+    <center>
+        <GridPane BorderPane.alignment="CENTER">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+        </GridPane>
+    </center>
+    <top>
+        <GridPane BorderPane.alignment="CENTER">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="329.6" minWidth="10.0" prefWidth="249.40001220703124" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="305.60002441406243" minWidth="0.0" prefWidth="286.19998779296867" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="271.99997558593753" minWidth="10.0" prefWidth="64.59994506835938" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints />
+                <RowConstraints maxHeight="53.599981689453124" minHeight="0.0" prefHeight="21.599993896484374" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="60.8" minHeight="8.800018310546875" prefHeight="41.60000610351563" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="2">
+                    <GridPane.margin>
+                        <Insets />
+                    </GridPane.margin>
+                </HBox>
+                <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1">
+                    <children>
+                        <Button fx:id="Hen" minWidth="49.0" mnemonicParsing="false" onAction="#buyHen" prefHeight="22.0" prefWidth="49.0" text="100">
+                            <HBox.margin>
+                                <Insets bottom="10.0" left="5.0" right="1.0" />
+                            </HBox.margin>
+                        </Button>
+                        <Button fx:id="Turkey" mnemonicParsing="false" onAction="#buyTurkey" prefHeight="58.0" prefWidth="52.0" text="200">
+                            <HBox.margin>
+                                <Insets bottom="10.0" left="1.0" right="1.0" />
+                            </HBox.margin>
+                        </Button>
+                        <Button fx:id="Buffalo" mnemonicParsing="false" onAction="#buyBuffalo" prefHeight="58.0" prefWidth="52.0" text="400">
+                            <HBox.margin>
+                                <Insets bottom="10.0" left="1.0" right="1.0" />
+                            </HBox.margin>
+                        </Button>
+                        <Button fx:id="Dog" mnemonicParsing="false" onAction="#buyDog" prefHeight="58.0" prefWidth="52.0" text="100">
+                            <HBox.margin>
+                                <Insets bottom="10.0" left="1.0" right="1.0" />
+                            </HBox.margin>
+                        </Button>
+                        <Button fx:id="Cat" mnemonicParsing="false" onAction="#buyCat" prefHeight="58.0" prefWidth="52.0" text="150">
+                            <HBox.margin>
+                                <Insets bottom="10.0" left="1.0" right="1.0" />
+                            </HBox.margin>
+                        </Button>
+                    </children></HBox>
+                <Button fx:id="turn" mnemonicParsing="false" onAction="#turn" prefHeight="27.0" prefWidth="64.0" text="turn" GridPane.columnIndex="2" />
+                <Button fx:id="well" mnemonicParsing="false" onAction="#well" prefHeight="54.0" prefWidth="70.0" text="well" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                    <GridPane.margin>
+                        <Insets left="5.0" />
+                    </GridPane.margin>
+                </Button>
+                <HBox prefHeight="18.0" prefWidth="286.0" GridPane.columnIndex="1" />
+            </children>
+        </GridPane>
+    </top>
+    <bottom>
+        <GridPane prefHeight="82.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="245.0" minWidth="10.0" prefWidth="245.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="193.60003662109375" minWidth="10.0" prefWidth="110.8000244140625" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="252.0" minWidth="10.0" prefWidth="243.5999755859375" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="22.599951171875" minHeight="7.400000476837157" prefHeight="7.400000476837157" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="47.39999952316284" minHeight="10.0" prefHeight="34.79998779296875" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="40.400000000000006" minHeight="10.0" prefHeight="39.600012207031256" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Button fx:id="wareHouse" mnemonicParsing="false" onAction="#openWareHouse" prefHeight="58.0" prefWidth="111.0" text="wareHouse" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <Text fx:id="coin" strokeType="OUTSIDE" strokeWidth="0.0" text="coin:" wrappingWidth="61.183082580566406" GridPane.rowIndex="2" />
+                <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                    <children>
+                        <Region prefHeight="40.0" prefWidth="176.0" />
+                        <Text fx:id="time" strokeType="OUTSIDE" strokeWidth="0.0" text="time:" wrappingWidth="53.98307228088379">
+                            <HBox.margin>
+                                <Insets top="10.0" />
+                            </HBox.margin>
+                        </Text>
+                    </children>
+                </HBox>
+            </children>
+        </GridPane>
+    </bottom>
+</BorderPane>

@@ -134,6 +134,12 @@ public class Controller {
         else
             ReadWriteFile.WriteLogger(true,"Drainaged successfully");
     }
+    public void buildEggPowderPlant(){
+        if(!Manager.buildWorkShop("EggPowderPlant"))
+            ReadWriteFile.WriteLogger(false,ERROR);
+        else
+            bEggPowderPlant.setDisable(true);
+    }
     public void buildCookieBakery(){
         if(!Manager.buildWorkShop("CookieBakery"))
             ReadWriteFile.WriteLogger(false,ERROR);
