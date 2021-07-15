@@ -64,7 +64,7 @@ public class Controller {
             ReadWriteFile.WriteLogger(true,usernameTextField.getText()+" signed up");
 
             Parent root = FXMLLoader.load(getClass().getResource("game.fxml"));
-            Main.window.setScene(new Scene(root , 800 , 500));
+            Main.window.setScene(new Scene(root , 900 , 600));
         }
         else {
         AlertBox.display("ERROR",usernameTextField.getText() + " Already signed up!");
@@ -82,7 +82,7 @@ public class Controller {
                 ReadWriteFile.WriteLogger(true,"level "+ level +" started");
                 //pass to game
                 Parent root = FXMLLoader.load(getClass().getResource("game.fxml"));
-                Main.window.setScene(new Scene(root , 800 , 500));
+                Main.window.setScene(new Scene(root , 900 , 600));
             }
             else{
                 AlertBox.display("Error" , "level "+ level +" is not available!");
@@ -199,9 +199,8 @@ public class Controller {
            //todo silverMedal
        }
     }
-    public void openWareHouse(){
-        System.out.println("");
-        //todo
+    public void openWareHouse() throws IOException {
+        WareHouse.display();
     }
 
 
