@@ -194,9 +194,8 @@ public class Controller {
            //todo silverMedal
        }
     }
-    public void openWareHouse(){
-        System.out.println("");
-        //todo
+    public void openWareHouse() throws IOException {
+        WareHouse.display();
     }
 
 

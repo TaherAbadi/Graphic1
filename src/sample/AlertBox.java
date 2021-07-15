@@ -18,10 +18,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.IOException;
 
+
 public class AlertBox {
 
-
-    public Label alertBoxText;
 
     public static void display(String title , String message) throws IOException {
         Stage window = new Stage();
