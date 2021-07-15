@@ -2,6 +2,9 @@
  * Created by user on 29/05/2021.
  */
 package noGraphic;
+
+import javafx.scene.image.Image;
+
 public class Buffalo extends DomesticAnimal {
     final static int PRICE=400;
     private final int TIME_TO_PRODUCE=5;
@@ -9,6 +12,8 @@ public class Buffalo extends DomesticAnimal {
 
     public Buffalo() {
         super("Buffalo"+String.valueOf(buffalos+1));
+        Image image=new Image("../sample/image/cow.png");
+        this.setImage(image);
         this.price=PRICE;
         this.produce=0;
         buffalos++;

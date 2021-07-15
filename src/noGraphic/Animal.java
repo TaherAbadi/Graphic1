@@ -1,13 +1,29 @@
 package noGraphic;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.image.ImageView;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.Pane;
+import javafx.scene.text.Text;
+import noGraphic.Manager;
+import noGraphic.ReadWriteFile;
 import java.util.Random;
 
 /**
  * Created by user on 29/05/2021.
  */
-public class Animal {
-    int width;
-    int length;
-    String name;
+public class Animal extends ImageView{
+    protected int width;
+    protected int length;
+    protected String name;
+
+    public void setImageView() {
+        this.setX(this.length*75+75/2);
+        this.setY(this.width*50+50/2);
+    }
 
     public String getName() {
         return name;

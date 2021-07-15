@@ -1,5 +1,23 @@
 package noGraphic;
+import java.awt.*;
 import java.util.Random;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.Pane;
+import javafx.scene.text.Text;
+import noGraphic.Manager;
+import noGraphic.ReadWriteFile;
+import javafx.scene.image.ImageView;
+import javafx.scene.image.Image;
+import sample.AnimalAnim;
+import sample.Main;
+
+import javax.swing.text.Element;
+
 
 /**
  * Created by user on 29/05/2021.
@@ -8,6 +26,7 @@ public class DomesticAnimal extends Animal implements Purchasable {
     protected int age;
     protected int produce;
     protected int price;
+
 
 
     public DomesticAnimal(String name) {
@@ -20,6 +39,9 @@ public class DomesticAnimal extends Animal implements Purchasable {
             this.width=random.nextInt(6)+1;
 
         Manager.land.fields[length-1][width-1].animals.add(this);
+        AnimalAnim animalAnim=new AnimalAnim(this);
+        Main.animalAnims.add(animalAnim);
+
     }
 
     public int getAge() {

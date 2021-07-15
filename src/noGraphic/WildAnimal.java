@@ -1,6 +1,11 @@
 package noGraphic;
+import javax.swing.text.Element;
 import java.util.ArrayList;
 import java.util.Random;
+import javafx.scene.image.ImageView;
+import javafx.scene.image.Image;
+import sample.AnimalAnim;
+import sample.Main;
 
 /**
  * Created by user on 29/05/2021.
@@ -22,6 +27,8 @@ public class WildAnimal extends Animal {
             this.width=random.nextInt(7);
         }
         Manager.land.fields[length-1][width-1].animals.add(this);
+        AnimalAnim animalAnim=new AnimalAnim(this);
+        Main.animalAnims.add(animalAnim);
     }
 
     public int getCaged() {

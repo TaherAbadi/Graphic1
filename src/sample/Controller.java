@@ -5,6 +5,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
 import noGraphic.Manager;
 import noGraphic.ReadWriteFile;
@@ -34,6 +35,7 @@ public class Controller {
     public Text coin;
     public Text time;
     public Button wareHouse;
+    public Pane land;
 
     @FXML
     javafx.scene.control.TextField usernameTextField;
@@ -187,6 +189,9 @@ public class Controller {
        int temp= Manager.update(1);
        coin.setText("coin:"+String.valueOf(Manager.coin));
        time.setText("time:"+String.valueOf(Manager.time));
+        for (AnimalAnim animation:Main.animalAnims) {
+            animation.play();
+        }
        if(temp==1){
            //todo goldMedal
        }

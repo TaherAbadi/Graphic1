@@ -1,4 +1,9 @@
 package noGraphic;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import sample.AnimalAnim;
+import sample.Main;
+
 import java.util.Random;
 
 /**
@@ -8,6 +13,19 @@ public class Cat extends Animal {
     private static final int PRICE=150;
     static int numberOfCats=0;
     public Cat() {
+        Image image=new Image("../sample/image/cat2.jpg");
+        this.setImage(image);
+
+        this.name="Cat"+ String.valueOf(numberOfCats);
+        Random random=new Random();
+       this.width=0; this.length=0;
+        while (this.width<1 || this.length<1){
+            this.length=random.nextInt(7);
+            this.width=random.nextInt(7);
+        }
+        AnimalAnim animalAnim=new AnimalAnim(this);
+        Main.animalAnims.add(animalAnim);
+
     }
 
     public void collect(){
@@ -35,14 +53,7 @@ public class Cat extends Animal {
     public static boolean purchase(int coin) {
         if(coin>=PRICE){
             Cat cat=new Cat();
-            cat.name="Cat"+ String.valueOf(numberOfCats);
             numberOfCats++;
-            Random random=new Random();
-            cat.width=0; cat.length=0;
-            while (cat.width<1 || cat.length<1){
-                cat.length=random.nextInt(7);
-                cat.width=random.nextInt(7);
-            }
             Manager.land.fields[cat.length-1][cat.width-1].animals.add(cat);
             Manager.coin-=PRICE;
             //Manager.land.fields[cat.length][cat.width].animals.add(cat);
