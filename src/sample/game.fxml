@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<fx:root maxHeight="600" maxWidth="900" minHeight="600" minWidth="900" prefHeight="600" prefWidth="900" type="BorderPane" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<BorderPane maxHeight="600" maxWidth="900" minHeight="600" minWidth="900" prefHeight="600" prefWidth="900" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <right>
       <VBox prefHeight="246.0" prefWidth="23.0" spacing="10.0" BorderPane.alignment="CENTER_RIGHT">
          <children>
@@ -216,4 +216,4 @@
    <center>
       <Pane fx:id="land" maxHeight="385.0" maxWidth="450.0" minHeight="300" minWidth="450" prefWidth="698.0" BorderPane.alignment="CENTER" />
    </center>
-</fx:root>
+</BorderPane>
