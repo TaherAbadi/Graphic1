@@ -1,10 +1,7 @@
 package noGraphic;
 
-import java.lang.ref.SoftReference;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Random;
-import java.util.concurrent.ForkJoinPool;
 
 /**
  * Created by user on 29/05/2021.
@@ -20,7 +17,7 @@ public class Manager {
     static HashMap<String,Integer> missionProduct=new HashMap <String,Integer>();
     static HashMap<String,ArrayList<Integer>> wilds=new HashMap <String,ArrayList<Integer>>();
     static int missionCoin;
-    static Land land=new Land();
+    public static Land land=new Land();
     static Well well=new Well();
     static WareHouse wareHouse=new WareHouse();
     static MilkBoxing milkBoxing=new MilkBoxing();
@@ -125,7 +122,7 @@ public class Manager {
     public static boolean drainge(){
         return well.drainage();
     }
-    static public boolean plantGrass(int x,int y){
+    static public boolean plantGrass(int x, int y){
         return land.fields[x-1][y-1].plantGrass();
     }
     static void cage(int x, int y){

@@ -597,3 +597,237 @@
 [Info], 16/ژوئیهٔ/2021 - 14:03:25, level 1 started
 [Info], 16/ژوئیهٔ/2021 - 14:04:15, Q logged in!
 [Info], 16/ژوئیهٔ/2021 - 14:04:17, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 14:11:52, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 14:11:54, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 14:11:56, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 14:11:59, turned 1
+[Info], 16/ژوئیهٔ/2021 - 14:12:02, purchased a turkey
+[Info], 16/ژوئیهٔ/2021 - 14:12:04, turned 1
+[Info], 16/ژوئیهٔ/2021 - 15:23:39, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 15:23:43, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 15:26:53, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 15:26:55, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 15:27:00, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 15:27:03, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 15:33:52, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 15:33:55, level 1 started
+[Error], 16/ژوئیهٔ/2021 - 15:34:12, Incorrect command!
+[Info], 16/ژوئیهٔ/2021 - 15:34:14, EggPowderPlantbuilt!
+[Info], 16/ژوئیهٔ/2021 - 15:34:16, CookieBakerybuilt!
+[Info], 16/ژوئیهٔ/2021 - 15:34:18, TailoringFactorybuilt!
+[Info], 16/ژوئیهٔ/2021 - 15:34:20, FeatherFactorybuilt!
+[Info], 16/ژوئیهٔ/2021 - 15:34:21, IceCreamFactorybuilt!
+[Error], 16/ژوئیهٔ/2021 - 15:34:23, not enough coin
+[Info], 16/ژوئیهٔ/2021 - 15:34:27, turned 1
+[Info], 16/ژوئیهٔ/2021 - 15:34:37, Drainaged successfully
+[Info], 16/ژوئیهٔ/2021 - 15:39:26, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 15:39:30, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 15:39:54, EggPowderPlantbuilt!
+[Error], 16/ژوئیهٔ/2021 - 15:40:00, EggPowderPlant not enough product!
+[Info], 16/ژوئیهٔ/2021 - 15:40:04, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 15:40:11, turned 1
+[Info], 16/ژوئیهٔ/2021 - 15:40:26, Drainaged successfully
+[Error], 16/ژوئیهٔ/2021 - 15:40:26, The water buket is full!
+[Info], 16/ژوئیهٔ/2021 - 15:40:30, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 15:42:15, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 15:42:17, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 15:42:44, EggPowderPlantbuilt!
+[Error], 16/ژوئیهٔ/2021 - 15:42:52, EggPowderPlant not enough product!
+[Info], 16/ژوئیهٔ/2021 - 15:42:56, Drainaged successfully
+[Info], 16/ژوئیهٔ/2021 - 15:43:02, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 15:43:07, turned 1
+[Error], 16/ژوئیهٔ/2021 - 16:14:20, VV Already signed up!
+[Info], 16/ژوئیهٔ/2021 - 16:14:31, VVN signed up
+[Info], 16/ژوئیهٔ/2021 - 16:14:35, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 16:14:36, turned 1
+[Info], 16/ژوئیهٔ/2021 - 16:14:38, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 16:14:43, turned 1
+[Info], 16/ژوئیهٔ/2021 - 19:21:56, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 19:21:59, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 19:22:03, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 19:22:05, turned 1
+[Info], 16/ژوئیهٔ/2021 - 19:22:08, purchased a turkey
+[Info], 16/ژوئیهٔ/2021 - 19:22:09, purchased a turkey
+[Info], 16/ژوئیهٔ/2021 - 19:22:10, purchased a turkey
+[Info], 16/ژوئیهٔ/2021 - 19:22:10, purchased a turkey
+[Info], 16/ژوئیهٔ/2021 - 19:22:11, purchased a hen
+[Error], 16/ژوئیهٔ/2021 - 19:23:22, Q Already signed up!
+[Info], 16/ژوئیهٔ/2021 - 19:23:32, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 19:23:34, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 19:23:37, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 19:23:39, turned 1
+[Info], 16/ژوئیهٔ/2021 - 19:23:42, turned 1
+[Info], 16/ژوئیهٔ/2021 - 19:23:44, turned 1
+[Info], 16/ژوئیهٔ/2021 - 19:34:20, nb signed up
+[Info], 16/ژوئیهٔ/2021 - 19:37:21, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 19:37:24, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 19:37:29, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 19:37:32, turned 1
+[Info], 16/ژوئیهٔ/2021 - 19:38:19, turned 1
+[Info], 16/ژوئیهٔ/2021 - 19:51:13, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 19:51:16, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 19:51:19, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 19:51:21, turned 1
+[Info], 16/ژوئیهٔ/2021 - 19:51:26, turned 1
+[Info], 16/ژوئیهٔ/2021 - 19:52:10, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 19:52:12, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 19:52:16, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 19:52:18, turned 1
+[Info], 16/ژوئیهٔ/2021 - 19:52:21, turned 1
+[Info], 16/ژوئیهٔ/2021 - 19:52:23, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 19:52:24, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 19:52:26, turned 1
+[Info], 16/ژوئیهٔ/2021 - 19:52:27, turned 1
+[Info], 16/ژوئیهٔ/2021 - 19:52:52, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 19:52:54, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 19:52:57, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 19:52:59, turned 1
+[Info], 16/ژوئیهٔ/2021 - 19:53:03, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 19:53:05, turned 1
+[Info], 16/ژوئیهٔ/2021 - 19:53:17, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 19:53:18, turned 1
+[Info], 16/ژوئیهٔ/2021 - 19:53:20, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:12:07, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 20:12:10, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 20:12:12, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 20:12:15, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:12:16, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:12:17, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:12:18, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:12:19, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:12:20, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:12:23, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:12:25, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 20:12:27, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:12:30, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 20:12:33, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:12:34, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:12:35, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:12:35, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:12:36, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:12:36, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:12:36, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:12:36, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:12:36, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:12:36, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:12:37, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:12:39, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:12:40, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:16:05, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 20:16:08, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 20:16:11, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 20:16:12, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:16:14, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:16:14, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:16:15, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:16:15, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:16:15, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:16:16, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:16:16, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:16:16, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:16:17, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:16:17, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:16:17, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:16:17, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:16:17, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:16:18, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:18:17, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 20:18:20, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 20:18:22, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 20:18:24, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 20:18:26, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:18:27, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:18:28, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:18:29, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:18:29, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:18:30, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:21:59, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 20:22:02, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 20:22:07, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 20:22:09, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:10, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:11, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:11, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:11, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:11, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:12, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:12, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:13, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:14, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:14, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:14, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:14, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:15, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:15, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:15, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:15, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:15, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:15, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:16, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:16, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:16, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:18, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 20:22:19, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:20, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:23, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 20:22:24, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:25, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:26, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:26, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:27, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:28, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:28, turned 1
+[Info], 16/ژوئیهٔ/2021 - 20:22:28, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:25:26, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 21:25:29, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 21:25:32, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 21:25:34, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:25:37, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:25:40, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 21:25:42, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:25:43, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:25:43, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:25:43, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:25:44, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:25:44, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:26:59, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 21:27:01, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 21:27:04, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 21:27:07, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:27:14, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:25, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 21:28:28, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 21:28:30, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 21:28:32, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:34, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:34, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:36, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:36, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:37, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:40, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:40, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:41, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:42, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:44, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:45, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:45, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:45, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:45, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:45, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:46, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:46, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:46, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:46, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:46, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:46, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:47, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:28:47, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:32:14, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 21:32:17, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 21:32:19, purchased a buffalo
+[Info], 16/ژوئیهٔ/2021 - 21:32:21, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:32:23, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:32:24, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:32:24, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:32:25, turned 1
+[Info], 16/ژوئیهٔ/2021 - 21:32:26, turned 1

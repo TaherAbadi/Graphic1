@@ -29,3 +29,5 @@ ff 1 1
 ee 1 1
 EEE 1 1
 VV Q 1
+VVN 1 1
+nb 1 1

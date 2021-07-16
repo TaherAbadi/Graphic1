@@ -21,8 +21,8 @@ public class Animal extends ImageView{
     protected String name;
 
     public void setImageView() {
-        this.setX(this.length*75+75/2);
-        this.setY(this.width*50+50/2);
+        this.setX(this.length*65);
+        this.setY(this.width*65-50);
     }
 
     public String getName() {

@@ -25,6 +25,8 @@ public class Hen extends DomesticAnimal {
         InputStream stream=new FileInputStream("F:\\image\\hen.png");
         Image image=new Image(stream);
         this.setImage(image);
+        this.setFitHeight(30);
+        this.setFitWidth(30);
         this.price=PRICE;
         this.produce=0;
         hens++;
@@ -38,8 +40,6 @@ public class Hen extends DomesticAnimal {
             //System.out.println("+");
             try {
                 Hen newHen=new Hen();
-                Controller controller=new Controller();
-                controller.land.getChildren().add(newHen);
                 AnimalAnim animalAnim=new AnimalAnim(newHen);
                 Main.animalAnims.add(animalAnim);
             }

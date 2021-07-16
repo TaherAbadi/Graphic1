@@ -6,9 +6,9 @@ import java.util.ArrayList;
  * Created by user on 29/05/2021.
  */
 public class Field {
-    ArrayList<Animal> animals;
-    ArrayList<Grass> grasses;
-    ArrayList <Product> products;
+    public ArrayList<Animal> animals;
+    public ArrayList<Grass> grasses;
+    public ArrayList <Product> products;
     public Field() {
         animals =new ArrayList <Animal>();
         products=new ArrayList <Product>();

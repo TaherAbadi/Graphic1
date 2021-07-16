@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<Pane fx:id="Ground" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="603.0" prefWidth="816.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<Pane fx:id="Ground" maxHeight="600.0" maxWidth="800.0" minHeight="600.0" minWidth="800.0" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GameControll">
    <children>
       <BorderPane layoutX="10.0" layoutY="10.0" maxHeight="600" maxWidth="800" minHeight="600" minWidth="800" prefHeight="600" prefWidth="800">
          <right>
@@ -83,13 +83,13 @@
                </columnConstraints>
                <rowConstraints>
                   <RowConstraints maxHeight="59.19999389648437" minHeight="32.000006103515624" prefHeight="57.60000305175781" />
-                  <RowConstraints maxHeight="58.4" minHeight="0.0" prefHeight="40.799993896484374" vgrow="SOMETIMES" />
-                  <RowConstraints maxHeight="91.00000610351562" minHeight="10.0" prefHeight="67.00000610351562" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="58.4" minHeight="0.0" prefHeight="36.79999999999999" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="107.99999999999997" minHeight="10.0" prefHeight="71.19999999999999" vgrow="SOMETIMES" />
                </rowConstraints>
                <children>
                   <HBox prefHeight="0.0" prefWidth="330.0" GridPane.rowIndex="1">
                      <children>
-                        <Button mnemonicParsing="false" text="100" />
+                        <Button fx:id="hen" mnemonicParsing="false" onAction="#buyHen" text="100" />
                         <Button fx:id="Turkey" mnemonicParsing="false" onAction="#buyTurkey" prefHeight="30.0" prefWidth="54.0" text="200">
                            <HBox.margin>
                               <Insets left="1.0" right="1.0" />
@@ -216,7 +216,7 @@
             </GridPane>
          </bottom>
          <center>
-            <Pane fx:id="land" maxHeight="385.0" maxWidth="450.0" minHeight="300" minWidth="408.0" prefHeight="380.0" prefWidth="408.0" BorderPane.alignment="CENTER" />
+            <Pane fx:id="land" maxHeight="390.0" maxWidth="390.0" minHeight="390.0" minWidth="390.0" prefHeight="390.0" prefWidth="390.0" BorderPane.alignment="CENTER" />
          </center>
       </BorderPane>
    </children>
