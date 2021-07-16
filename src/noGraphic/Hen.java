@@ -7,6 +7,9 @@ import javafx.scene.image.Image;
 import javafx.scene.image.Image;
 import java.io.FileInputStream;
 
+import sample.AnimalAnim;
+import sample.Controller;
+import sample.Main;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
@@ -35,7 +38,10 @@ public class Hen extends DomesticAnimal {
             //System.out.println("+");
             try {
                 Hen newHen=new Hen();
-
+                Controller controller=new Controller();
+                controller.land.getChildren().add(newHen);
+                AnimalAnim animalAnim=new AnimalAnim(newHen);
+                Main.animalAnims.add(animalAnim);
             }
             catch (Exception FileNotFoundException){
 

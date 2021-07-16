@@ -24,3 +24,8 @@ manisa 1 1
 negin 1 1
 j 0 1
 Q 1 1
+l 1 1
+ff 1 1
+ee 1 1
+EEE 1 1
+VV Q 1

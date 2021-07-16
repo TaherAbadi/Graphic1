@@ -40,6 +40,7 @@ public class Controller {
     public Button wareHouse;
     public Pane land;
     public Pane Ground;
+    public static Pane rootGame;
 
     @FXML
     javafx.scene.control.TextField usernameTextField;
@@ -66,13 +67,13 @@ public class Controller {
         if (!Manager.isUser(usernameTextField.getText())) {
             Manager.addUser(usernameTextField.getText(),passwordTextField.getText());
             ReadWriteFile.WriteLogger(true,usernameTextField.getText()+" signed up");
-            Parent root = FXMLLoader.load(getClass().getResource("game.fxml"));
-            Main.window.setScene(new Scene(root , 900 , 600));
+            rootGame = FXMLLoader.load(getClass().getResource("game.fxml"));
             InputStream stream=new FileInputStream("F:\\image\\back1.png");
             Image image=new Image(stream);
             ImageView imageView=new ImageView();
             imageView.setImage(image);
-            Ground.getChildren().add(0,imageView);
+            rootGame.getChildren().add(0,imageView);
+            Main.window.setScene(new Scene(rootGame , 800 , 600));
             Main.window.show();
         }
         else {
@@ -89,13 +90,13 @@ public class Controller {
             level=LevelTakerBox.display();
             if(Manager.level(level)){
                 ReadWriteFile.WriteLogger(true,"level "+ level +" started");
-                Parent root = FXMLLoader.load(getClass().getResource("game.fxml"));
-                Scene scene=new Scene(root , 900 , 600);
+                rootGame = FXMLLoader.load(getClass().getResource("game.fxml"));
                 InputStream stream=new FileInputStream("F:\\image\\back1.png");
                 Image image=new Image(stream);
                 ImageView imageView=new ImageView();
                 imageView.setImage(image);
-                Ground.getChildren().add(0,imageView);
+                rootGame.getChildren().add(0,imageView);
+                Main.window.setScene(new Scene(rootGame , 800 , 600));
                 Main.window.show();
             }
             else{

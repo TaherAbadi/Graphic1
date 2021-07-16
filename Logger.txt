@@ -552,3 +552,48 @@
 [Info], 16/ژوئیهٔ/2021 - 11:56:59, level 1 started
 [Info], 16/ژوئیهٔ/2021 - 11:57:02, purchased a hen
 [Info], 16/ژوئیهٔ/2021 - 11:57:04, turned 1
+[Error], 16/ژوئیهٔ/2021 - 13:11:35, r Already signed up!
+[Info], 16/ژوئیهٔ/2021 - 13:11:39, l signed up
+[Info], 16/ژوئیهٔ/2021 - 13:31:21, ff signed up
+[Info], 16/ژوئیهٔ/2021 - 13:31:25, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 13:31:29, turned 1
+[Error], 16/ژوئیهٔ/2021 - 13:31:55, Incorrect command!
+[Info], 16/ژوئیهٔ/2021 - 13:31:56, IceCreamFactorybuilt!
+[Info], 16/ژوئیهٔ/2021 - 13:37:54, ee signed up
+[Info], 16/ژوئیهٔ/2021 - 13:37:56, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 13:38:02, turned 1
+[Info], 16/ژوئیهٔ/2021 - 13:38:13, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 13:38:15, purchased a turkey
+[Info], 16/ژوئیهٔ/2021 - 13:38:18, turned 1
+[Info], 16/ژوئیهٔ/2021 - 13:41:01, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 13:41:03, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 13:41:08, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 13:41:51, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 13:41:54, level 1 started
+[Error], 16/ژوئیهٔ/2021 - 13:42:37, Q Already signed up!
+[Info], 16/ژوئیهٔ/2021 - 13:42:43, EEE signed up
+[Info], 16/ژوئیهٔ/2021 - 13:43:23, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 13:43:26, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 13:44:00, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 13:44:03, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 13:47:50, VV signed up
+[Info], 16/ژوئیهٔ/2021 - 13:53:32, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 13:53:35, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 13:55:55, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 13:55:58, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 13:57:10, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 13:57:12, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 13:57:45, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 13:57:47, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 13:58:30, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 13:58:32, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 13:58:49, EggPowderPlantbuilt!
+[Info], 16/ژوئیهٔ/2021 - 13:58:50, CookieBakerybuilt!
+[Info], 16/ژوئیهٔ/2021 - 13:58:51, TailoringFactorybuilt!
+[Info], 16/ژوئیهٔ/2021 - 13:58:55, Drainaged successfully
+[Info], 16/ژوئیهٔ/2021 - 14:00:38, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 14:00:40, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 14:03:22, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 14:03:25, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 14:04:15, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 14:04:17, level 1 started
