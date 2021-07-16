@@ -1,6 +1,9 @@
 package noGraphic;
 import javafx.scene.image.Image;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.time.temporal.ValueRange;
 
 /**
@@ -11,9 +14,10 @@ public class Turkey extends DomesticAnimal {
     private final int TIME_TO_PRODUCE=3;
     static int turkeys=0;
 
-    public Turkey() {
+    public Turkey() throws FileNotFoundException {
         super("Turkey"+ String.valueOf(turkeys+1));
-        Image image=new Image("../sample/image/turkey1.png");
+        InputStream stream=new FileInputStream("F:\\image\\cow.png");
+        Image image=new Image(stream);
         this.setImage(image);
         this.price=PRICE;
         this.produce=0;
@@ -22,7 +26,13 @@ public class Turkey extends DomesticAnimal {
 
     public static boolean purchase(int coin) {
         if(coin>=PRICE) {
-            Turkey newTurkey = new Turkey();
+            try {
+                Turkey newTurkey = new Turkey();
+            }
+            catch (Exception FileNotFoundException ){
+
+            }
+
             Manager.coin-=PRICE;
             return true;
         }

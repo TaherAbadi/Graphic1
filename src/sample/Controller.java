@@ -5,6 +5,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
 import noGraphic.Manager;
@@ -12,8 +14,9 @@ import noGraphic.ReadWriteFile;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.FileInputStream;
 import java.io.IOException;
-
+import java.io.InputStream;
 
 
 public class Controller {
@@ -36,6 +39,7 @@ public class Controller {
     public Text time;
     public Button wareHouse;
     public Pane land;
+    public Pane Ground;
 
     @FXML
     javafx.scene.control.TextField usernameTextField;
@@ -62,9 +66,14 @@ public class Controller {
         if (!Manager.isUser(usernameTextField.getText())) {
             Manager.addUser(usernameTextField.getText(),passwordTextField.getText());
             ReadWriteFile.WriteLogger(true,usernameTextField.getText()+" signed up");
-
             Parent root = FXMLLoader.load(getClass().getResource("game.fxml"));
             Main.window.setScene(new Scene(root , 900 , 600));
+            InputStream stream=new FileInputStream("F:\\image\\back1.png");
+            Image image=new Image(stream);
+            ImageView imageView=new ImageView();
+            imageView.setImage(image);
+            Ground.getChildren().add(0,imageView);
+            Main.window.show();
         }
         else {
         AlertBox.display("ERROR",usernameTextField.getText() + " Already signed up!");
@@ -80,9 +89,14 @@ public class Controller {
             level=LevelTakerBox.display();
             if(Manager.level(level)){
                 ReadWriteFile.WriteLogger(true,"level "+ level +" started");
-                //pass to game
                 Parent root = FXMLLoader.load(getClass().getResource("game.fxml"));
-                Main.window.setScene(new Scene(root , 900 , 600));
+                Scene scene=new Scene(root , 900 , 600);
+                InputStream stream=new FileInputStream("F:\\image\\back1.png");
+                Image image=new Image(stream);
+                ImageView imageView=new ImageView();
+                imageView.setImage(image);
+                Ground.getChildren().add(0,imageView);
+                Main.window.show();
             }
             else{
                 AlertBox.display("Error" , "level "+ level +" is not available!");
@@ -139,39 +153,54 @@ public class Controller {
     public void buildEggPowderPlant(){
         if(!Manager.buildWorkShop("EggPowderPlant"))
             ReadWriteFile.WriteLogger(false,ERROR);
-        else
+        else{
             bEggPowderPlant.setDisable(true);
+            EggPowderPlant.setDisable(false);
+        }
     }
     public void buildCookieBakery(){
         if(!Manager.buildWorkShop("CookieBakery"))
             ReadWriteFile.WriteLogger(false,ERROR);
-        else
+        else {
             bCookieBakery.setDisable(true);
+            CookieBakery.setDisable(false);
+        }
     }
     public void buildBoxedMilk(){
         if(!Manager.buildWorkShop("BoxedMilk"))
             ReadWriteFile.WriteLogger(false,ERROR);
-        else
+        else {
             bBoxedMilk.setDisable(true);
+            BoxedMilk.setDisable(false);
+        }
     }
     public void buildIceCreamFactory(){
         if(!Manager.buildWorkShop("IceCreamFactory"))
             ReadWriteFile.WriteLogger(false,ERROR);
-        else
+        else {
             bIceCreamFactory.setDisable(true);
+            IceCreamFactory.setDisable(false);
+        }
     }
     public void buildFeatherFactory(){
         if(!Manager.buildWorkShop("FeatherFactory"))
             ReadWriteFile.WriteLogger(false,ERROR);
-        bFeatherFactory.setDisable(true);
+        else {
+            bFeatherFactory.setDisable(true);
+            FeatherFactory.setDisable(false);
+        }
     }
     public void buildTailoringFactory(){
         if(!Manager.buildWorkShop("TailoringFactory"))
             ReadWriteFile.WriteLogger(false,ERROR);
-        bTailoringFactory.setDisable(true);
+        else {
+            bTailoringFactory.setDisable(true);
+            TailoringFactory.setDisable(false);
+        }
     }
     public void buyHen(){
         Manager.buyAnimal("Hen");
+        //System.out.println("buy hen");
     }
     public void buyTurkey(){
         Manager.buyAnimal("Turkey");
@@ -190,6 +219,7 @@ public class Controller {
        coin.setText("coin:"+String.valueOf(Manager.coin));
        time.setText("time:"+String.valueOf(Manager.time));
         for (AnimalAnim animation:Main.animalAnims) {
+            //System.out.println("NNN");
             animation.play();
         }
        if(temp==1){
@@ -200,7 +230,7 @@ public class Controller {
        }
     }
     public void openWareHouse() throws IOException {
-        WareHouse.display();
+       // WareHouse.display();
     }
 
 

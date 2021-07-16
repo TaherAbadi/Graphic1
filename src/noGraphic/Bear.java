@@ -9,7 +9,7 @@ public class Bear extends WildAnimal {
     static int bears=0;
     public Bear() {
         super(400,"Bear"+bears,4);
-        Image image=new Image("../sample/image/bear.png");
+        Image image=new Image("F:\\image\\bear.png");
         this.setImage(image);
         bears++;
     }

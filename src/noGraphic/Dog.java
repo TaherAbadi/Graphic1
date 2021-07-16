@@ -7,6 +7,9 @@ import noGraphic.ReadWriteFile;
 import javafx.scene.image.ImageView;
 import javafx.scene.image.Image;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -29,8 +32,9 @@ public class Dog extends Animal {
         return toRemove;
     }
 
-    public Dog() {
-        Image image=new Image("../sample/image/dog1.png");
+    public Dog() throws FileNotFoundException {
+        InputStream stream=new FileInputStream("F:\\image\\dog1.png");
+        Image image=new Image(stream);
         this.setImage(image);
         this.name="Dog"+ String.valueOf(numberOfDogs+1);
         numberOfDogs++;
@@ -46,10 +50,16 @@ public class Dog extends Animal {
 
     public static boolean purchase(int coin) {
         if(coin>=PRICE){
-            Dog dog=new Dog();
-            numberOfDogs++;
-            Manager.land.fields[dog.length-1][dog.width-1].animals.add(dog);
-            Manager.coin-=PRICE;
+            try {
+                Dog dog=new Dog();
+                numberOfDogs++;
+                Manager.land.fields[dog.length-1][dog.width-1].animals.add(dog);
+                Manager.coin-=PRICE;
+            }
+            catch (Exception FileNotFoundException  ){
+
+            }
+
             return true;
         }
         return false;

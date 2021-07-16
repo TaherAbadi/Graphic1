@@ -1,0 +1,554 @@
+[Error], 17/Jun/2021 - 16:38:16, Already signed up!
+[Error], 17/Jun/2021 - 16:38:17, Incorrect command!
+[Info], 17/Jun/2021 - 16:38:58, maryamsigned up
+[Info], 17/Jun/2021 - 16:39:47, maryamloged in!
+[Info], 17/Jun/2021 - 16:43:35, maryamloged in!
+[Info], 17/Jun/2021 - 16:43:49, level 1 started
+[Error], 17/Jun/2021 - 16:44:29, not enough coin
+[Error], 17/Jun/2021 - 16:44:29, Incorrect command!
+[Error], 17/Jun/2021 - 16:45:10, There isn`t any user with this username!
+[Error], 17/Jun/2021 - 16:45:13, Incorrect command!
+[Error], 17/Jun/2021 - 16:45:17, Incorrect command!
+[Error], 17/Jun/2021 - 16:45:23, Incorrect command!
+[Error], 17/Jun/2021 - 16:45:26, Incorrect command!
+[Info], 17/Jun/2021 - 16:45:42, maryamloged in!
+[Info], 17/Jun/2021 - 16:45:59, level 1 started
+[Error], 17/Jun/2021 - 16:46:36, not enough coin
+[Error], 17/Jun/2021 - 16:46:36, Incorrect command!
+[Error], 17/Jun/2021 - 16:46:59, Incorrect command!
+[Info], 17/Jun/2021 - 16:47:38, maryamloged in!
+[Info], 17/Jun/2021 - 16:47:43, level 1 started
+[Error], 17/Jun/2021 - 16:48:03, Incorrect command!
+[Info], 18/Jun/2021 - 01:33:03, neginsigned up
+[Info], 18/Jun/2021 - 01:33:54, level 2 started
+[Error], 18/Jun/2021 - 01:34:22, Incorrect command!
+[Error], 18/Jun/2021 - 01:34:26, Incorrect command!
+[Error], 18/Jun/2021 - 01:34:30, Incorrect command!
+[Info], 18/Jun/2021 - 01:35:34, bsigned up
+[Info], 18/Jun/2021 - 01:35:44, level 1 started
+[Info], 18/Jun/2021 - 01:43:26, nsigned up
+[Info], 18/Jun/2021 - 01:43:32, level 1 started
+[Error], 18/Jun/2021 - 01:44:50, not enough coin
+[Info], 18/Jun/2021 - 01:51:30, nsigned up
+[Info], 18/Jun/2021 - 01:51:36, level 1 started
+[Error], 18/Jun/2021 - 01:51:43, not enough coin
+[Info], 18/Jun/2021 - 01:53:45, csigned up
+[Info], 18/Jun/2021 - 01:53:50, level 1 started
+[Info], 18/Jun/2021 - 01:57:51, 2signed up
+[Info], 18/Jun/2021 - 01:57:58, level 1 started
+[Info], 18/Jun/2021 - 01:58:03, purchased a hen
+[Info], 18/Jun/2021 - 02:00:52, Dsigned up
+[Info], 18/Jun/2021 - 09:25:02, niloosigned up
+[Info], 18/Jun/2021 - 09:25:14, level 1 started
+[Info], 18/Jun/2021 - 09:26:11, purchased a hen
+[Info], 18/Jun/2021 - 09:27:14, Drainaged successfully
+[Error], 18/Jun/2021 - 09:27:57, not enough water!
+[Info], 18/Jun/2021 - 09:53:05, atenasigned up
+[Info], 18/Jun/2021 - 09:53:17, level 1 started
+[Info], 18/Jun/2021 - 09:53:26, purchased a hen
+[Error], 18/Jun/2021 - 10:09:24, Incorrect command!
+[Error], 18/Jun/2021 - 10:12:37, Incorrect command!
+[Info], 18/Jun/2021 - 10:36:13, Nsigned up
+[Info], 18/Jun/2021 - 10:36:18, level 1 started
+[Info], 18/Jun/2021 - 10:36:38, purchased a hen
+[Error], 18/Jun/2021 - 10:36:47, Incorrect command!
+[Info], 18/Jun/2021 - 10:37:11, Drainaged successfully
+[Info], 18/Jun/2021 - 10:37:36, planted grass in1 1
+[Info], 18/Jun/2021 - 10:39:57, Bsigned up
+[Info], 18/Jun/2021 - 10:40:00, level 1 started
+[Info], 18/Jun/2021 - 10:40:06, purchased a hen
+[Info], 18/Jun/2021 - 10:40:15, Drainaged successfully
+[Error], 18/Jun/2021 - 10:40:21, not enough water!
+[Info], 18/Jun/2021 - 10:40:39, Drainaged successfully
+[Error], 18/Jun/2021 - 10:40:39, Incorrect command!
+[Error], 18/Jun/2021 - 10:40:50, The water buket is full!
+[Error], 18/Jun/2021 - 10:41:07, not enough water!
+[Error], 18/Jun/2021 - 10:51:32, Already signed up!
+[Error], 18/Jun/2021 - 10:51:33, Incorrect command!
+[Error], 18/Jun/2021 - 10:51:37, Incorrect command!
+[Error], 18/Jun/2021 - 10:51:38, Incorrect command!
+[Info], 18/Jun/2021 - 10:51:55, rsigned up
+[Error], 18/Jun/2021 - 10:52:04, Incorrect command!
+[Error], 18/Jun/2021 - 10:56:15, Incorrect command!
+[Info], 18/Jun/2021 - 10:56:35, level 1 started
+[Info], 18/Jun/2021 - 10:56:35, purchased a hen
+[Info], 18/Jun/2021 - 10:56:55, Drainaged successfully
+[Error], 18/Jun/2021 - 10:56:55, Incorrect command!
+[Error], 18/Jun/2021 - 10:57:05, The water buket is full!
+[Info], 18/Jun/2021 - 10:57:28, planted grass in1 1
+[Error], 18/Jun/2021 - 10:57:41, Incorrect command!
+[Error], 18/Jun/2021 - 10:58:02, Incorrect command!
+[Info], 18/Jun/2021 - 10:58:17, planted grass in1 1
+[Info], 18/Jun/2021 - 10:58:45, planted grass in2 2
+[Error], 18/Jun/2021 - 10:58:56, Incorrect command!
+[Error], 18/Jun/2021 - 10:59:09, Incorrect command!
+[Error], 18/Jun/2021 - 10:59:22, Incorrect command!
+[Info], 18/Jun/2021 - 11:00:19, level 1 started
+[Error], 18/Jun/2021 - 11:00:30, not enough coin
+[Info], 18/Jun/2021 - 11:00:55, Ssigned upt
+[Info], 18/Jun/2021 - 11:01:02, level 1 started
+[Info], 18/Jun/2021 - 11:01:13, purchased a hen
+[Info], 18/Jun/2021 - 11:01:26, Drainaged successfully
+[Info], 18/Jun/2021 - 11:01:39, planted grass in1 1
+[Error], 18/Jun/2021 - 11:02:11, Incorrect command!
+[Error], 18/Jun/2021 - 11:02:11, Incorrect command!
+[Error], 18/Jun/2021 - 11:02:25, Incorrect command!
+[Error], 18/Jun/2021 - 11:02:48, Incorrect command!
+[Info], 18/Jun/2021 - 11:03:06, level 1 started
+[Error], 18/Jun/2021 - 11:07:35, Incorrect command!
+[Error], 18/Jun/2021 - 11:07:47, Already signed up!
+[Error], 18/Jun/2021 - 11:07:48, Incorrect command!
+[Error], 18/Jun/2021 - 11:07:58, Incorrect command!
+[Info], 18/Jun/2021 - 11:08:10, gsigned up
+[Info], 18/Jun/2021 - 11:08:13, level 1 started
+[Info], 18/Jun/2021 - 11:08:13, purchased a hen
+[Info], 18/Jun/2021 - 11:08:13, Drainaged successfully
+[Info], 18/Jun/2021 - 11:08:13, planted grass in1 1
+[Info], 18/Jun/2021 - 11:08:58, Asigned up
+[Info], 18/Jun/2021 - 11:09:08, level 1 started
+[Info], 18/Jun/2021 - 11:09:13, purchased a hen
+[Info], 18/Jun/2021 - 11:09:25, Drainaged successfully
+[Info], 18/Jun/2021 - 11:09:34, planted grass in2 3
+[Error], 18/Jun/2021 - 11:09:43, Incorrect command!
+[Error], 18/Jun/2021 - 11:09:48, Incorrect command!
+[Info], 18/Jun/2021 - 11:50:18, gksigned up
+[Info], 18/Jun/2021 - 11:50:32, level 1 started
+[Info], 18/Jun/2021 - 11:50:32, purchased a hen
+[Info], 18/Jun/2021 - 11:50:32, Drainaged successfully
+[Info], 18/Jun/2021 - 11:50:34, planted grass in2 3
+[Error], 18/Jun/2021 - 11:53:21, Already signed up!
+[Error], 18/Jun/2021 - 11:53:22, Incorrect command!
+[Error], 18/Jun/2021 - 11:53:24, Incorrect command!
+[Error], 18/Jun/2021 - 11:53:26, Incorrect command!
+[Info], 18/Jun/2021 - 11:53:36, SSsigned up
+[Info], 18/Jun/2021 - 11:53:37, level 1 started
+[Info], 18/Jun/2021 - 11:53:37, purchased a hen
+[Info], 18/Jun/2021 - 11:53:37, Drainaged successfully
+[Info], 18/Jun/2021 - 11:53:37, planted grass in2 3
+[Error], 18/Jun/2021 - 12:46:43, Already signed up!
+[Error], 18/Jun/2021 - 12:46:45, Incorrect command!
+[Info], 18/Jun/2021 - 12:46:54, 66signed up
+[Info], 18/Jun/2021 - 12:47:06, level 1 started
+[Error], 18/Jun/2021 - 12:47:12, Incorrect command!
+[Info], 18/Jun/2021 - 12:48:27, purchased a hen
+[Error], 18/Jun/2021 - 12:48:38, Incorrect command!
+[Info], 18/Jun/2021 - 12:48:55, Drainaged successfully
+[Error], 18/Jun/2021 - 12:48:57, Incorrect command!
+[Info], 18/Jun/2021 - 12:49:05, planted grass in1 2
+[Error], 18/Jun/2021 - 12:49:15, Incorrect command!
+[Error], 18/Jun/2021 - 12:54:39, Incorrect command!
+[Error], 18/Jun/2021 - 12:54:39, not enough coin
+[Info], 18/Jun/2021 - 17:11:15, ngsigned up
+[Info], 18/Jun/2021 - 17:11:21, level 1 started
+[Info], 18/Jun/2021 - 17:11:32, purchased a hen
+[Info], 18/Jun/2021 - 17:11:39, Drainaged successfully
+[Info], 18/Jun/2021 - 17:11:45, planted grass in1 1
+[Error], 18/Jun/2021 - 17:11:54, Incorrect command!
+[Info], 18/Jun/2021 - 17:11:54, planted grass in1 2
+[Info], 18/Jun/2021 - 17:13:09, planted grass in3 4
+[Info], 18/Jun/2021 - 17:15:42, ttsigned up
+[Info], 18/Jun/2021 - 17:15:52, level 1 started
+[Info], 18/Jun/2021 - 17:15:52, purchased a hen
+[Info], 18/Jun/2021 - 17:15:52, Drainaged successfully
+[Info], 18/Jun/2021 - 17:15:52, planted grass in1 1
+[Error], 18/Jun/2021 - 17:15:52, Incorrect command!
+[Info], 18/Jun/2021 - 17:15:52, planted grass in1 2
+[Info], 18/Jun/2021 - 17:15:55, planted grass in3 4
+[Info], 18/Jun/2021 - 17:16:09, turned 5
+[Info], 18/Jun/2021 - 17:16:57, turned 3
+[Error], 18/Jun/2021 - 17:19:05, Not enough capacity in the warehouse
+[Info], 18/Jun/2021 - 17:23:59, BMsigned up
+[Info], 18/Jun/2021 - 17:24:01, level 1 started
+[Info], 18/Jun/2021 - 17:24:01, purchased a hen
+[Info], 18/Jun/2021 - 17:24:01, Drainaged successfully
+[Info], 18/Jun/2021 - 17:24:01, planted grass in1 1
+[Error], 18/Jun/2021 - 17:24:01, Incorrect command!
+[Info], 18/Jun/2021 - 17:24:01, planted grass in1 2
+[Info], 18/Jun/2021 - 17:24:02, planted grass in3 4
+[Info], 18/Jun/2021 - 17:24:18, turned 3
+[Info], 18/Jun/2021 - 17:25:10, turned 3
+[Error], 18/Jun/2021 - 17:26:41, EggPowderPlantdid`nt build yet!
+[Info], 18/Jun/2021 - 17:28:25, EggPowderPlantbuilt!
+[Info], 18/Jun/2021 - 17:28:36, EggPowderPlantstarted working!
+[Info], 18/Jun/2021 - 17:48:13, nnsigned up
+[Info], 18/Jun/2021 - 17:48:22, level 1 started
+[Error], 18/Jun/2021 - 17:48:23, Incorrect command!
+[Info], 18/Jun/2021 - 17:48:23, purchased a hen
+[Info], 18/Jun/2021 - 17:48:23, Drainaged successfully
+[Info], 18/Jun/2021 - 17:48:23, planted grass in1 1
+[Error], 18/Jun/2021 - 17:48:23, Incorrect command!
+[Info], 18/Jun/2021 - 17:48:23, planted grass in1 2
+[Info], 18/Jun/2021 - 17:48:24, planted grass in3 4
+[Info], 18/Jun/2021 - 17:48:37, turned 5
+[Info], 18/Jun/2021 - 17:49:14, EggPowderPlantbuilt!
+[Info], 18/Jun/2021 - 17:49:37, EggPowderPlantstarted working!
+[Info], 18/Jun/2021 - 17:49:50, turned 3
+[Error], 18/Jun/2021 - 17:59:55, Already signed up!
+[Error], 18/Jun/2021 - 18:00:03, Incorrect command!
+[Info], 18/Jun/2021 - 18:00:07, wwsigned up
+[Info], 18/Jun/2021 - 18:00:12, level 1 started
+[Info], 18/Jun/2021 - 18:00:26, purchased a hen
+[Info], 18/Jun/2021 - 18:01:04, Drainaged successfully
+[Info], 18/Jun/2021 - 18:02:20, planted grass in1 1
+[Info], 18/Jun/2021 - 18:02:26, planted grass in2 2
+[Info], 18/Jun/2021 - 18:02:30, planted grass in3 3
+[Info], 18/Jun/2021 - 18:02:37, turned 3
+[Info], 18/Jun/2021 - 18:02:59, EggPowderPlantbuilt!
+[Info], 18/Jun/2021 - 18:03:28, EggPowderPlantstarted working!
+[Info], 18/Jun/2021 - 18:03:34, turned 4
+[Info], 18/Jun/2021 - 18:04:10, turned 1
+[Info], 18/Jun/2021 - 18:04:21, turned 1
+[Error], 18/Jun/2021 - 18:04:43, Incorrect command!
+[Info], 18/Jun/2021 - 18:04:44, EggPowderPlantstarted working!
+[Info], 18/Jun/2021 - 18:12:07, AAsigned up
+[Info], 18/Jun/2021 - 18:12:59, level 1 started
+[Info], 18/Jun/2021 - 18:12:59, purchased a hen
+[Info], 18/Jun/2021 - 18:12:59, Drainaged successfully
+[Info], 18/Jun/2021 - 18:12:59, planted grass in1 1
+[Info], 18/Jun/2021 - 18:12:59, planted grass in2 2
+[Info], 18/Jun/2021 - 18:13:00, planted grass in3 3
+[Info], 18/Jun/2021 - 18:13:20, turned 3
+[Error], 18/Jun/2021 - 18:13:36, Incorrect command!
+[Info], 18/Jun/2021 - 18:14:04, added !
+[Info], 18/Jun/2021 - 18:14:11, turned 2
+[Info], 18/Jun/2021 - 18:14:42, added !
+[Error], 18/Jun/2021 - 18:22:13, Incorrect command!
+[Info], 18/Jun/2021 - 18:22:23, vmsigned up
+[Error], 18/Jun/2021 - 18:22:25, Incorrect command!
+[Error], 18/Jun/2021 - 18:23:01, Incorrect command!
+[Info], 18/Jun/2021 - 18:23:26, sssigned up
+[Error], 18/Jun/2021 - 18:27:00, Incorrect command!
+[Error], 18/Jun/2021 - 18:27:15, Incorrect command!
+[Info], 18/Jun/2021 - 18:27:39, SDFsigned up
+[Info], 18/Jun/2021 - 18:27:43, level 1 started
+[Info], 18/Jun/2021 - 18:27:53, purchased a hen
+[Info], 18/Jun/2021 - 18:27:57, Drainaged successfully
+[Info], 18/Jun/2021 - 18:28:13, planted grass in1 1
+[Info], 18/Jun/2021 - 18:28:17, planted grass in2 2
+[Info], 18/Jun/2021 - 18:28:23, turned 3
+[Info], 18/Jun/2021 - 18:28:33, turned 1
+[Info], 18/Jun/2021 - 18:28:41, turned 4
+[Info], 18/Jun/2021 - 18:30:40, niloologed in!
+[Info], 18/Jun/2021 - 18:30:41, level 1 started
+[Info], 18/Jun/2021 - 18:30:41, purchased a hen
+[Info], 18/Jun/2021 - 18:30:41, Drainaged successfully
+[Info], 18/Jun/2021 - 18:30:41, planted grass in1 1
+[Info], 18/Jun/2021 - 18:30:41, planted grass in2 2
+[Info], 18/Jun/2021 - 18:30:44, turned 3
+[Info], 18/Jun/2021 - 18:32:19, EggPowderPlantbuilt!
+[Info], 18/Jun/2021 - 18:32:27, EggPowderPlantstarted working!
+[Info], 18/Jun/2021 - 18:41:21, niloologed in!
+[Info], 18/Jun/2021 - 18:41:25, level 1 started
+[Info], 18/Jun/2021 - 18:41:34, purchased a hen
+[Info], 18/Jun/2021 - 18:41:37, Drainaged successfully
+[Info], 18/Jun/2021 - 18:41:42, planted grass in1 1
+[Info], 18/Jun/2021 - 18:41:47, planted grass in2 2
+[Info], 18/Jun/2021 - 18:41:51, planted grass in3 3
+[Info], 18/Jun/2021 - 18:42:07, turned 3
+[Info], 18/Jun/2021 - 18:42:39, added !
+[Info], 18/Jun/2021 - 18:42:45, turned 1
+[Info], 18/Jun/2021 - 18:43:12, turned 3
+[Info], 18/Jun/2021 - 18:45:48, niloologed in!
+[Info], 18/Jun/2021 - 18:45:52, level 1 started
+[Info], 18/Jun/2021 - 18:46:11, purchased a hen
+[Info], 18/Jun/2021 - 18:46:14, Drainaged successfully
+[Info], 18/Jun/2021 - 18:46:19, planted grass in1 1
+[Info], 18/Jun/2021 - 18:46:25, planted grass in2 2
+[Info], 18/Jun/2021 - 18:46:35, planted grass in3 3
+[Error], 18/Jun/2021 - 18:46:38, Incorrect command!
+[Info], 18/Jun/2021 - 18:46:42, turned 4
+[Error], 18/Jun/2021 - 18:46:58, Incorrect command!
+[Info], 18/Jun/2021 - 18:47:02, turned 4
+[Info], 18/Jun/2021 - 18:47:10, A lion caged successfully in 2 2
+[Info], 18/Jun/2021 - 19:10:50, niloologed in!
+[Info], 18/Jun/2021 - 19:10:51, level 1 started
+[Info], 18/Jun/2021 - 19:10:51, purchased a hen
+[Info], 18/Jun/2021 - 19:10:51, Drainaged successfully
+[Info], 18/Jun/2021 - 19:10:51, planted grass in1 1
+[Info], 18/Jun/2021 - 19:10:51, planted grass in2 2
+[Info], 18/Jun/2021 - 19:10:52, planted grass in3 3
+[Info], 18/Jun/2021 - 19:10:56, turned 4
+[Info], 18/Jun/2021 - 19:11:05, turned 3
+[Info], 18/Jun/2021 - 19:11:15, A lion caged successfully in 1 3
+[Info], 18/Jun/2021 - 19:13:49, niloologed in!
+[Info], 18/Jun/2021 - 19:13:50, level 1 started
+[Info], 18/Jun/2021 - 19:13:50, purchased a hen
+[Info], 18/Jun/2021 - 19:13:50, Drainaged successfully
+[Info], 18/Jun/2021 - 19:13:50, planted grass in1 1
+[Info], 18/Jun/2021 - 19:13:50, planted grass in2 2
+[Info], 18/Jun/2021 - 19:13:51, planted grass in3 3
+[Info], 18/Jun/2021 - 19:13:56, turned 7
+[Info], 18/Jun/2021 - 19:14:05, A lion caged successfully in 3 1
+[Info], 18/Jun/2021 - 19:15:23, niloologed in!
+[Info], 18/Jun/2021 - 19:15:24, level 1 started
+[Info], 18/Jun/2021 - 19:15:24, purchased a hen
+[Info], 18/Jun/2021 - 19:15:24, Drainaged successfully
+[Info], 18/Jun/2021 - 19:15:24, planted grass in1 1
+[Info], 18/Jun/2021 - 19:15:24, planted grass in2 2
+[Info], 18/Jun/2021 - 19:15:25, planted grass in3 3
+[Info], 18/Jun/2021 - 19:15:29, turned 7
+[Error], 18/Jun/2021 - 19:15:34, There is no wild animal in
+[Error], 18/Jun/2021 - 19:15:41, There is no wild animal in
+[Error], 18/Jun/2021 - 19:15:45, There is no wild animal in
+[Error], 18/Jun/2021 - 19:15:48, Incorrect command!
+[Info], 18/Jun/2021 - 19:15:53, turned 1
+[Info], 18/Jun/2021 - 19:16:28, A lion caged successfully in 6 2
+[Info], 18/Jun/2021 - 19:16:33, turned 1
+[Info], 18/Jun/2021 - 19:16:54, added !
+[Info], 18/Jun/2021 - 19:22:32, niloologed in!
+[Info], 18/Jun/2021 - 19:22:34, level 1 started
+[Info], 18/Jun/2021 - 19:22:34, purchased a hen
+[Info], 18/Jun/2021 - 19:22:34, Drainaged successfully
+[Info], 18/Jun/2021 - 19:22:34, planted grass in1 1
+[Info], 18/Jun/2021 - 19:22:34, planted grass in2 2
+[Info], 18/Jun/2021 - 19:22:35, planted grass in3 3
+[Info], 18/Jun/2021 - 19:22:38, turned 4
+[Error], 18/Jun/2021 - 19:22:48, no product here!
+[Info], 18/Jun/2021 - 19:22:55, turned 1
+[Error], 18/Jun/2021 - 19:23:34, Incorrect command!
+[Info], 18/Jun/2021 - 19:23:52, niloologed in!
+[Info], 18/Jun/2021 - 19:24:08, level 1 started
+[Info], 18/Jun/2021 - 19:24:08, purchased a hen
+[Info], 18/Jun/2021 - 19:24:08, Drainaged successfully
+[Info], 18/Jun/2021 - 19:24:08, planted grass in1 1
+[Info], 18/Jun/2021 - 19:24:08, planted grass in2 2
+[Info], 18/Jun/2021 - 19:24:09, planted grass in3 3
+[Info], 18/Jun/2021 - 19:24:20, turned 3
+[Error], 18/Jun/2021 - 19:24:31, no product here!
+[Info], 18/Jun/2021 - 19:24:40, turned 1
+[Info], 18/Jun/2021 - 19:24:57, EggPowderPlantbuilt!
+[Info], 18/Jun/2021 - 19:25:07, EggPowderPlantstarted working!
+[Info], 18/Jun/2021 - 19:25:20, turned 4
+[Info], 18/Jun/2021 - 19:25:33, turned 1
+[Info], 18/Jun/2021 - 19:34:36, niloologed in!
+[Info], 18/Jun/2021 - 19:34:38, level 1 started
+[Info], 18/Jun/2021 - 19:34:38, purchased a hen
+[Info], 18/Jun/2021 - 19:34:38, Drainaged successfully
+[Info], 18/Jun/2021 - 19:34:38, planted grass in1 1
+[Info], 18/Jun/2021 - 19:34:38, planted grass in2 2
+[Info], 18/Jun/2021 - 19:34:38, planted grass in3 3
+[Info], 18/Jun/2021 - 19:34:38, turned 3
+[Error], 18/Jun/2021 - 19:34:50, no product here!
+[Info], 18/Jun/2021 - 19:36:28, EggPowderPlantbuilt!
+[Info], 18/Jun/2021 - 19:36:33, EggPowderPlantstarted working!
+[Info], 18/Jun/2021 - 19:36:46, turned 4
+[Info], 18/Jun/2021 - 19:40:33, niloologed in!
+[Info], 18/Jun/2021 - 19:40:36, level 1 started
+[Info], 18/Jun/2021 - 19:40:36, purchased a hen
+[Info], 18/Jun/2021 - 19:40:36, Drainaged successfully
+[Info], 18/Jun/2021 - 19:40:36, planted grass in1 1
+[Info], 18/Jun/2021 - 19:40:36, planted grass in2 2
+[Info], 18/Jun/2021 - 19:40:36, planted grass in3 3
+[Info], 18/Jun/2021 - 19:42:11, niloologed in!
+[Info], 18/Jun/2021 - 19:42:12, level 1 started
+[Info], 18/Jun/2021 - 19:42:12, purchased a hen
+[Info], 18/Jun/2021 - 19:42:12, Drainaged successfully
+[Info], 18/Jun/2021 - 19:42:12, planted grass in1 1
+[Info], 18/Jun/2021 - 19:42:12, planted grass in2 2
+[Info], 18/Jun/2021 - 19:42:12, planted grass in3 3
+[Info], 18/Jun/2021 - 19:42:12, turned 3
+[Info], 18/Jun/2021 - 19:42:22, turned 20
+[Error], 18/Jun/2021 - 19:43:59, There isn`t any user with this username!
+[Error], 18/Jun/2021 - 19:44:01, Incorrect command!
+[Info], 18/Jun/2021 - 19:44:11, niloologed in!
+[Info], 18/Jun/2021 - 19:44:12, level 1 started
+[Info], 18/Jun/2021 - 19:44:12, purchased a hen
+[Info], 18/Jun/2021 - 19:44:12, Drainaged successfully
+[Info], 18/Jun/2021 - 19:44:12, planted grass in1 1
+[Info], 18/Jun/2021 - 19:44:13, planted grass in2 2
+[Info], 18/Jun/2021 - 19:44:13, planted grass in3 3
+[Info], 18/Jun/2021 - 19:44:13, turned 3
+[Error], 18/Jun/2021 - 19:44:27, no product here!
+[Error], 18/Jun/2021 - 19:44:30, Incorrect command!
+[Info], 18/Jun/2021 - 19:44:33, turned 1
+[Info], 18/Jun/2021 - 19:45:09, EggPowderPlantbuilt!
+[Info], 18/Jun/2021 - 19:45:15, EggPowderPlantstarted working!
+[Info], 18/Jun/2021 - 19:45:22, turned 10
+[Error], 18/Jun/2021 - 19:45:53, no product here!
+[Error], 18/Jun/2021 - 19:45:59, no product here!
+[Error], 18/Jun/2021 - 19:46:08, no product here!
+[Error], 18/Jun/2021 - 19:46:16, no product here!
+[Info], 18/Jun/2021 - 19:46:21, turned 1
+[Info], 18/Jun/2021 - 19:48:47, niloologed in!
+[Info], 18/Jun/2021 - 19:49:22, level 1 started
+[Info], 18/Jun/2021 - 19:49:22, purchased a hen
+[Info], 18/Jun/2021 - 19:49:22, Drainaged successfully
+[Info], 18/Jun/2021 - 19:49:22, planted grass in1 1
+[Info], 18/Jun/2021 - 19:49:22, planted grass in2 2
+[Info], 18/Jun/2021 - 19:49:23, planted grass in3 3
+[Info], 18/Jun/2021 - 19:49:28, turned 5
+[Info], 18/Jun/2021 - 19:49:41, EggPowderPlantbuilt!
+[Info], 18/Jun/2021 - 19:49:43, EggPowderPlantstarted working!
+[Error], 18/Jun/2021 - 19:50:05, no product here!
+[Error], 18/Jun/2021 - 19:50:12, no product here!
+[Info], 18/Jun/2021 - 19:50:24, EggPowderPlantstarted working!
+[Info], 18/Jun/2021 - 19:50:33, turned 7
+[Error], 18/Jun/2021 - 19:50:46, no product here!
+[Error], 18/Jun/2021 - 19:50:50, no product here!
+[Error], 18/Jun/2021 - 19:50:54, no product here!
+[Info], 18/Jun/2021 - 19:50:59, turned 1
+[Info], 18/Jun/2021 - 19:51:15, added egg to the truck
+[Error], 18/Jun/2021 - 19:51:33, Incorrect command!
+[Info], 18/Jun/2021 - 19:51:33, added egg to the truck
+[Info], 18/Jun/2021 - 19:52:02, added flour to the truck
+[Info], 18/Jun/2021 - 19:52:19, turned 20
+[Info], 18/Jun/2021 - 19:53:00, truck started to go!
+[Info], 18/Jun/2021 - 22:57:05, NPsigned up
+[Info], 18/Jun/2021 - 22:57:10, level 1 started
+[Info], 18/Jun/2021 - 22:57:17, purchased a hen
+[Info], 18/Jun/2021 - 22:57:31, Drainaged successfully
+[Info], 18/Jun/2021 - 22:57:44, planted grass in1 1
+[Info], 18/Jun/2021 - 22:57:56, planted grass in1 2
+[Info], 18/Jun/2021 - 22:58:00, planted grass in2 3
+[Info], 18/Jun/2021 - 22:58:08, turned 4
+[Error], 18/Jun/2021 - 22:59:18, Incorrect command!
+[Error], 18/Jun/2021 - 22:59:18, no product here!
+[Info], 18/Jun/2021 - 22:59:26, turned 1
+[Info], 18/Jun/2021 - 22:59:49, EggPowderPlantbuilt!
+[Error], 18/Jun/2021 - 23:00:03, Incorrect command!
+[Error], 18/Jun/2021 - 23:00:26, Incorrect command!
+[Info], 18/Jun/2021 - 23:00:37, EggPowderPlantstarted working!
+[Info], 18/Jun/2021 - 23:01:14, EggPowderPlantstarted working!
+[Info], 18/Jun/2021 - 23:02:01, turned 8
+[Info], 18/Jun/2021 - 23:02:59, A lion caged successfully in 2 5
+[Error], 18/Jun/2021 - 23:03:03, There is no wild animal in
+[Error], 18/Jun/2021 - 23:03:21, There is no wild animal in
+[Info], 18/Jun/2021 - 23:03:30, turned 1
+[Error], 18/Jun/2021 - 23:04:34, no product here!
+[Error], 18/Jun/2021 - 23:04:40, no product here!
+[Error], 18/Jun/2021 - 23:04:48, no product here!
+[Info], 18/Jun/2021 - 23:04:52, turned 1
+[Info], 18/Jun/2021 - 23:05:25, added egg to the truck
+[Info], 18/Jun/2021 - 23:05:51, truck started to go!
+[Error], 18/Jun/2021 - 23:05:55, Incorrect command!
+[Info], 18/Jun/2021 - 23:06:00, turned 10
+[Error], 18/Jun/2021 - 23:07:54, Incorrect command!
+[Info], 18/Jun/2021 - 23:07:54, purchased a hen
+[Info], 18/Jun/2021 - 23:08:01, purchased a hen
+[Info], 18/Jun/2021 - 23:08:09, purchased a hen
+[Error], 18/Jun/2021 - 23:08:11, Incorrect command!
+[Info], 18/Jun/2021 - 23:08:33, turned 1
+[Info], 18/Jun/2021 - 23:09:11, planted grass in6 4
+[Info], 18/Jun/2021 - 23:09:28, Drainaged successfully
+[Info], 18/Jun/2021 - 23:09:45, planted grass in6 2
+[Info], 19/Jun/2021 - 12:09:35, niloo logged in!
+[Info], 19/Jun/2021 - 12:09:41, level 1 started
+[Info], 19/Jun/2021 - 12:09:47, purchased a hen
+[Info], 19/Jun/2021 - 12:09:54, Drainaged successfully
+[Info], 19/Jun/2021 - 12:10:00, planted grass in1 1
+[Error], 19/Jun/2021 - 12:10:03, Incorrect command!
+[Info], 19/Jun/2021 - 12:10:07, turned 1
+[Info], 19/Jun/2021 - 12:11:44, niloo logged in!
+[Info], 19/Jun/2021 - 12:11:47, level 1 started
+[Info], 19/Jun/2021 - 12:12:00, purchased a hen
+[Info], 19/Jun/2021 - 12:12:08, Drainaged successfully
+[Info], 19/Jun/2021 - 12:12:14, planted grass in1 1
+[Info], 19/Jun/2021 - 12:12:19, turned 1
+[Info], 19/Jun/2021 - 12:12:23, turned 2
+[Info], 19/Jun/2021 - 12:12:52, planted grass in1 2
+[Info], 19/Jun/2021 - 12:14:17, niloo logged in!
+[Info], 19/Jun/2021 - 12:14:24, level 1 started
+[Info], 19/Jun/2021 - 12:14:28, Drainaged successfully
+[Info], 19/Jun/2021 - 12:14:32, planted grass in1 2
+[Info], 19/Jun/2021 - 12:14:39, planted grass in1 2
+[Info], 19/Jun/2021 - 12:14:45, planted grass in1 3
+[Info], 19/Jun/2021 - 12:14:51, planted grass in4 6
+[Info], 19/Jun/2021 - 12:15:01, purchased a hen
+[Info], 19/Jun/2021 - 12:15:10, turned 1
+[Info], 19/Jun/2021 - 12:15:19, turned 1
+[Info], 19/Jun/2021 - 12:15:25, turned 10
+[Info], 19/Jun/2021 - 12:15:36, A bear caged successfully in 5 1
+[Error], 19/Jun/2021 - 12:15:42, There is no wild animal in
+[Info], 19/Jun/2021 - 12:15:47, turned 1
+[Info], 19/Jun/2021 - 12:16:23, A lion caged successfully in 6 4
+[Info], 19/Jun/2021 - 12:16:26, turned 1
+[Info], 19/Jun/2021 - 12:35:41, niloo logged in!
+[Info], 19/Jun/2021 - 12:35:47, level 1 started
+[Info], 19/Jun/2021 - 12:35:57, turned 10
+[Info], 19/Jun/2021 - 12:36:02, A lion caged successfully in 2 1
+[Info], 19/Jun/2021 - 12:36:06, A lion caged successfully in 2 1
+[Info], 19/Jun/2021 - 12:36:08, turned 1
+[Info], 19/Jun/2021 - 12:51:06, niloo logged in!
+[Info], 19/Jun/2021 - 12:51:11, level 1 started
+[Info], 19/Jun/2021 - 12:51:22, purchased a hen
+[Error], 19/Jun/2021 - 12:51:30, not enough water!
+[Error], 19/Jun/2021 - 12:51:36, not enough water!
+[Info], 19/Jun/2021 - 12:51:41, Drainaged successfully
+[Info], 19/Jun/2021 - 12:51:45, planted grass in1 1
+[Info], 19/Jun/2021 - 12:51:49, planted grass in3 3
+[Info], 19/Jun/2021 - 12:54:10, niloo logged in!
+[Info], 19/Jun/2021 - 12:54:14, level 1 started
+[Info], 19/Jun/2021 - 12:54:18, purchased a hen
+[Info], 19/Jun/2021 - 12:54:21, Drainaged successfully
+[Info], 19/Jun/2021 - 12:54:26, planted grass in1 1
+[Error], 19/Jun/2021 - 12:54:27, Incorrect command!
+[Info], 19/Jun/2021 - 12:54:31, turned 1
+[Info], 19/Jun/2021 - 12:54:38, turned 1
+[Info], 15/ژوئیهٔ/2021 - 23:30:06, manisa signed up
+[Info], 15/ژوئیهٔ/2021 - 23:31:29, negin signed up
+[Error], 15/ژوئیهٔ/2021 - 23:37:40, Wrong password!
+[Error], 15/ژوئیهٔ/2021 - 23:37:46, Wrong password!
+[Info], 15/ژوئیهٔ/2021 - 23:37:55, manisa logged in!
+[Info], 15/ژوئیهٔ/2021 - 23:37:58, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 00:09:11, j signed up
+[Info], 16/ژوئیهٔ/2021 - 11:14:28, Q signed up
+[Error], 16/ژوئیهٔ/2021 - 11:14:42, Incorrect command!
+[Error], 16/ژوئیهٔ/2021 - 11:14:43, Incorrect command!
+[Info], 16/ژوئیهٔ/2021 - 11:14:45, IceCreamFactorybuilt!
+[Info], 16/ژوئیهٔ/2021 - 11:14:47, Drainaged successfully
+[Info], 16/ژوئیهٔ/2021 - 11:15:52, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 11:15:55, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 11:16:47, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 11:16:50, level 1 started
+[Error], 16/ژوئیهٔ/2021 - 11:19:41, There isn`t any user with this username!
+[Info], 16/ژوئیهٔ/2021 - 11:19:47, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 11:19:49, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 11:21:44, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 11:21:46, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 11:33:55, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 11:33:58, level 1 started
+[Error], 16/ژوئیهٔ/2021 - 11:34:09, Incorrect command!
+[Info], 16/ژوئیهٔ/2021 - 11:34:13, IceCreamFactorybuilt!
+[Info], 16/ژوئیهٔ/2021 - 11:34:20, Drainaged successfully
+[Error], 16/ژوئیهٔ/2021 - 11:34:20, The water buket is full!
+[Error], 16/ژوئیهٔ/2021 - 11:34:21, The water buket is full!
+[Info], 16/ژوئیهٔ/2021 - 11:34:22, EggPowderPlantbuilt!
+[Info], 16/ژوئیهٔ/2021 - 11:34:24, CookieBakerybuilt!
+[Info], 16/ژوئیهٔ/2021 - 11:39:23, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 11:39:30, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 11:40:31, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 11:40:34, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 11:40:36, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 11:40:39, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 11:40:39, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 11:40:39, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 11:40:39, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 11:40:39, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 11:40:40, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 11:40:40, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 11:40:40, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 11:40:40, purchased a hen
+[Error], 16/ژوئیهٔ/2021 - 11:40:40, not enough coin
+[Error], 16/ژوئیهٔ/2021 - 11:40:40, not enough coin
+[Info], 16/ژوئیهٔ/2021 - 11:42:01, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 11:42:08, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 11:42:10, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 11:42:22, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 11:43:26, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 11:43:29, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 11:43:32, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 11:43:35, turned 1
+[Info], 16/ژوئیهٔ/2021 - 11:43:38, turned 1
+[Info], 16/ژوئیهٔ/2021 - 11:43:45, Drainaged successfully
+[Info], 16/ژوئیهٔ/2021 - 11:43:52, turned 1
+[Info], 16/ژوئیهٔ/2021 - 11:52:49, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 11:52:52, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 11:52:55, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 11:53:02, purchased a turkey
+[Info], 16/ژوئیهٔ/2021 - 11:53:03, purchased a buffalo
+[Info], 16/ژوئیهٔ/2021 - 11:53:04, purchased a buffalo
+[Info], 16/ژوئیهٔ/2021 - 11:53:05, purchased a cat
+[Info], 16/ژوئیهٔ/2021 - 11:56:56, Q logged in!
+[Info], 16/ژوئیهٔ/2021 - 11:56:59, level 1 started
+[Info], 16/ژوئیهٔ/2021 - 11:57:02, purchased a hen
+[Info], 16/ژوئیهٔ/2021 - 11:57:04, turned 1

@@ -4,6 +4,9 @@ import javafx.scene.image.ImageView;
 import sample.AnimalAnim;
 import sample.Main;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.util.Random;
 
 /**
@@ -12,8 +15,9 @@ import java.util.Random;
 public class Cat extends Animal {
     private static final int PRICE=150;
     static int numberOfCats=0;
-    public Cat() {
-        Image image=new Image("../sample/image/cat2.jpg");
+    public Cat() throws FileNotFoundException {
+        InputStream stream=new FileInputStream("F:\\image\\cat.png");
+        Image image=new Image(stream);
         this.setImage(image);
 
         this.name="Cat"+ String.valueOf(numberOfCats);
@@ -52,10 +56,16 @@ public class Cat extends Animal {
     }
     public static boolean purchase(int coin) {
         if(coin>=PRICE){
-            Cat cat=new Cat();
-            numberOfCats++;
-            Manager.land.fields[cat.length-1][cat.width-1].animals.add(cat);
-            Manager.coin-=PRICE;
+            try {
+                Cat cat=new Cat();
+                numberOfCats++;
+                Manager.land.fields[cat.length-1][cat.width-1].animals.add(cat);
+                Manager.coin-=PRICE;
+            }
+            catch (Exception FileNotFoundException){
+
+            }
+
             //Manager.land.fields[cat.length][cat.width].animals.add(cat);
             return true;
         }

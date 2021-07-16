@@ -17,7 +17,7 @@ public class Main extends Application {
     }
 
     static Stage window;
-    public static ArrayList<AnimalAnim> animalAnims;
+    public static ArrayList<AnimalAnim> animalAnims=new ArrayList<AnimalAnim>();
     @Override
     public void start(Stage primaryStage) throws Exception{
 
@@ -26,6 +26,7 @@ public class Main extends Application {
         window.setTitle("Farm Frenzy");
         window.setScene(new Scene(root, 800 , 500));
         window.show();
+
     }
     public void play(Stage window) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("game.fxml"));

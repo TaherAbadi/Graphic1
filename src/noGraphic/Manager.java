@@ -70,7 +70,7 @@ public class Manager {
         return false;
     }
 
-    static public void buyAnimal(String animal){
+    static public void buyAnimal(String animal) {
         if(animal.equals("Hen")){
             if(Hen.purchase(coin)==false){
                 ReadWriteFile.WriteLogger(false,"not enough coin");

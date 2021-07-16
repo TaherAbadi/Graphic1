@@ -5,6 +5,11 @@ package noGraphic;
 import javafx.scene.image.ImageView;
 import javafx.scene.image.Image;
 import javafx.scene.image.Image;
+import java.io.FileInputStream;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 
 public class Hen extends DomesticAnimal {
     static final int PRICE=100;
@@ -12,25 +17,34 @@ public class Hen extends DomesticAnimal {
     static int hens=0;
 
 
-    public Hen() {
+    public Hen() throws FileNotFoundException {
         super("Hen"+String.valueOf(hens+1));
-        Image image=new Image("../sample/image/hen.png");
+        InputStream stream=new FileInputStream("F:\\image\\hen.png");
+        Image image=new Image(stream);
         this.setImage(image);
         this.price=PRICE;
         this.produce=0;
         hens++;
+        //System.out.println("buy");
+
     }
 
     public  static boolean purchase(int coin) {
         //System.out.println(coin);
         if(coin>=PRICE){
             //System.out.println("+");
-            Hen newHen=new Hen();
+            try {
+                Hen newHen=new Hen();
+
+            }
+            catch (Exception FileNotFoundException){
+
+            }
+
             Manager.coin-=PRICE;
             return true;
         }
         return false;
-
     }
     public void updateProduce(){
         this.produce++;

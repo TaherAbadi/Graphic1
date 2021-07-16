@@ -8,7 +8,7 @@ public class Lion extends WildAnimal {
     static int lions=0;
     public Lion() {
         super(300,"Lion"+lions,3);
-        Image image=new Image("../sample/image/lion.png");
+        Image image=new Image("F:\\image\\lion.png");
         this.setImage(image);
         lions++;
     }
