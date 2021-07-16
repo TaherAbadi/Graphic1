@@ -597,3 +597,43 @@
 [Info], 16/ژوئیهٔ/2021 - 14:03:25, level 1 started
 [Info], 16/ژوئیهٔ/2021 - 14:04:15, Q logged in!
 [Info], 16/ژوئیهٔ/2021 - 14:04:17, level 1 started
+[Error], 16/Jul/2021 - 16:07:38, There isn`t any user with this username!
+[Info], 16/Jul/2021 - 16:08:07, Q logged in!
+[Info], 16/Jul/2021 - 16:08:10, level 1 started
+[Info], 16/Jul/2021 - 16:08:16, Q logged in!
+[Info], 16/Jul/2021 - 16:08:18, level 1 started
+[Info], 16/Jul/2021 - 16:11:10, Q logged in!
+[Info], 16/Jul/2021 - 16:11:12, level 1 started
+[Info], 16/Jul/2021 - 16:11:28, EggPowderPlantbuilt!
+[Info], 16/Jul/2021 - 16:11:32, turned 1
+[Error], 16/Jul/2021 - 16:11:36, Incorrect command!
+[Info], 16/Jul/2021 - 16:11:37, IceCreamFactorybuilt!
+[Info], 16/Jul/2021 - 16:11:38, FeatherFactorybuilt!
+[Info], 16/Jul/2021 - 16:11:40, TailoringFactorybuilt!
+[Info], 16/Jul/2021 - 16:11:41, CookieBakerybuilt!
+[Error], 16/Jul/2021 - 16:11:42, Incorrect command!
+[Info], 16/Jul/2021 - 16:11:44, turned 1
+[Error], 16/Jul/2021 - 16:12:03, TailoringFactory not enough product!
+[Info], 16/Jul/2021 - 16:12:05, Drainaged successfully
+[Info], 16/Jul/2021 - 16:12:07, turned 1
+[Error], 16/Jul/2021 - 16:12:09, The water buket is full!
+[Error], 16/Jul/2021 - 16:12:10, The water buket is full!
+[Info], 16/Jul/2021 - 16:12:11, turned 1
+[Error], 16/Jul/2021 - 16:12:17, not enough coin
+[Info], 16/Jul/2021 - 16:12:22, turned 1
+[Error], 16/Jul/2021 - 16:12:25, not enough coin
+[Info], 16/Jul/2021 - 16:12:28, turned 1
+[Info], 16/Jul/2021 - 16:15:58, Q logged in!
+[Info], 16/Jul/2021 - 16:15:59, level 1 started
+[Info], 16/Jul/2021 - 16:16:04, turned 1
+[Info], 16/Jul/2021 - 16:16:11, turned 1
+[Info], 16/Jul/2021 - 16:16:14, purchased a turkey
+[Info], 16/Jul/2021 - 16:16:14, purchased a buffalo
+[Info], 16/Jul/2021 - 16:16:15, purchased a buffalo
+[Info], 16/Jul/2021 - 16:16:15, purchased a cat
+[Info], 16/Jul/2021 - 16:16:17, You win level1
+[Error], 16/Jul/2021 - 16:45:32, Wrong password!
+[Info], 16/Jul/2021 - 16:45:35, Q logged in!
+[Info], 16/Jul/2021 - 16:45:37, level 1 started
+[Error], 16/Jul/2021 - 16:59:22, There isn`t any user with this username!
+[Info], 16/Jul/2021 - 17:26:11,  signed up

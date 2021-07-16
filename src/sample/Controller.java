@@ -48,18 +48,34 @@ public class Controller {
     TextField passwordTextField;
 
     public void mainMenuScene() throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        Main.window.setScene(new Scene(root, 800 , 500));
+        Pane root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        InputStream stream=new FileInputStream("F:\\image\\firstPage.jpg");
+        Image image=new Image(stream);
+        ImageView imageView=new ImageView();
+        imageView.setImage(image);
+        root.getChildren().add(0,imageView);
+        Main.window.setScene(new Scene(root , 800 , 500));
+        Main.window.setTitle("Farm Frenzy");
 
     }
 
     public void signUpScene() throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("signUpScene.fxml"));
+        Pane root = FXMLLoader.load(getClass().getResource("signUpScene.fxml"));
+        InputStream stream=new FileInputStream("F:\\image\\login.jpg");
+        Image image=new Image(stream);
+        ImageView imageView=new ImageView();
+        imageView.setImage(image);
+        root.getChildren().add(0,imageView);
         Main.window.setScene(new Scene(root , 800 , 500));
     }
 
     public void logInScene() throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("logInScene.fxml"));
+        Pane root = FXMLLoader.load(getClass().getResource("logInScene.fxml"));
+        InputStream stream=new FileInputStream("F:\\image\\login.jpg");
+        Image image=new Image(stream);
+        ImageView imageView=new ImageView();
+        imageView.setImage(image);
+        root.getChildren().add(0,imageView);
         Main.window.setScene(new Scene(root , 800 , 500));
     }
 
