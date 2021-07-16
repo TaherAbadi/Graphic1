@@ -1,18 +1,20 @@
 package sample;
 
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.scene.Node;
 import javafx.scene.control.Button;
-import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
 import noGraphic.Manager;
 import noGraphic.Animal;
-import noGraphic.Land;
-import noGraphic.Field;
+import noGraphic.Grass;
 
 import noGraphic.ReadWriteFile;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class GameControll {
     final static String ERROR="Incorrect command!";
@@ -41,13 +43,8 @@ public class GameControll {
 
 
     public void initialize(){
-        for (int i = 0; i <6 ; i++) {
-            for (int j = 0; j <6 ; j++) {
-                for (Animal animal:Manager.land.fields[i][j].animals) {
-                    land.getChildren().add(animal);
-                }
-            }
-        }
+        addAnim();
+        mouseClick();
     }
 
     public void workEggPowderFac(){
@@ -171,6 +168,65 @@ public class GameControll {
     public void openWareHouse() throws IOException {
         // WareHouse.display();
     }
+    public void mouseClick(){
+        EventHandler<MouseEvent> eventHandler=new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent mouseEvent) {
+                if(!Manager.cage((int)mouseEvent.getX()/61,(int)mouseEvent.getY()/52)){
+                    int temp=Manager.pickUp((int)mouseEvent.getX()/61,(int)mouseEvent.getY()/52);
+                    if(temp==2){
+                        //TODO full warehouse
+                    }
+                    else if(temp==3){
+                        Manager.plantGrass(mouseEvent.getX(),mouseEvent.getY());
+                    }
+                }
+            }
+        } ;
+        land.addEventFilter(MouseEvent.MOUSE_CLICKED,eventHandler);
+    }
+    public void addAnim(){
+        for (int i = 0; i <6 ; i++) {
+            for (int j = 0; j <6 ; j++) {
+                for (Animal animal:Manager.land.fields[i][j].animals) {
+                    if(!land.getChildren().contains(animal))
+                        land.getChildren().add(animal);
+                }
+                for (Grass grass:Manager.land.fields[i][j].grasses) {
+                    if(!land.getChildren().contains(grass))
+                        land.getChildren().add(grass);
+                }
+            }
+        }
+        ArrayList<Node> toRemove=new ArrayList<Node>();
+        for (Node imageview:land.getChildren()) {
+           if(imageview instanceof Animal){
+               boolean b=false;
+               for (int i = 0; i <6 ; i++) {
+                   for (int j = 0; j < 6; j++) {
+                       if(Manager.land.fields[i][j].animals.contains(imageview))
+                           b=true;
+                   }
+               }
+               if(b==false)
+                   toRemove.add(imageview);
+           }
+            if(imageview instanceof Grass){
+                boolean b=false;
+                for (int i = 0; i <6 ; i++) {
+                    for (int j = 0; j < 6; j++) {
+                        if(Manager.land.fields[i][j].grasses.contains(imageview))
+                            b=true;
+                    }
+                }
+                if(b==false)
+                    toRemove.add(imageview);
+            }
+        }
+        land.getChildren().removeAll(toRemove);
+
+    }
+
 
 
 

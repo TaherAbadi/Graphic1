@@ -216,7 +216,7 @@
             </GridPane>
          </bottom>
          <center>
-            <Pane fx:id="land" maxHeight="390.0" maxWidth="390.0" minHeight="390.0" minWidth="390.0" prefHeight="390.0" prefWidth="390.0" BorderPane.alignment="CENTER" />
+            <Pane fx:id="land" maxHeight="314.0" maxWidth="366.0" minHeight="314.0" minWidth="366.0" prefHeight="314.0" prefWidth="366.0" BorderPane.alignment="CENTER" />
          </center>
       </BorderPane>
    </children>

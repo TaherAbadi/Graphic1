@@ -122,10 +122,10 @@ public class Manager {
     public static boolean drainge(){
         return well.drainage();
     }
-    static public boolean plantGrass(int x, int y){
-        return land.fields[x-1][y-1].plantGrass();
+    static public boolean plantGrass(double x, double y){
+        return land.fields[(int)x/61][(int)y/52].plantGrass(x,y);
     }
-    static void cage(int x, int y){
+    public static boolean cage(int x, int y){
         boolean caged=false;
         ArrayList<WildAnimal> toRemove=new ArrayList <WildAnimal>();
         for (Animal animal:land.fields[x-1][y-1].animals) {
@@ -152,6 +152,7 @@ public class Manager {
 
         if(caged==false)
             ReadWriteFile.WriteLogger(false,"There is no wild animal in");
+        return caged;
     }
     public static int update(int n){
         for (int i = 0; i <n ; i++) {

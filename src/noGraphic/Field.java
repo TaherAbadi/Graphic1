@@ -1,5 +1,6 @@
 package noGraphic;
 
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
 /**
@@ -14,9 +15,14 @@ public class Field {
         products=new ArrayList <Product>();
         grasses=new ArrayList <Grass>();
     }
-    public boolean plantGrass(){
+    public boolean plantGrass(double x,double y){
         if(Manager.well.useWater()){
-            Grass grass=new Grass();
+            Grass grass= null;
+            try {
+                grass = new Grass(x,y);
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            }
             this.grasses.add(grass);
             return true;
         }

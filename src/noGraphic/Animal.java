@@ -20,9 +20,17 @@ public class Animal extends ImageView{
     protected int length;
     protected String name;
 
+    public int getWidth() {
+        return width;
+    }
+
+    public int getLength() {
+        return length;
+    }
+
     public void setImageView() {
-        this.setX(this.length*65);
-        this.setY(this.width*65-50);
+        this.setX(this.length*61+30);
+        this.setY(this.width*52.3+26);
     }
 
     public String getName() {

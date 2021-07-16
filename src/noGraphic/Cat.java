@@ -19,6 +19,8 @@ public class Cat extends Animal {
         InputStream stream=new FileInputStream("F:\\image\\cat.png");
         Image image=new Image(stream);
         this.setImage(image);
+        this.setFitHeight(30);
+        this.setFitWidth(30);
 
         this.name="Cat"+ String.valueOf(numberOfCats);
         Random random=new Random();
