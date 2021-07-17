@@ -47,9 +47,15 @@ public class Buffalo extends DomesticAnimal {
     public void updateProduce(){
         this.produce++;
         if(this.produce==this.TIME_TO_PRODUCE){
-            Milk milk=new Milk(this.length,this.width);
-            Manager.land.fields[milk.x - 1][milk.y - 1].products.add(milk);
-            this.produce=0;
+            Milk milk= null;
+            try {
+                milk = new Milk(this.length,this.width);
+                Manager.land.fields[milk.x - 1][milk.y - 1].products.add(milk);
+                this.produce=0;
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            }
+
         }
 
     }

@@ -1,5 +1,8 @@
 package noGraphic;
 import javax.swing.text.Element;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Random;
 import javafx.scene.image.ImageView;
@@ -38,7 +41,26 @@ public class WildAnimal extends Animal {
     public void caged(ArrayList<WildAnimal> toRemove){
         caged--;
         if(caged<=0){
-            CaughtAnimal caughtAnimal=new CaughtAnimal(this.length,this.width,price);
+            InputStream stream=null;
+            if(this instanceof Lion){
+                try {
+                    stream=new FileInputStream("F:\\image\\CagedLion.png");
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                }
+            }
+            else if(this instanceof Bear){
+                try {
+                    stream=new FileInputStream("F:\\image\\CagedGrizzly.png");
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                }
+            }
+            else {
+                //todo
+            }
+            Image image=new Image(stream);
+            CaughtAnimal caughtAnimal=new CaughtAnimal(this.length,this.width,price,image);
             Manager.land.fields[this.length-1][this.width-1].products.add(caughtAnimal);
             toRemove.add(this);
             //Manager.land.fields[this.length-1][this.width-1].animals.remove(this);

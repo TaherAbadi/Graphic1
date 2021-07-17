@@ -48,9 +48,15 @@ public class Turkey extends DomesticAnimal {
     public void updateProduce(){
         this.produce++;
         if(this.produce==this.TIME_TO_PRODUCE){
-            Feather feather=new Feather(this.length,this.width);
-            Manager.land.fields[feather.x-1][feather.y-1].products.add(feather);
-            this.produce=0;
+            Feather feather= null;
+            try {
+                feather = new Feather(this.length,this.width);
+                Manager.land.fields[feather.x-1][feather.y-1].products.add(feather);
+                this.produce=0;
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            }
+
         }
 
     }

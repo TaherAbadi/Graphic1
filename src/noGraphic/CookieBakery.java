@@ -1,4 +1,5 @@
 package noGraphic;
+import java.io.FileNotFoundException;
 import java.util.Random;
 
 
@@ -30,8 +31,14 @@ public class CookieBakery extends WorkShop{
             if (progress >= this.timeToProduce){
                 this.isWorking=false;
                 Random random=new Random();
-                Bread newBread=new Bread(random.nextInt(6)+1 , random.nextInt(6)+1);
-                Manager.land.fields[newBread.x-1][newBread.y-1].products.add(newBread);
+                Bread newBread= null;
+                try {
+                    newBread = new Bread(random.nextInt(6)+1 , random.nextInt(6)+1);
+                    Manager.land.fields[newBread.x-1][newBread.y-1].products.add(newBread);
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                }
+
             }
         }
     }
