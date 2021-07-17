@@ -22,7 +22,7 @@ public class Manager {
     static int missionCoin;
     static Land land=new Land();
     static Well well=new Well();
-    static WareHouse wareHouse=new WareHouse();
+    public static WareHouse wareHouse=new WareHouse();
     static MilkBoxing milkBoxing=new MilkBoxing();
     static IceCreamFactory iceCreamFactory=new IceCreamFactory();
     static EggPowderPlant eggPowderPlant=new EggPowderPlant();
@@ -69,6 +69,8 @@ public class Manager {
         }
         return false;
     }
+
+
 
     static public void buyAnimal(String animal) {
         if(animal.equals("Hen")){
