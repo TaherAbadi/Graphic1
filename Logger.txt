@@ -3963,3 +3963,495 @@
 [Info], 18/ژوئیهٔ/2021 - 01:38:26, turned 1
 [Error], 18/ژوئیهٔ/2021 - 01:38:27, There is no wild animal in
 [Info], 18/ژوئیهٔ/2021 - 01:38:28, turned 1
+[Info], 18/Jul/2021 - 02:53:25,  logged in!
+[Info], 18/Jul/2021 - 02:53:27, level 1 started
+[Info], 18/Jul/2021 - 02:53:33, purchased a turkey
+[Info], 18/Jul/2021 - 02:53:34, purchased a buffalo
+[Info], 18/Jul/2021 - 02:53:35, purchased a buffalo
+[Info], 18/Jul/2021 - 02:53:36, purchased a cat
+[Info], 18/Jul/2021 - 02:53:39, turned 1
+[Error], 18/Jul/2021 - 02:53:44, There is no wild animal in
+[Error], 18/Jul/2021 - 02:53:44, There is no wild animal in
+[Info], 18/Jul/2021 - 02:53:45, Drainaged successfully
+[Error], 18/Jul/2021 - 02:53:46, There is no wild animal in
+[Error], 18/Jul/2021 - 02:53:46, There is no wild animal in
+[Error], 18/Jul/2021 - 02:53:47, There is no wild animal in
+[Error], 18/Jul/2021 - 02:53:48, There is no wild animal in
+[Error], 18/Jul/2021 - 02:53:48, There is no wild animal in
+[Error], 18/Jul/2021 - 02:53:49, There is no wild animal in
+[Error], 18/Jul/2021 - 02:53:50, There is no wild animal in
+[Info], 18/Jul/2021 - 02:53:51, Drainaged successfully
+[Error], 18/Jul/2021 - 02:53:51, There is no wild animal in
+[Error], 18/Jul/2021 - 02:53:52, There is no wild animal in
+[Error], 18/Jul/2021 - 02:53:52, There is no wild animal in
+[Error], 18/Jul/2021 - 02:53:52, There is no wild animal in
+[Error], 18/Jul/2021 - 02:53:53, There is no wild animal in
+[Error], 18/Jul/2021 - 02:53:53, There is no wild animal in
+[Error], 18/Jul/2021 - 02:53:53, There is no wild animal in
+[Error], 18/Jul/2021 - 02:53:53, There is no wild animal in
+[Error], 18/Jul/2021 - 02:53:53, There is no wild animal in
+[Info], 18/Jul/2021 - 02:53:54, Drainaged successfully
+[Error], 18/Jul/2021 - 02:53:56, The water buket is full!
+[Error], 18/Jul/2021 - 02:53:57, There is no wild animal in
+[Error], 18/Jul/2021 - 02:53:57, There is no wild animal in
+[Error], 18/Jul/2021 - 02:53:58, There is no wild animal in
+[Error], 18/Jul/2021 - 02:53:58, There is no wild animal in
+[Error], 18/Jul/2021 - 02:53:59, There is no wild animal in
+[Info], 18/Jul/2021 - 02:54:00, turned 1
+[Info], 18/Jul/2021 - 02:54:01, turned 1
+[Info], 18/Jul/2021 - 02:54:02, turned 1
+[Info], 18/Jul/2021 - 02:54:02, turned 1
+[Error], 18/Jul/2021 - 02:54:04, There is no wild animal in
+[Info], 18/Jul/2021 - 02:54:06, turned 1
+[Info], 18/Jul/2021 - 02:54:06, turned 1
+[Info], 18/Jul/2021 - 02:54:07, turned 1
+[Info], 18/Jul/2021 - 02:54:08, turned 1
+[Info], 18/Jul/2021 - 02:54:08, turned 1
+[Info], 18/Jul/2021 - 02:54:09, turned 1
+[Info], 18/Jul/2021 - 02:54:09, turned 1
+[Info], 18/Jul/2021 - 02:54:10, turned 1
+[Info], 18/Jul/2021 - 02:54:10, turned 1
+[Info], 18/Jul/2021 - 02:54:11, turned 1
+[Info], 18/Jul/2021 - 02:54:11, turned 1
+[Info], 18/Jul/2021 - 02:54:12, turned 1
+[Info], 18/Jul/2021 - 02:54:13, turned 1
+[Info], 18/Jul/2021 - 02:54:13, turned 1
+[Info], 18/Jul/2021 - 02:54:14, turned 1
+[Info], 18/Jul/2021 - 02:54:14, turned 1
+[Info], 18/Jul/2021 - 02:54:15, turned 1
+[Info], 18/Jul/2021 - 02:54:15, turned 1
+[Info], 18/Jul/2021 - 02:54:16, turned 1
+[Info], 18/Jul/2021 - 02:54:16, turned 1
+[Info], 18/Jul/2021 - 02:54:17, turned 1
+[Info], 18/Jul/2021 - 02:54:17, turned 1
+[Info], 18/Jul/2021 - 02:54:18, turned 1
+[Info], 18/Jul/2021 - 02:54:18, turned 1
+[Info], 18/Jul/2021 - 02:54:19, turned 1
+[Info], 18/Jul/2021 - 02:54:19, turned 1
+[Info], 18/Jul/2021 - 02:54:20, turned 1
+[Info], 18/Jul/2021 - 02:54:20, turned 1
+[Info], 18/Jul/2021 - 02:54:21, turned 1
+[Info], 18/Jul/2021 - 02:54:21, turned 1
+[Info], 18/Jul/2021 - 02:54:22, turned 1
+[Info], 18/Jul/2021 - 02:54:22, turned 1
+[Info], 18/Jul/2021 - 02:54:23, turned 1
+[Info], 18/Jul/2021 - 02:54:23, turned 1
+[Info], 18/Jul/2021 - 02:54:24, turned 1
+[Info], 18/Jul/2021 - 02:54:24, turned 1
+[Info], 18/Jul/2021 - 02:54:25, turned 1
+[Info], 18/Jul/2021 - 02:54:25, turned 1
+[Info], 18/Jul/2021 - 02:54:26, turned 1
+[Info], 18/Jul/2021 - 02:54:26, turned 1
+[Info], 18/Jul/2021 - 02:54:27, turned 1
+[Info], 18/Jul/2021 - 02:54:27, turned 1
+[Info], 18/Jul/2021 - 02:54:28, turned 1
+[Info], 18/Jul/2021 - 02:54:29, turned 1
+[Info], 18/Jul/2021 - 02:54:29, turned 1
+[Info], 18/Jul/2021 - 02:54:29, turned 1
+[Info], 18/Jul/2021 - 02:54:30, turned 1
+[Info], 18/Jul/2021 - 02:54:30, turned 1
+[Info], 18/Jul/2021 - 02:54:30, turned 1
+[Info], 18/Jul/2021 - 02:54:32, A lion caged successfully in 2 3
+[Info], 18/Jul/2021 - 02:54:32, A lion caged successfully in 2 3
+[Info], 18/Jul/2021 - 02:54:34, A bear caged successfully in 2 1
+[Info], 18/Jul/2021 - 02:54:34, A bear caged successfully in 2 1
+[Info], 18/Jul/2021 - 02:54:34, A bear caged successfully in 2 1
+[Info], 18/Jul/2021 - 02:54:35, A bear caged successfully in 1 0
+[Info], 18/Jul/2021 - 02:54:36, A bear caged successfully in 1 0
+[Info], 18/Jul/2021 - 02:54:36, A bear caged successfully in 1 0
+[Info], 18/Jul/2021 - 02:54:38, A lion caged successfully in 5 3
+[Info], 18/Jul/2021 - 02:54:38, A lion caged successfully in 5 3
+[Info], 18/Jul/2021 - 02:54:40, turned 1
+[Info], 18/Jul/2021 - 02:54:40, turned 1
+[Info], 18/Jul/2021 - 02:54:40, turned 1
+[Error], 18/Jul/2021 - 02:54:49, there isn`t anyMilkin the warehouse
+[Info], 18/Jul/2021 - 02:55:00, turned 1
+[Info], 18/Jul/2021 - 02:55:00, turned 1
+[Info], 18/Jul/2021 - 02:55:01, turned 1
+[Info], 18/Jul/2021 - 02:55:01, turned 1
+[Info], 18/Jul/2021 - 02:55:01, turned 1
+[Info], 18/Jul/2021 - 02:55:01, turned 1
+[Info], 18/Jul/2021 - 02:55:01, turned 1
+[Info], 18/Jul/2021 - 02:55:02, turned 1
+[Info], 18/Jul/2021 - 02:55:02, turned 1
+[Info], 18/Jul/2021 - 02:55:02, turned 1
+[Info], 18/Jul/2021 - 02:55:02, turned 1
+[Info], 18/Jul/2021 - 02:55:04, turned 1
+[Info], 18/Jul/2021 - 02:55:05, A lion caged successfully in 3 5
+[Info], 18/Jul/2021 - 02:55:05, A lion caged successfully in 3 5
+[Info], 18/Jul/2021 - 02:55:09, turned 1
+[Info], 18/Jul/2021 - 02:55:11, A lion caged successfully in 3 1
+[Info], 18/Jul/2021 - 02:55:11, A lion caged successfully in 3 1
+[Info], 18/Jul/2021 - 02:55:16, turned 1
+[Info], 18/Jul/2021 - 02:55:16, turned 1
+[Info], 18/Jul/2021 - 02:55:17, turned 1
+[Info], 18/Jul/2021 - 02:55:18, A bear caged successfully in 5 1
+[Info], 18/Jul/2021 - 02:55:18, A bear caged successfully in 5 1
+[Info], 18/Jul/2021 - 02:55:18, A bear caged successfully in 5 1
+[Info], 18/Jul/2021 - 02:55:20, turned 1
+[Info], 18/Jul/2021 - 02:55:21, turned 1
+[Info], 18/Jul/2021 - 02:55:21, turned 1
+[Info], 18/Jul/2021 - 02:55:21, turned 1
+[Info], 18/Jul/2021 - 02:55:22, turned 1
+[Info], 18/Jul/2021 - 02:55:22, turned 1
+[Info], 18/Jul/2021 - 02:55:23, purchased a hen
+[Info], 18/Jul/2021 - 02:55:25, turned 1
+[Info], 18/Jul/2021 - 02:55:26, turned 1
+[Info], 18/Jul/2021 - 02:55:27, turned 1
+[Error], 18/Jul/2021 - 02:55:28, There is no wild animal in
+[Info], 18/Jul/2021 - 02:55:29, turned 1
+[Error], 18/Jul/2021 - 02:55:31, There is no wild animal in
+[Info], 18/Jul/2021 - 02:55:32, turned 1
+[Info], 18/Jul/2021 - 02:55:32, turned 1
+[Info], 18/Jul/2021 - 02:55:33, turned 1
+[Error], 18/Jul/2021 - 02:55:34, There is no wild animal in
+[Info], 18/Jul/2021 - 02:55:35, turned 1
+[Error], 18/Jul/2021 - 02:55:37, There is no wild animal in
+[Info], 18/Jul/2021 - 02:55:39, turned 1
+[Info], 18/Jul/2021 - 02:55:39, turned 1
+[Info], 18/Jul/2021 - 02:55:39, turned 1
+[Info], 18/Jul/2021 - 02:55:40, turned 1
+[Info], 18/Jul/2021 - 02:55:46, added egg to the truck
+[Info], 18/Jul/2021 - 02:55:46, added egg to the truck
+[Info], 18/Jul/2021 - 02:55:54, turned 1
+[Info], 18/Jul/2021 - 02:55:55, turned 1
+[Info], 18/Jul/2021 - 02:55:55, turned 1
+[Info], 18/Jul/2021 - 02:55:55, turned 1
+[Info], 18/Jul/2021 - 02:55:55, turned 1
+[Info], 18/Jul/2021 - 02:55:55, turned 1
+[Info], 18/Jul/2021 - 02:55:55, turned 1
+[Info], 18/Jul/2021 - 02:55:56, turned 1
+[Info], 18/Jul/2021 - 02:55:56, turned 1
+[Info], 18/Jul/2021 - 02:55:56, turned 1
+[Info], 18/Jul/2021 - 02:55:56, turned 1
+[Error], 18/Jul/2021 - 03:00:06, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:07, There is no wild animal in
+[Info], 18/Jul/2021 - 03:00:08, Drainaged successfully
+[Error], 18/Jul/2021 - 03:00:09, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:09, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:10, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:11, There is no wild animal in
+[Info], 18/Jul/2021 - 03:00:14, Drainaged successfully
+[Error], 18/Jul/2021 - 03:00:16, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:18, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:18, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:20, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:21, There is no wild animal in
+[Info], 18/Jul/2021 - 03:00:25, Drainaged successfully
+[Error], 18/Jul/2021 - 03:00:26, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:31, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:31, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:32, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:32, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:32, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:33, There is no wild animal in
+[Info], 18/Jul/2021 - 03:00:37, A lion caged successfully in 2 0
+[Info], 18/Jul/2021 - 03:00:38, Drainaged successfully
+[Error], 18/Jul/2021 - 03:00:40, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:40, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:40, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:41, There is no wild animal in
+[Info], 18/Jul/2021 - 03:00:44, Drainaged successfully
+[Error], 18/Jul/2021 - 03:00:47, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:47, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:47, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:47, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:49, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:49, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:49, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:49, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:49, There is no wild animal in
+[Info], 18/Jul/2021 - 03:00:50, Drainaged successfully
+[Error], 18/Jul/2021 - 03:00:50, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:51, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:51, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:51, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:51, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:52, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:52, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:52, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:52, There is no wild animal in
+[Info], 18/Jul/2021 - 03:00:53, Drainaged successfully
+[Error], 18/Jul/2021 - 03:00:54, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:54, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:55, There is no wild animal in
+[Error], 18/Jul/2021 - 03:00:55, There is no wild animal in
+[Info], 18/Jul/2021 - 03:03:10,  logged in!
+[Info], 18/Jul/2021 - 03:03:12, level 1 started
+[Info], 18/Jul/2021 - 03:03:15, Drainaged successfully
+[Error], 18/Jul/2021 - 03:03:16, There is no wild animal in
+[Error], 18/Jul/2021 - 03:03:17, There is no wild animal in
+[Error], 18/Jul/2021 - 03:03:17, There is no wild animal in
+[Error], 18/Jul/2021 - 03:03:18, There is no wild animal in
+[Error], 18/Jul/2021 - 03:03:18, There is no wild animal in
+[Error], 18/Jul/2021 - 03:03:18, There is no wild animal in
+[Error], 18/Jul/2021 - 03:03:19, There is no wild animal in
+[Info], 18/Jul/2021 - 03:03:19, Drainaged successfully
+[Error], 18/Jul/2021 - 03:03:20, There is no wild animal in
+[Error], 18/Jul/2021 - 03:03:20, There is no wild animal in
+[Error], 18/Jul/2021 - 03:03:20, There is no wild animal in
+[Error], 18/Jul/2021 - 03:03:21, There is no wild animal in
+[Error], 18/Jul/2021 - 03:03:21, There is no wild animal in
+[Info], 18/Jul/2021 - 03:03:27, turned 1
+[Info], 18/Jul/2021 - 03:03:29, purchased a buffalo
+[Info], 18/Jul/2021 - 03:03:30, purchased a turkey
+[Info], 18/Jul/2021 - 03:03:30, purchased a hen
+[Info], 18/Jul/2021 - 03:03:39, You win level1
+[Info], 18/Jul/2021 - 03:03:41, You win level2
+[Info], 18/Jul/2021 - 03:03:42, You win level3
+[Info], 18/Jul/2021 - 03:03:43, You win level4
+[Info], 18/Jul/2021 - 03:03:43, You win level5
+[Error], 18/Jul/2021 - 03:03:47, There is no wild animal in
+[Error], 18/Jul/2021 - 03:03:48, There is no wild animal in
+[Info], 18/Jul/2021 - 03:03:49, You win level6
+[Error], 18/Jul/2021 - 03:03:51, There is no wild animal in
+[Info], 18/Jul/2021 - 03:03:52, You win level7
+[Info], 18/Jul/2021 - 03:03:52, You win level8
+[Error], 18/Jul/2021 - 03:03:54, There is no wild animal in
+[Info], 18/Jul/2021 - 03:03:58, added egg to the truck
+[Info], 18/Jul/2021 - 03:03:59, added egg to the truck
+[Info], 18/Jul/2021 - 03:04:07, You win level9
+[Info], 18/Jul/2021 - 03:04:07, You win level10
+[Info], 18/Jul/2021 - 03:04:07, You win level11
+[Info], 18/Jul/2021 - 03:04:07, You win level12
+[Info], 18/Jul/2021 - 03:04:07, You win level13
+[Info], 18/Jul/2021 - 03:04:08, You win level14
+[Info], 18/Jul/2021 - 03:04:08, You win level15
+[Info], 18/Jul/2021 - 03:04:08, You win level16
+[Info], 18/Jul/2021 - 03:04:08, turned 1
+[Info], 18/Jul/2021 - 03:04:08, turned 1
+[Info], 18/Jul/2021 - 03:04:13, A lion caged successfully in 4 2
+[Info], 18/Jul/2021 - 03:04:13, A lion caged successfully in 4 2
+[Info], 18/Jul/2021 - 03:04:20, turned 1
+[Info], 18/Jul/2021 - 03:04:20, turned 1
+[Info], 18/Jul/2021 - 03:04:21, turned 1
+[Info], 18/Jul/2021 - 03:04:21, turned 1
+[Info], 18/Jul/2021 - 03:04:23, A bear caged successfully in 4 4
+[Info], 18/Jul/2021 - 03:04:23, A bear caged successfully in 4 4
+[Info], 18/Jul/2021 - 03:04:23, A bear caged successfully in 4 4
+[Info], 18/Jul/2021 - 03:04:27, turned 1
+[Info], 18/Jul/2021 - 03:04:28, turned 1
+[Info], 18/Jul/2021 - 03:04:28, turned 1
+[Info], 18/Jul/2021 - 03:04:37, Drainaged successfully
+[Info], 18/Jul/2021 - 03:04:49, A bear caged successfully in 3 2
+[Info], 18/Jul/2021 - 03:04:49, A bear caged successfully in 3 2
+[Info], 18/Jul/2021 - 03:04:50, A bear caged successfully in 3 2
+[Error], 18/Jul/2021 - 03:04:51, There is no wild animal in
+[Error], 18/Jul/2021 - 03:04:53, There is no wild animal in
+[Info], 18/Jul/2021 - 03:04:57, turned 1
+[Info], 18/Jul/2021 - 03:09:28, turned 1
+[Info], 18/Jul/2021 - 03:09:29, turned 1
+[Info], 18/Jul/2021 - 03:09:29, turned 1
+[Info], 18/Jul/2021 - 03:09:29, turned 1
+[Info], 18/Jul/2021 - 03:09:29, turned 1
+[Info], 18/Jul/2021 - 03:09:30, turned 1
+[Info], 18/Jul/2021 - 03:09:30, turned 1
+[Info], 18/Jul/2021 - 03:09:30, turned 1
+[Info], 18/Jul/2021 - 03:09:30, turned 1
+[Info], 18/Jul/2021 - 03:09:30, turned 1
+[Info], 18/Jul/2021 - 03:09:30, turned 1
+[Info], 18/Jul/2021 - 03:09:31, turned 1
+[Info], 18/Jul/2021 - 03:09:31, turned 1
+[Info], 18/Jul/2021 - 03:09:31, turned 1
+[Info], 18/Jul/2021 - 03:09:31, turned 1
+[Info], 18/Jul/2021 - 03:09:31, turned 1
+[Info], 18/Jul/2021 - 03:09:32, turned 1
+[Info], 18/Jul/2021 - 03:09:32, turned 1
+[Info], 18/Jul/2021 - 03:09:32, turned 1
+[Info], 18/Jul/2021 - 03:09:32, turned 1
+[Info], 18/Jul/2021 - 03:09:32, turned 1
+[Info], 18/Jul/2021 - 03:09:33, turned 1
+[Info], 18/Jul/2021 - 03:09:33, turned 1
+[Info], 18/Jul/2021 - 03:09:33, turned 1
+[Info], 18/Jul/2021 - 03:09:33, turned 1
+[Info], 18/Jul/2021 - 03:09:33, turned 1
+[Info], 18/Jul/2021 - 03:09:33, turned 1
+[Info], 18/Jul/2021 - 03:09:34, turned 1
+[Info], 18/Jul/2021 - 03:09:34, turned 1
+[Info], 18/Jul/2021 - 03:09:34, turned 1
+[Info], 18/Jul/2021 - 03:09:34, turned 1
+[Info], 18/Jul/2021 - 03:09:38, EggPowderPlantbuilt!
+[Info], 18/Jul/2021 - 03:09:56, IceCreamFactorybuilt!
+[Error], 18/Jul/2021 - 03:09:58, IceCreamFactory not enough product!
+[Info], 18/Jul/2021 - 03:10:00, turned 1
+[Error], 18/Jul/2021 - 03:10:06, Incorrect command!
+[Info], 18/Jul/2021 - 03:11:46,  logged in!
+[Info], 18/Jul/2021 - 03:11:48, level 1 started
+[Info], 18/Jul/2021 - 03:11:49, MilkBoxingbuilt!
+[Info], 18/Jul/2021 - 03:15:37,  logged in!
+[Info], 18/Jul/2021 - 03:15:39, level 1 started
+[Info], 18/Jul/2021 - 03:15:43, purchased a turkey
+[Info], 18/Jul/2021 - 03:15:45, purchased a hen
+[Info], 18/Jul/2021 - 03:15:53, turned 1
+[Info], 18/Jul/2021 - 03:15:55, purchased a buffalo
+[Info], 18/Jul/2021 - 03:15:57, Drainaged successfully
+[Error], 18/Jul/2021 - 03:15:57, There is no wild animal in
+[Error], 18/Jul/2021 - 03:15:58, There is no wild animal in
+[Error], 18/Jul/2021 - 03:15:58, There is no wild animal in
+[Error], 18/Jul/2021 - 03:15:58, There is no wild animal in
+[Error], 18/Jul/2021 - 03:15:58, There is no wild animal in
+[Error], 18/Jul/2021 - 03:15:58, There is no wild animal in
+[Error], 18/Jul/2021 - 03:15:59, There is no wild animal in
+[Info], 18/Jul/2021 - 03:16:02, You win level1
+[Info], 18/Jul/2021 - 03:16:02, You win level2
+[Info], 18/Jul/2021 - 03:16:02, You win level3
+[Info], 18/Jul/2021 - 03:16:02, You win level4
+[Info], 18/Jul/2021 - 03:16:03, You win level5
+[Info], 18/Jul/2021 - 03:16:03, You win level6
+[Error], 18/Jul/2021 - 03:16:04, There is no wild animal in
+[Error], 18/Jul/2021 - 03:16:05, There is no wild animal in
+[Info], 18/Jul/2021 - 03:16:07, A lion caged successfully in 1 2
+[Info], 18/Jul/2021 - 03:16:08, A lion caged successfully in 1 2
+[Info], 18/Jul/2021 - 03:16:08, A lion caged successfully in 1 2
+[Error], 18/Jul/2021 - 03:16:08, There is no wild animal in
+[Error], 18/Jul/2021 - 03:16:08, There is no wild animal in
+[Info], 18/Jul/2021 - 03:16:12, You win level7
+[Info], 18/Jul/2021 - 03:16:16, added caged lion to the truck
+[Error], 18/Jul/2021 - 03:16:17, not enough capacity in the truck
+[Error], 18/Jul/2021 - 03:16:20, not enough capacity in the truck
+[Error], 18/Jul/2021 - 03:16:22, there isn`t anyMilkin the warehouse
+[Error], 18/Jul/2021 - 03:16:23, there isn`t anyEggin the warehouse
+[Error], 18/Jul/2021 - 03:16:25, not enough capacity in the truck
+[Error], 18/Jul/2021 - 03:16:25, not enough capacity in the truck
+[Error], 18/Jul/2021 - 03:16:32, the truck is on way
+[Info], 18/Jul/2021 - 03:16:36, You win level8
+[Info], 18/Jul/2021 - 03:16:36, You win level9
+[Info], 18/Jul/2021 - 03:16:36, You win level10
+[Info], 18/Jul/2021 - 03:16:37, You win level11
+[Info], 18/Jul/2021 - 03:16:37, You win level12
+[Info], 18/Jul/2021 - 03:16:37, You win level13
+[Info], 18/Jul/2021 - 03:16:37, You win level14
+[Info], 18/Jul/2021 - 03:16:37, You win level15
+[Info], 18/Jul/2021 - 03:16:37, turned 1
+[Info], 18/Jul/2021 - 03:16:38, turned 1
+[Info], 18/Jul/2021 - 03:16:38, turned 1
+[Info], 18/Jul/2021 - 03:16:40, A lion caged successfully in 3 1
+[Info], 18/Jul/2021 - 03:16:40, A lion caged successfully in 3 1
+[Info], 18/Jul/2021 - 03:16:40, A lion caged successfully in 3 1
+[Error], 18/Jul/2021 - 03:16:41, There is no wild animal in
+[Info], 18/Jul/2021 - 03:16:42, A bear caged successfully in 3 2
+[Info], 18/Jul/2021 - 03:16:42, A bear caged successfully in 3 2
+[Info], 18/Jul/2021 - 03:16:42, A bear caged successfully in 3 2
+[Info], 18/Jul/2021 - 03:16:42, A bear caged successfully in 3 2
+[Error], 18/Jul/2021 - 03:16:43, There is no wild animal in
+[Error], 18/Jul/2021 - 03:16:44, There is no wild animal in
+[Info], 18/Jul/2021 - 03:16:44, A bear caged successfully in 3 0
+[Info], 18/Jul/2021 - 03:16:45, A bear caged successfully in 3 0
+[Info], 18/Jul/2021 - 03:16:45, A bear caged successfully in 3 0
+[Info], 18/Jul/2021 - 03:16:45, A bear caged successfully in 3 0
+[Error], 18/Jul/2021 - 03:16:45, There is no wild animal in
+[Info], 18/Jul/2021 - 03:16:50, turned 1
+[Info], 18/Jul/2021 - 03:16:51, turned 1
+[Info], 18/Jul/2021 - 03:16:51, turned 1
+[Info], 18/Jul/2021 - 03:16:52, turned 1
+[Info], 18/Jul/2021 - 03:16:52, turned 1
+[Info], 18/Jul/2021 - 03:16:52, turned 1
+[Info], 18/Jul/2021 - 03:16:52, turned 1
+[Info], 18/Jul/2021 - 03:16:52, turned 1
+[Info], 18/Jul/2021 - 03:16:53, turned 1
+[Info], 18/Jul/2021 - 03:16:53, turned 1
+[Info], 18/Jul/2021 - 03:16:53, turned 1
+[Info], 18/Jul/2021 - 03:16:53, turned 1
+[Info], 18/Jul/2021 - 03:16:53, turned 1
+[Info], 18/Jul/2021 - 03:16:54, turned 1
+[Info], 18/Jul/2021 - 03:16:54, turned 1
+[Info], 18/Jul/2021 - 03:16:54, turned 1
+[Info], 18/Jul/2021 - 03:16:54, turned 1
+[Info], 18/Jul/2021 - 03:16:54, turned 1
+[Info], 18/Jul/2021 - 03:16:55, turned 1
+[Info], 18/Jul/2021 - 03:16:55, turned 1
+[Info], 18/Jul/2021 - 03:16:55, turned 1
+[Info], 18/Jul/2021 - 03:16:55, turned 1
+[Info], 18/Jul/2021 - 03:16:55, turned 1
+[Info], 18/Jul/2021 - 03:16:56, turned 1
+[Info], 18/Jul/2021 - 03:16:56, turned 1
+[Info], 18/Jul/2021 - 03:16:56, turned 1
+[Info], 18/Jul/2021 - 03:16:56, turned 1
+[Info], 18/Jul/2021 - 03:16:57, turned 1
+[Info], 18/Jul/2021 - 03:16:57, turned 1
+[Info], 18/Jul/2021 - 03:16:57, turned 1
+[Info], 18/Jul/2021 - 03:16:57, turned 1
+[Info], 18/Jul/2021 - 03:16:57, turned 1
+[Info], 18/Jul/2021 - 03:16:58, turned 1
+[Info], 18/Jul/2021 - 03:16:58, turned 1
+[Info], 18/Jul/2021 - 03:16:58, turned 1
+[Info], 18/Jul/2021 - 03:16:58, turned 1
+[Info], 18/Jul/2021 - 03:16:59, A bear caged successfully in 1 2
+[Info], 18/Jul/2021 - 03:17:00, A bear caged successfully in 1 2
+[Info], 18/Jul/2021 - 03:17:00, A bear caged successfully in 1 2
+[Info], 18/Jul/2021 - 03:17:00, A bear caged successfully in 1 2
+[Error], 18/Jul/2021 - 03:17:00, There is no wild animal in
+[Error], 18/Jul/2021 - 03:17:02, not enough capacity in the truck
+[Error], 18/Jul/2021 - 03:17:03, not enough capacity in the truck
+[Error], 18/Jul/2021 - 03:17:03, not enough capacity in the truck
+[Info], 18/Jul/2021 - 03:17:42,  logged in!
+[Info], 18/Jul/2021 - 03:17:43, level 1 started
+[Info], 18/Jul/2021 - 03:17:48, purchased a hen
+[Info], 18/Jul/2021 - 03:17:53, purchased a turkey
+[Info], 18/Jul/2021 - 03:17:54, purchased a buffalo
+[Info], 18/Jul/2021 - 03:17:56, You win level1
+[Info], 18/Jul/2021 - 03:17:57, Drainaged successfully
+[Error], 18/Jul/2021 - 03:17:57, There is no wild animal in
+[Error], 18/Jul/2021 - 03:17:58, There is no wild animal in
+[Error], 18/Jul/2021 - 03:17:58, There is no wild animal in
+[Info], 18/Jul/2021 - 03:18:00, You win level2
+[Error], 18/Jul/2021 - 03:18:02, There is no wild animal in
+[Info], 18/Jul/2021 - 03:18:04, You win level3
+[Info], 18/Jul/2021 - 03:18:04, You win level4
+[Error], 18/Jul/2021 - 03:18:06, There is no wild animal in
+[Info], 18/Jul/2021 - 03:18:11, You win level5
+[Error], 18/Jul/2021 - 03:18:12, There is no wild animal in
+[Info], 18/Jul/2021 - 03:18:13, You win level6
+[Error], 18/Jul/2021 - 03:18:15, There is no wild animal in
+[Info], 18/Jul/2021 - 03:18:17, You win level7
+[Info], 18/Jul/2021 - 03:18:19, A lion caged successfully in 2 4
+[Info], 18/Jul/2021 - 03:18:19, A lion caged successfully in 2 4
+[Info], 18/Jul/2021 - 03:18:20, A lion caged successfully in 2 4
+[Error], 18/Jul/2021 - 03:18:24, There is no wild animal in
+[Info], 18/Jul/2021 - 03:18:28, You win level8
+[Error], 18/Jul/2021 - 03:18:30, There is no wild animal in
+[Info], 18/Jul/2021 - 03:18:31, A lion caged successfully in 1 1
+[Info], 18/Jul/2021 - 03:18:31, A lion caged successfully in 1 1
+[Info], 18/Jul/2021 - 03:18:31, A lion caged successfully in 1 1
+[Error], 18/Jul/2021 - 03:18:33, There is no wild animal in
+[Error], 18/Jul/2021 - 03:18:34, There is no wild animal in
+[Error], 18/Jul/2021 - 03:18:34, There is no wild animal in
+[Error], 18/Jul/2021 - 03:18:35, There is no wild animal in
+[Error], 18/Jul/2021 - 03:18:35, There is no wild animal in
+[Error], 18/Jul/2021 - 03:18:35, There is no wild animal in
+[Error], 18/Jul/2021 - 03:18:36, There is no wild animal in
+[Error], 18/Jul/2021 - 03:18:37, There is no wild animal in
+[Info], 18/Jul/2021 - 03:18:43, added caged lion to the truck
+[Error], 18/Jul/2021 - 03:18:47, not enough capacity in the truck
+[Error], 18/Jul/2021 - 03:18:48, not enough capacity in the truck
+[Error], 18/Jul/2021 - 03:18:49, not enough capacity in the truck
+[Error], 18/Jul/2021 - 03:18:50, there isn`t anyEggin the warehouse
+[Info], 18/Jul/2021 - 03:18:57, You win level9
+[Info], 18/Jul/2021 - 03:18:57, You win level10
+[Info], 18/Jul/2021 - 03:18:57, You win level11
+[Info], 18/Jul/2021 - 03:18:58, You win level12
+[Info], 18/Jul/2021 - 03:18:58, You win level13
+[Info], 18/Jul/2021 - 03:18:58, You win level14
+[Info], 18/Jul/2021 - 03:18:58, You win level15
+[Info], 18/Jul/2021 - 03:18:59, You win level16
+[Info], 18/Jul/2021 - 03:18:59, turned 1
+[Info], 18/Jul/2021 - 03:19:00, turned 1
+[Info], 18/Jul/2021 - 03:19:01, turned 1
+[Info], 18/Jul/2021 - 03:19:02, turned 1
+[Info], 18/Jul/2021 - 03:19:06, turned 1
+[Info], 18/Jul/2021 - 03:19:18, turned 1
+[Info], 18/Jul/2021 - 03:19:20, A bear caged successfully in 1 4
+[Error], 18/Jul/2021 - 03:19:21, There is no wild animal in
+[Info], 18/Jul/2021 - 03:19:23, A bear caged successfully in 1 4
+[Info], 18/Jul/2021 - 03:19:23, A bear caged successfully in 1 4
+[Info], 18/Jul/2021 - 03:19:23, A bear caged successfully in 1 4
+[Error], 18/Jul/2021 - 03:19:24, There is no wild animal in
+[Info], 18/Jul/2021 - 03:19:26, A bear caged successfully in 3 4
+[Info], 18/Jul/2021 - 03:19:26, A bear caged successfully in 3 4
+[Info], 18/Jul/2021 - 03:19:26, A bear caged successfully in 3 4
+[Info], 18/Jul/2021 - 03:19:27, A bear caged successfully in 3 4
+[Info], 18/Jul/2021 - 03:19:28, A bear caged successfully in 4 4
+[Info], 18/Jul/2021 - 03:19:28, A bear caged successfully in 4 4
+[Info], 18/Jul/2021 - 03:19:28, A bear caged successfully in 4 4
+[Info], 18/Jul/2021 - 03:19:28, A bear caged successfully in 4 4
+[Info], 18/Jul/2021 - 03:19:36, MilkBoxingbuilt!
