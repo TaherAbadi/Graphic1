@@ -3798,3 +3798,18 @@
 [Info], 17/Jul/2021 - 23:07:48, level 1 started
 [Info], 17/Jul/2021 - 23:14:41,  logged in!
 [Info], 17/Jul/2021 - 23:14:43, level 1 started
+[Info], 18/Jul/2021 - 01:47:37,  logged in!
+[Info], 18/Jul/2021 - 01:47:38, level 1 started
+[Info], 18/Jul/2021 - 01:47:40, purchased a hen
+[Info], 18/Jul/2021 - 01:47:41, purchased a turkey
+[Info], 18/Jul/2021 - 01:47:42, purchased a buffalo
+[Info], 18/Jul/2021 - 01:47:43, purchased a buffalo
+[Info], 18/Jul/2021 - 01:47:44, purchased a cat
+[Info], 18/Jul/2021 - 01:47:46, turned 1
+[Info], 18/Jul/2021 - 01:47:51, turned 1
+[Error], 18/Jul/2021 - 01:47:53, There is no wild animal in
+[Error], 18/Jul/2021 - 01:47:57, there isn`t anyEggin the warehouse
+[Info], 18/Jul/2021 - 01:57:14,  logged in!
+[Info], 18/Jul/2021 - 01:57:16, level 1 started
+[Info], 18/Jul/2021 - 02:08:09,  logged in!
+[Info], 18/Jul/2021 - 02:08:12, level 1 started

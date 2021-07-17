@@ -46,6 +46,11 @@ public class WareHouse {
     public Text FlourNumber;
     public Text MilkNumber;
     public Text IceCreamNumber;
+    public Text HenNumber;
+    public Text BufalloNumber;
+    public Text OstrichNumber;
+    public Text LionNumber;
+    public Text BearNumber;
 
 
     int rows;
@@ -64,6 +69,12 @@ public class WareHouse {
         FlourNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Flour"));
         MilkNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Milk"));
         IceCreamNumber.setText("* " + Manager.wareHouse.NumberOfProducts("IceCream"));
+        LionNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Lion"));
+        BearNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Bear"));
+        //IceCreamNumber.setText("* " + Manager.wareHouse.NumberOfProducts("IceCream"));
+       // HenNumber.setText("* " + Manager.wareHouse.Num("IceCream"));
+       // IceCreamNumber.setText("* " + Manager.wareHouse.NumberOfProducts("IceCream"));
+       // IceCreamNumber.setText("* " + Manager.wareHouse.NumberOfProducts("IceCream"));
     }
 
 
@@ -71,7 +82,7 @@ public class WareHouse {
         if(Manager.wareHouse.NumberOfProducts("Egg")>0){
          Manager.wareHouse.TakeProduct("Egg");
          Manager.loadTruck("Egg");
-         EggNumber.setText("+ " + Manager.wareHouse.NumberOfProducts("Egg"));
+         EggNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Egg"));
         }
     }
 
@@ -139,4 +150,39 @@ public class WareHouse {
         }
     }
 
+    public void sellHen(){
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+    public void sellLion(){
+        if(Manager.wareHouse.NumberOfProducts("Lion")>0){
+            Manager.wareHouse.TakeProduct("Lion");
+            Manager.loadTruck("Lion");
+            EggNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Lion"));
+        }
+
+    }
+
+    public void sellBear(){
+        if(Manager.wareHouse.NumberOfProducts("Bear")>0){
+            Manager.wareHouse.TakeProduct("Bear");
+            Manager.loadTruck("Bear");
+            EggNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Bear"));
+        }
+
+    }
+
+    public void truckGo(){
+        Manager.truckGo();
+    }
 }
