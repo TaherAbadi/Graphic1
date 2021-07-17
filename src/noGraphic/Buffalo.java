@@ -4,6 +4,8 @@
 package noGraphic;
 
 import javafx.scene.image.Image;
+import sample.AnimalAnim;
+import sample.Main;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -16,9 +18,11 @@ public class Buffalo extends DomesticAnimal {
 
     public Buffalo() throws FileNotFoundException {
         super("Buffalo"+String.valueOf(buffalos+1));
-        InputStream stream=new FileInputStream("F:\\image\\cow.png");
+        InputStream stream=new FileInputStream("F:\\image\\cow1.png");
         Image image=new Image(stream);
         this.setImage(image);
+        this.setFitHeight(60);
+        this.setFitWidth(60);
         this.price=PRICE;
         this.produce=0;
         buffalos++;
@@ -28,6 +32,8 @@ public class Buffalo extends DomesticAnimal {
         if(coin>=PRICE){
             try {
                 Buffalo newBuffalo=new Buffalo();
+                AnimalAnim animalAnim=new AnimalAnim(newBuffalo);
+                Main.animalAnims.add(animalAnim);
             }
             catch (Exception FileNotFoundException ){
 

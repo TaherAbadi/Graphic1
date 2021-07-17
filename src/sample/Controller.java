@@ -1,4 +1,5 @@
 package sample;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -7,16 +8,20 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
+import noGraphic.Land;
 import noGraphic.Manager;
 import noGraphic.ReadWriteFile;
+import noGraphic.Animal;
 
 import javax.swing.*;
 import java.awt.*;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+
 
 
 public class Controller {
@@ -113,6 +118,16 @@ public class Controller {
                 imageView.setImage(image);
                 rootGame.getChildren().add(0,imageView);
                 Main.window.setScene(new Scene(rootGame , 800 , 600));
+
+                EventHandler<MouseEvent> eventHandler=new EventHandler<MouseEvent>() {
+                    @Override
+                    public void handle(MouseEvent mouseEvent) {
+                        //Manager.plantGrass(mouseEvent.getX(),mouseEvent.getY());
+                        System.out.println(mouseEvent.getX()+mouseEvent.getY());
+                        //TODO
+                    }
+                };
+                //land.addEventFilter(MouseEvent.MOUSE_CLICKED,eventHandler);
                 Main.window.show();
             }
             else{

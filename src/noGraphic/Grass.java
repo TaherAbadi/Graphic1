@@ -1,4 +1,9 @@
 package noGraphic;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,8 +13,21 @@ import java.util.LinkedList;
 /**
  * Created by user on 29/05/2021.
  */
-public class Grass {
-    public Grass() {
+public class Grass extends ImageView {
+    public Grass(double x,double y) throws FileNotFoundException {
+        try {
+            InputStream stream=new FileInputStream("F:\\image\\grass.png");
+            Image image=new Image(stream);
+            this.setImage(image);
+            this.setFitHeight(30);
+            this.setFitWidth(30);
+            this.setX(x);
+            this.setY(y);
+        }
+        catch (Exception FileNotFoundException){
+
+        }
+
     }
     public boolean eat(ArrayList<Animal> animals){
         ArrayList<DomesticAnimal> domesticAnimals=new ArrayList <DomesticAnimal>();

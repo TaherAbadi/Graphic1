@@ -5,7 +5,7 @@ import java.util.ArrayList;
  * Created by user on 29/05/2021.
  */
 public class Land {
-    Field[][] fields=new Field[6][6];
+    public Field[][] fields=new Field[6][6];
 
     public Land() {
         this.fields=new Field[6][6];

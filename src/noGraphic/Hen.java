@@ -22,9 +22,11 @@ public class Hen extends DomesticAnimal {
 
     public Hen() throws FileNotFoundException {
         super("Hen"+String.valueOf(hens+1));
-        InputStream stream=new FileInputStream("F:\\image\\hen.png");
+        InputStream stream=new FileInputStream("F:\\image\\hen1.png");
         Image image=new Image(stream);
         this.setImage(image);
+        this.setFitHeight(60);
+        this.setFitWidth(60);
         this.price=PRICE;
         this.produce=0;
         hens++;
@@ -38,8 +40,6 @@ public class Hen extends DomesticAnimal {
             //System.out.println("+");
             try {
                 Hen newHen=new Hen();
-                Controller controller=new Controller();
-                controller.land.getChildren().add(newHen);
                 AnimalAnim animalAnim=new AnimalAnim(newHen);
                 Main.animalAnims.add(animalAnim);
             }

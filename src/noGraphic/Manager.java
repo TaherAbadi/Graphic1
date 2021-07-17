@@ -1,10 +1,7 @@
 package noGraphic;
 
-import java.lang.ref.SoftReference;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Random;
-import java.util.concurrent.ForkJoinPool;
 
 /**
  * Created by user on 29/05/2021.
@@ -20,7 +17,7 @@ public class Manager {
     static HashMap<String,Integer> missionProduct=new HashMap <String,Integer>();
     static HashMap<String,ArrayList<Integer>> wilds=new HashMap <String,ArrayList<Integer>>();
     static int missionCoin;
-    static Land land=new Land();
+    public static Land land=new Land();
     static Well well=new Well();
     public static WareHouse wareHouse=new WareHouse();
     static MilkBoxing milkBoxing=new MilkBoxing();
@@ -127,13 +124,13 @@ public class Manager {
     public static boolean drainge(){
         return well.drainage();
     }
-    static public boolean plantGrass(int x,int y){
-        return land.fields[x-1][y-1].plantGrass();
+    static public boolean plantGrass(double x, double y){
+        return land.fields[(int)x/61][(int)y/52].plantGrass(x,y);
     }
-    static void cage(int x, int y){
+    public static boolean cage(int x, int y){
         boolean caged=false;
         ArrayList<WildAnimal> toRemove=new ArrayList <WildAnimal>();
-        for (Animal animal:land.fields[x-1][y-1].animals) {
+        for (Animal animal:land.fields[x][y].animals) {
             if(animal instanceof Bear ){
                 ((Bear) animal).caged(toRemove);
                 ReadWriteFile.WriteLogger(true,"A bear caged successfully in "+String.valueOf(x)+" "+String.valueOf(y));
@@ -153,10 +150,11 @@ public class Manager {
                 caged=true;
             }
         }
-        land.fields[x-1][y-1].animals.removeAll(toRemove);
+        land.fields[x][y].animals.removeAll(toRemove);
 
         if(caged==false)
             ReadWriteFile.WriteLogger(false,"There is no wild animal in");
+        return caged;
     }
     public static int update(int n){
         for (int i = 0; i <n ; i++) {
