@@ -1,4 +1,5 @@
 package noGraphic;
+import java.io.FileNotFoundException;
 import java.util.Random;
 
 public class FeatherFactory extends  WorkShop{
@@ -14,8 +15,14 @@ public class FeatherFactory extends  WorkShop{
             if (progress >= this.timeToProduce){
                 this.isWorking=false;
                 Random random=new Random();
-                Fabric newFabric=new Fabric(random.nextInt(6)+1 , random.nextInt(6)+1);
-                Manager.land.fields[newFabric.x-1][newFabric.y-1].products.add(newFabric);
+                Fabric newFabric= null;
+                try {
+                    newFabric = new Fabric(random.nextInt(6)+1 , random.nextInt(6)+1);
+                    Manager.land.fields[newFabric.x-1][newFabric.y-1].products.add(newFabric);
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                }
+
             }
         }
     }

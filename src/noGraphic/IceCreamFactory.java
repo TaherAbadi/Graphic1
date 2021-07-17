@@ -1,4 +1,5 @@
 package noGraphic;
+import java.io.FileNotFoundException;
 import java.util.Random;
 
 public class IceCreamFactory extends WorkShop {
@@ -15,8 +16,14 @@ public class IceCreamFactory extends WorkShop {
             if (progress >= this.timeToProduce){
                 this.isWorking=false;
                 Random random=new Random();
-                IceCream newIceCream=new IceCream(random.nextInt(6)+1 , random.nextInt(6)+1);
-                Manager.land.fields[newIceCream.x-1][newIceCream.y-1].products.add(newIceCream);
+                IceCream newIceCream= null;
+                try {
+                    newIceCream = new IceCream(random.nextInt(6)+1 , random.nextInt(6)+1);
+                    Manager.land.fields[newIceCream.x-1][newIceCream.y-1].products.add(newIceCream);
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                }
+
             }
         }
     }

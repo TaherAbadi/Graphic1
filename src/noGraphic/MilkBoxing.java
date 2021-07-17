@@ -1,4 +1,5 @@
 package noGraphic;
+import java.io.FileNotFoundException;
 import java.util.Random;
 
 public class MilkBoxing extends WorkShop{
@@ -20,8 +21,14 @@ public class MilkBoxing extends WorkShop{
             if (progress >= this.timeToProduce){
                 this.isWorking=false;
                 Random random=new Random();
-                BoxedMilk newBoxedMilk=new BoxedMilk(random.nextInt(6)+1 , random.nextInt(6)+1);
-                Manager.land.fields[newBoxedMilk.x-1][newBoxedMilk.y-1].products.add(newBoxedMilk);
+                BoxedMilk newBoxedMilk= null;
+                try {
+                    newBoxedMilk = new BoxedMilk(random.nextInt(6)+1 , random.nextInt(6)+1);
+                    Manager.land.fields[newBoxedMilk.x-1][newBoxedMilk.y-1].products.add(newBoxedMilk);
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                }
+
             }
         }
     }

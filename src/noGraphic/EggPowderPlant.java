@@ -1,4 +1,5 @@
 package noGraphic;
+import java.io.FileNotFoundException;
 import java.util.Random;
 
 public class EggPowderPlant extends WorkShop{
@@ -13,9 +14,15 @@ public class EggPowderPlant extends WorkShop{
             if (progress >= this.timeToProduce){
                 this.isWorking=false;
                 Random random=new Random();
-                Flour newFlour=new Flour(random.nextInt(6)+1 , random.nextInt(6)+1);
-               // System.out.println("+");
-                Manager.land.fields[newFlour.x-1][newFlour.y-1].products.add(newFlour);
+                Flour newFlour= null;
+                try {
+                    newFlour = new Flour(random.nextInt(6)+1 , random.nextInt(6)+1);
+                    Manager.land.fields[newFlour.x-1][newFlour.y-1].products.add(newFlour);
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                }
+                // System.out.println("+");
+
             }
         }
     }
