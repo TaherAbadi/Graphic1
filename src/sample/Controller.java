@@ -263,7 +263,7 @@ public class Controller {
     }
     public void openWareHouse() throws IOException {
         WareHouse wareHouse = new WareHouse();
-        wareHouse.display();
+        //wareHouse.display();
     }
 
 

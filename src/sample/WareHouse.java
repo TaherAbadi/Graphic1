@@ -14,6 +14,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import noGraphic.Manager;
+import noGraphic.Milk;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -36,8 +37,16 @@ public class WareHouse {
     public ImageView product11;
     public ImageView product12;
     public ImageView product13;
-    public Label EggCounter= new Label("mmd");
-    public Text EggNumber = new Text();
+    public Text EggNumber;
+    public Text FeatherNumber;
+    public Text ClothesNumber;
+    public Text BreadNumber;
+    public Text BoxedMilkNumber;
+    public Text FabricNumber;
+    public Text FlourNumber;
+    public Text MilkNumber;
+    public Text IceCreamNumber;
+
 
     int rows;
     public GridPane gridPane1 = new GridPane();
@@ -45,36 +54,24 @@ public class WareHouse {
     public WareHouse() throws FileNotFoundException {
     }
 
-
-    public void display() throws IOException {
-        rows=1;
-        Stage window = new Stage();
-
-
-
-        window.initModality(Modality.APPLICATION_MODAL);
-        window.setTitle("wareHouse");
-        window.setMinWidth(800);
-        Pane root = FXMLLoader.load(WareHouse.class.getResource("wareHouseScene.fxml"));
-
-        EggNumber.setText("mmd");
-
-
-        InputStream stream=new FileInputStream("F:\\image\\WareHouseBackGround.png");
-        Image image=new Image(stream);
-        ImageView imageView=new ImageView();
-        imageView.setImage(image);
-        root.getChildren().add(0,imageView);
-        window.setScene(new Scene(root, 900 , 500));
-        window.showAndWait();
-
+    public void initialize(){
+        EggNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Egg"));
+        FeatherNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Feather"));
+        ClothesNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Clothes"));
+        BreadNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Bread"));
+        BoxedMilkNumber.setText("* " + Manager.wareHouse.NumberOfProducts("BoxedMilk"));
+        FabricNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Fabric"));
+        FlourNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Flour"));
+        MilkNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Milk"));
+        IceCreamNumber.setText("* " + Manager.wareHouse.NumberOfProducts("IceCream"));
     }
+
 
     public void sellEgg() throws IOException {
         if(Manager.wareHouse.NumberOfProducts("Egg")>0){
          Manager.wareHouse.TakeProduct("Egg");
          Manager.loadTruck("Egg");
-         this.display();
+         EggNumber.setText("+ " + Manager.wareHouse.NumberOfProducts("Egg"));
         }
     }
 
@@ -82,7 +79,7 @@ public class WareHouse {
         if(Manager.wareHouse.NumberOfProducts("Feather")>0){
             Manager.wareHouse.TakeProduct("Feather");
             Manager.loadTruck("Feather");
-            this.display();
+            FeatherNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Feather"));
         }
     }
 
@@ -90,7 +87,7 @@ public class WareHouse {
         if(Manager.wareHouse.NumberOfProducts("Milk")>0){
             Manager.wareHouse.TakeProduct("Milk");
             Manager.loadTruck("Milk");
-            this.display();
+            MilkNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Milk"));
         }
     }
 
@@ -98,7 +95,7 @@ public class WareHouse {
         if(Manager.wareHouse.NumberOfProducts("Flour")>0){
             Manager.wareHouse.TakeProduct("Flour");
             Manager.loadTruck("Flour");
-            this.display();
+            FlourNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Flour"));
         }
     }
 
@@ -106,7 +103,7 @@ public class WareHouse {
         if(Manager.wareHouse.NumberOfProducts("Fabric")>0){
             Manager.wareHouse.TakeProduct("Fabric");
             Manager.loadTruck("Fabric");
-            this.display();
+            FabricNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Fabric"));
         }
     }
 
@@ -114,7 +111,7 @@ public class WareHouse {
         if(Manager.wareHouse.NumberOfProducts("BoxedMilk")>0){
             Manager.wareHouse.TakeProduct("BoxedMilk");
             Manager.loadTruck("BoxedMilk");
-            this.display();
+            BoxedMilkNumber.setText("* " + Manager.wareHouse.NumberOfProducts("BoxedMilk"));
         }
     }
 
@@ -122,7 +119,7 @@ public class WareHouse {
         if(Manager.wareHouse.NumberOfProducts("Bread")>0){
             Manager.wareHouse.TakeProduct("Bread");
             Manager.loadTruck("Bread");
-            this.display();
+            BreadNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Bread"));
         }
     }
 
@@ -130,7 +127,7 @@ public class WareHouse {
         if(Manager.wareHouse.NumberOfProducts("Clothes")>0){
             Manager.wareHouse.TakeProduct("Clothes");
             Manager.loadTruck("Clothes");
-            this.display();
+            ClothesNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Clothes"));
         }
     }
 
@@ -138,7 +135,7 @@ public class WareHouse {
         if(Manager.wareHouse.NumberOfProducts("IceCream")>0){
             Manager.wareHouse.TakeProduct("IceCream");
             Manager.loadTruck("IceCream");
-            this.display();
+            IceCreamNumber.setText("* " + Manager.wareHouse.NumberOfProducts("IceCream"));
         }
     }
 

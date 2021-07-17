@@ -2,20 +2,27 @@ package sample;
 
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
 import noGraphic.Manager;
 import noGraphic.Animal;
 import noGraphic.Grass;
 
 import noGraphic.ReadWriteFile;
 
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 
 public class GameControll {
@@ -171,7 +178,18 @@ public class GameControll {
     }
     public void openWareHouse() throws IOException {
         WareHouse wareHouse = new WareHouse();
-        wareHouse.display();
+        Stage window = new Stage();
+        window.initModality(Modality.APPLICATION_MODAL);
+        window.setTitle("wareHouse");
+        window.setMinWidth(800);
+        Pane root = FXMLLoader.load(WareHouse.class.getResource("wareHouseScene.fxml"));
+        InputStream stream=new FileInputStream("F:\\image\\WareHouseBackGround.png");
+        Image image=new Image(stream);
+        ImageView imageView=new ImageView();
+        imageView.setImage(image);
+        root.getChildren().add(0,imageView);
+        window.setScene(new Scene(root, 900 , 500));
+        window.showAndWait();
     }
     public void mouseClick(){
         EventHandler<MouseEvent> eventHandler=new EventHandler<MouseEvent>() {

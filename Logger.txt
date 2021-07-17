@@ -3798,3 +3798,47 @@
 [Info], 17/Jul/2021 - 23:07:48, level 1 started
 [Info], 17/Jul/2021 - 23:14:41,  logged in!
 [Info], 17/Jul/2021 - 23:14:43, level 1 started
+[Info], 18/Jul/2021 - 00:04:44,  logged in!
+[Info], 18/Jul/2021 - 00:04:46, level 1 started
+[Info], 18/Jul/2021 - 00:13:35,  logged in!
+[Info], 18/Jul/2021 - 00:13:38, level 1 started
+[Info], 18/Jul/2021 - 00:16:52,  logged in!
+[Info], 18/Jul/2021 - 00:16:53, level 1 started
+[Info], 18/Jul/2021 - 01:08:45,  logged in!
+[Info], 18/Jul/2021 - 01:08:47, level 1 started
+[Info], 18/Jul/2021 - 01:08:57, Drainaged successfully
+[Error], 18/Jul/2021 - 01:08:58, There is no wild animal in
+[Error], 18/Jul/2021 - 01:08:58, There is no wild animal in
+[Error], 18/Jul/2021 - 01:08:59, There is no wild animal in
+[Info], 18/Jul/2021 - 01:09:00, turned 1
+[Info], 18/Jul/2021 - 01:09:02, purchased a buffalo
+[Info], 18/Jul/2021 - 01:09:03, purchased a turkey
+[Error], 18/Jul/2021 - 01:09:04, There is no wild animal in
+[Error], 18/Jul/2021 - 01:09:04, There is no wild animal in
+[Info], 18/Jul/2021 - 01:09:05, turned 1
+[Error], 18/Jul/2021 - 01:09:06, There is no wild animal in
+[Error], 18/Jul/2021 - 01:09:06, There is no wild animal in
+[Error], 18/Jul/2021 - 01:09:06, There is no wild animal in
+[Info], 18/Jul/2021 - 01:09:07, turned 1
+[Info], 18/Jul/2021 - 01:33:28,  logged in!
+[Info], 18/Jul/2021 - 01:33:31, level 1 started
+[Info], 18/Jul/2021 - 01:33:58,  logged in!
+[Info], 18/Jul/2021 - 01:34:00, level 1 started
+[Info], 18/Jul/2021 - 01:37:38,  logged in!
+[Info], 18/Jul/2021 - 01:37:40, level 1 started
+[Info], 18/Jul/2021 - 01:38:01,  logged in!
+[Info], 18/Jul/2021 - 01:38:02, level 1 started
+[Info], 18/Jul/2021 - 01:38:30,  logged in!
+[Info], 18/Jul/2021 - 01:38:31, level 1 started
+[Info], 18/Jul/2021 - 01:38:39, turned 1
+[Info], 18/Jul/2021 - 01:38:45, purchased a hen
+[Info], 18/Jul/2021 - 01:38:47, turned 1
+[Info], 18/Jul/2021 - 01:39:37,  logged in!
+[Info], 18/Jul/2021 - 01:39:38, level 1 started
+[Info], 18/Jul/2021 - 01:39:42, purchased a turkey
+[Info], 18/Jul/2021 - 01:39:43, turned 1
+[Info], 18/Jul/2021 - 01:39:48, turned 1
+[Info], 18/Jul/2021 - 01:39:55, purchased a turkey
+[Info], 18/Jul/2021 - 01:39:58, turned 1
+[Info], 18/Jul/2021 - 01:40:02, purchased a buffalo
+[Info], 18/Jul/2021 - 01:40:05, turned 1
