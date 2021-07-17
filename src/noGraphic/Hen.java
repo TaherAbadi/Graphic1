@@ -55,9 +55,15 @@ public class Hen extends DomesticAnimal {
     public void updateProduce(){
         this.produce++;
         if(this.produce==this.TIME_TO_PRODUCE){
-            Egg egg=new Egg(this.length,this.width);
-            Manager.land.fields[egg.x-1][egg.y-1].products.add(egg);
-            this.produce=0;
+            Egg egg= null;
+            try {
+                egg = new Egg(this.length,this.width);
+                Manager.land.fields[egg.x-1][egg.y-1].products.add(egg);
+                this.produce=0;
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            }
+
         }
 
     }
