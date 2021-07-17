@@ -3798,3 +3798,168 @@
 [Info], 17/Jul/2021 - 23:07:48, level 1 started
 [Info], 17/Jul/2021 - 23:14:41,  logged in!
 [Info], 17/Jul/2021 - 23:14:43, level 1 started
+[Info], 18/ژوئیهٔ/2021 - 01:06:49, 1 signed up
+[Info], 18/ژوئیهٔ/2021 - 01:06:55, purchased a buffalo
+[Info], 18/ژوئیهٔ/2021 - 01:06:56, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:06:56, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:06:59, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:07:00, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:07:02, purchased a turkey
+[Info], 18/ژوئیهٔ/2021 - 01:07:03, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:07:04, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:07:04, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:07:06, CookieBakerybuilt!
+[Info], 18/ژوئیهٔ/2021 - 01:07:07, Drainaged successfully
+[Error], 18/ژوئیهٔ/2021 - 01:07:07, The water buket is full!
+[Error], 18/ژوئیهٔ/2021 - 01:07:07, The water buket is full!
+[Error], 18/ژوئیهٔ/2021 - 01:07:07, The water buket is full!
+[Error], 18/ژوئیهٔ/2021 - 01:07:07, The water buket is full!
+[Error], 18/ژوئیهٔ/2021 - 01:07:07, The water buket is full!
+[Error], 18/ژوئیهٔ/2021 - 01:07:07, The water buket is full!
+[Error], 18/ژوئیهٔ/2021 - 01:07:07, The water buket is full!
+[Error], 18/ژوئیهٔ/2021 - 01:07:08, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:07:08, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:07:08, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:07:08, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:07:08, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:07:09, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:07:09, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:07:09, There is no wild animal in
+[Info], 18/ژوئیهٔ/2021 - 01:07:09, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:08:43, EggPowderPlantbuilt!
+[Error], 18/ژوئیهٔ/2021 - 01:08:44, CookieBakery not enough product!
+[Info], 18/ژوئیهٔ/2021 - 01:08:44, TailoringFactorybuilt!
+[Info], 18/ژوئیهٔ/2021 - 01:08:46, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:08:47, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:08:48, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:08:49, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:08:49, turned 1
+[Error], 18/ژوئیهٔ/2021 - 01:08:51, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:51, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:51, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:51, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:51, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:51, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:51, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:51, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:51, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:51, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:51, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:51, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:51, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:51, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:51, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:51, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:51, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:51, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:51, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:52, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:52, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:52, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:52, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:52, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:52, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:52, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:52, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:08:52, There is no wild animal in
+[Info], 18/ژوئیهٔ/2021 - 01:09:22, 1 logged in!
+[Info], 18/ژوئیهٔ/2021 - 01:09:24, level 1 started
+[Info], 18/ژوئیهٔ/2021 - 01:10:06, purchased a cat
+[Info], 18/ژوئیهٔ/2021 - 01:10:12, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:10:27, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:10:30, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:14:31, 1 logged in!
+[Info], 18/ژوئیهٔ/2021 - 01:14:33, level 1 started
+[Info], 18/ژوئیهٔ/2021 - 01:14:41, purchased a turkey
+[Info], 18/ژوئیهٔ/2021 - 01:14:42, purchased a buffalo
+[Info], 18/ژوئیهٔ/2021 - 01:14:43, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:14:44, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:14:45, purchased a buffalo
+[Info], 18/ژوئیهٔ/2021 - 01:14:46, You win level1
+[Info], 18/ژوئیهٔ/2021 - 01:14:47, You win level2
+[Info], 18/ژوئیهٔ/2021 - 01:14:48, purchased a cat
+[Info], 18/ژوئیهٔ/2021 - 01:14:49, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:14:50, EggPowderPlantbuilt!
+[Error], 18/ژوئیهٔ/2021 - 01:14:51, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:14:52, There is no wild animal in
+[Info], 18/ژوئیهٔ/2021 - 01:14:52, Drainaged successfully
+[Error], 18/ژوئیهٔ/2021 - 01:14:53, There is no wild animal in
+[Info], 18/ژوئیهٔ/2021 - 01:14:53, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:14:54, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:14:54, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:14:55, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:16:10, 1 logged in!
+[Info], 18/ژوئیهٔ/2021 - 01:16:11, level 1 started
+[Info], 18/ژوئیهٔ/2021 - 01:16:14, purchased a hen
+[Info], 18/ژوئیهٔ/2021 - 01:16:16, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:16:16, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:16:17, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:16:22, Drainaged successfully
+[Error], 18/ژوئیهٔ/2021 - 01:16:23, There is no wild animal in
+[Info], 18/ژوئیهٔ/2021 - 01:16:24, turned 1
+[Error], 18/ژوئیهٔ/2021 - 01:16:24, There is no wild animal in
+[Info], 18/ژوئیهٔ/2021 - 01:36:20, 1 logged in!
+[Info], 18/ژوئیهٔ/2021 - 01:36:24, level 1 started
+[Info], 18/ژوئیهٔ/2021 - 01:36:31, purchased a turkey
+[Info], 18/ژوئیهٔ/2021 - 01:36:32, purchased a hen
+[Info], 18/ژوئیهٔ/2021 - 01:36:35, purchased a buffalo
+[Info], 18/ژوئیهٔ/2021 - 01:36:41, You win level1
+[Info], 18/ژوئیهٔ/2021 - 01:36:42, You win level2
+[Info], 18/ژوئیهٔ/2021 - 01:36:43, You win level3
+[Info], 18/ژوئیهٔ/2021 - 01:36:44, You win level4
+[Info], 18/ژوئیهٔ/2021 - 01:36:45, You win level5
+[Error], 18/ژوئیهٔ/2021 - 01:36:47, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:36:48, There is no wild animal in
+[Info], 18/ژوئیهٔ/2021 - 01:36:50, You win level6
+[Error], 18/ژوئیهٔ/2021 - 01:36:51, There is no wild animal in
+[Info], 18/ژوئیهٔ/2021 - 01:36:53, You win level7
+[Info], 18/ژوئیهٔ/2021 - 01:36:54, You win level8
+[Info], 18/ژوئیهٔ/2021 - 01:36:55, You win level9
+[Info], 18/ژوئیهٔ/2021 - 01:36:56, You win level10
+[Info], 18/ژوئیهٔ/2021 - 01:36:58, You win level11
+[Info], 18/ژوئیهٔ/2021 - 01:37:00, purchased a turkey
+[Info], 18/ژوئیهٔ/2021 - 01:37:01, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:37:03, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:37:03, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:37:04, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:37:05, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:37:05, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:37:06, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:37:07, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:37:07, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:37:08, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:37:11, A bear caged successfully in 3 2
+[Info], 18/ژوئیهٔ/2021 - 01:37:11, A bear caged successfully in 3 2
+[Info], 18/ژوئیهٔ/2021 - 01:37:12, A bear caged successfully in 3 2
+[Info], 18/ژوئیهٔ/2021 - 01:37:12, A bear caged successfully in 3 2
+[Info], 18/ژوئیهٔ/2021 - 01:37:13, A lion caged successfully in 3 1
+[Info], 18/ژوئیهٔ/2021 - 01:37:13, A lion caged successfully in 3 1
+[Info], 18/ژوئیهٔ/2021 - 01:37:13, A lion caged successfully in 3 1
+[Info], 18/ژوئیهٔ/2021 - 01:37:20, A bear caged successfully in 2 5
+[Info], 18/ژوئیهٔ/2021 - 01:37:20, A bear caged successfully in 2 5
+[Info], 18/ژوئیهٔ/2021 - 01:37:20, A bear caged successfully in 2 5
+[Info], 18/ژوئیهٔ/2021 - 01:37:21, A bear caged successfully in 2 5
+[Error], 18/ژوئیهٔ/2021 - 01:37:21, There is no wild animal in
+[Info], 18/ژوئیهٔ/2021 - 01:37:21, A lion caged successfully in 3 4
+[Info], 18/ژوئیهٔ/2021 - 01:37:22, A lion caged successfully in 3 4
+[Info], 18/ژوئیهٔ/2021 - 01:37:22, A lion caged successfully in 3 4
+[Error], 18/ژوئیهٔ/2021 - 01:37:22, There is no wild animal in
+[Error], 18/ژوئیهٔ/2021 - 01:37:22, There is no wild animal in
+[Info], 18/ژوئیهٔ/2021 - 01:37:34, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:37:35, purchased a hen
+[Info], 18/ژوئیهٔ/2021 - 01:37:39, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:37:40, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:37:40, turned 1
+[Error], 18/ژوئیهٔ/2021 - 01:37:42, not enough coin
+[Error], 18/ژوئیهٔ/2021 - 01:37:44, not enough coin
+[Error], 18/ژوئیهٔ/2021 - 01:37:44, not enough coin
+[Error], 18/ژوئیهٔ/2021 - 01:37:44, not enough coin
+[Info], 18/ژوئیهٔ/2021 - 01:38:15, 1 logged in!
+[Info], 18/ژوئیهٔ/2021 - 01:38:17, level 1 started
+[Info], 18/ژوئیهٔ/2021 - 01:38:20, purchased a turkey
+[Info], 18/ژوئیهٔ/2021 - 01:38:22, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:38:24, purchased a hen
+[Info], 18/ژوئیهٔ/2021 - 01:38:25, turned 1
+[Info], 18/ژوئیهٔ/2021 - 01:38:26, turned 1
+[Error], 18/ژوئیهٔ/2021 - 01:38:27, There is no wild animal in
+[Info], 18/ژوئیهٔ/2021 - 01:38:28, turned 1

@@ -11,6 +11,7 @@ import javafx.scene.text.Text;
 import noGraphic.Manager;
 import noGraphic.Animal;
 import noGraphic.Grass;
+import noGraphic.Product;
 
 import noGraphic.ReadWriteFile;
 
@@ -45,7 +46,7 @@ public class GameControll {
 
 
     public void initialize(){
-        addAnim();
+        updateLand();
         wellClick();
         mouseClick();
         wareClick();
@@ -132,19 +133,24 @@ public class GameControll {
     }
     public void buyHen(){
         Manager.buyAnimal("Hen");
+       updateLand();
         //System.out.println("buy hen");
     }
     public void buyTurkey(){
         Manager.buyAnimal("Turkey");
+        updateLand();
     }
     public void buyBuffalo(){
         Manager.buyAnimal("Buffalo");
+        updateLand();
     }
     public void buyCat(){
         Manager.buyAnimal("Cat");
+        updateLand();
     }
     public void buyDog(){
         Manager.buyAnimal("Dog");
+        updateLand();
     }
     public void turn(){
         int temp= Manager.update(1);
@@ -156,7 +162,7 @@ public class GameControll {
                 }
             }
         }
-        initialize();
+        updateLand();
         coin.setText("coin:"+String.valueOf(Manager.coin));
         time.setText("time:"+String.valueOf(Manager.time));
         for (AnimalAnim animation:Main.animalAnims) {
@@ -177,19 +183,16 @@ public class GameControll {
         EventHandler<MouseEvent> eventHandler=new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent mouseEvent) {
-                //System.out.println((int)mouseEvent.getX()+" "+(int)mouseEvent.getY());
-                System.out.println((int)mouseEvent.getX()/61+" "+(int)mouseEvent.getY()/50);
                 if(!Manager.cage((int)mouseEvent.getX()/61,(int)mouseEvent.getY()/50)){
-                    System.out.println("pic");
                     int temp=Manager.pickUp(((int)mouseEvent.getX()/61)+1,((int)mouseEvent.getY()/52)+1);
                     if(temp==2){
                         //TODO full warehouse
                     }
                     else if(temp==3){
                         Manager.plantGrass(mouseEvent.getX(),mouseEvent.getY());
-                        System.out.println("grass");
                     }
                 }
+                updateLand();
             }
         } ;
         land.addEventFilter(MouseEvent.MOUSE_CLICKED,eventHandler);
@@ -219,7 +222,7 @@ public class GameControll {
         ware.addEventFilter(MouseEvent.MOUSE_CLICKED,eventHandler);
     }
 
-    public void addAnim(){
+    public void updateLand(){
         for (int i = 0; i <6 ; i++) {
             for (int j = 0; j <6 ; j++) {
                 for (Animal animal:Manager.land.fields[i][j].animals) {
@@ -230,6 +233,11 @@ public class GameControll {
                     if(!land.getChildren().contains(grass))
                         land.getChildren().add(grass);
                 }
+                for (Product product:Manager.land.fields[i][j].products) {
+                    if(!land.getChildren().contains(product))
+                        land.getChildren().add(product);
+                }
+
             }
         }
         ArrayList<Node> toRemove=new ArrayList<Node>();
@@ -256,6 +264,18 @@ public class GameControll {
                 if(b==false)
                     toRemove.add(imageview);
             }
+            if(imageview instanceof Product){
+                boolean b=false;
+                for (int i = 0; i <6 ; i++) {
+                    for (int j = 0; j < 6; j++) {
+                        if(Manager.land.fields[i][j].products.contains(imageview))
+                            b=true;
+                    }
+                }
+                if(b==false)
+                    toRemove.add(imageview);
+            }
+
         }
         land.getChildren().removeAll(toRemove);
 

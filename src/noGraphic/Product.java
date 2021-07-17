@@ -2,7 +2,10 @@
  * Created by user on 29/05/2021.
  */
 package noGraphic;
-public class Product {
+
+import javafx.scene.image.ImageView;
+
+public class Product extends ImageView {
     protected String name;
     protected int TimeToDestruction;
     protected int SpaceTaken;
@@ -11,6 +14,11 @@ public class Product {
     protected boolean InTheWarehouse;
     protected int x;
     protected int y;
+
+    public void imageLoc(){
+        this.setX((x-1)*61);
+        this.setY((y-1)*50);
+    }
 
     public void setOnTheGround(boolean onTheGround) {
         OnTheGround = onTheGround;
