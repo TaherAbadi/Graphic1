@@ -14,6 +14,7 @@ import noGraphic.Grass;
 
 import noGraphic.ReadWriteFile;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -47,6 +48,7 @@ public class GameControll {
         addAnim();
         wellClick();
         mouseClick();
+        wareClick();
     }
 
     public void workEggPowderFac(){
@@ -167,8 +169,9 @@ public class GameControll {
             //todo silverMedal
         }
     }
-    public void openWareHouse() {
-        // WareHouse.display();
+    public void openWareHouse() throws IOException {
+        WareHouse wareHouse = new WareHouse();
+        wareHouse.display();
     }
     public void mouseClick(){
         EventHandler<MouseEvent> eventHandler=new EventHandler<MouseEvent>() {
@@ -206,7 +209,11 @@ public class GameControll {
         EventHandler<MouseEvent> eventHandler=new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent mouseEvent) {
-                openWareHouse();
+                try {
+                    openWareHouse();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
         };
         ware.addEventFilter(MouseEvent.MOUSE_CLICKED,eventHandler);

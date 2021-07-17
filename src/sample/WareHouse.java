@@ -36,11 +36,11 @@ public class WareHouse {
     public ImageView product11;
     public ImageView product12;
     public ImageView product13;
-    InputStream stream=new FileInputStream("F:\\image\\Egg.png");
-    Image EggImage=new Image(stream);
+    public Label EggCounter= new Label("mmd");
+    public Text EggNumber = new Text();
 
     int rows;
-    public GridPane gridPane1;
+    public GridPane gridPane1 = new GridPane();
 
     public WareHouse() throws FileNotFoundException {
     }
@@ -57,12 +57,7 @@ public class WareHouse {
         window.setMinWidth(800);
         Pane root = FXMLLoader.load(WareHouse.class.getResource("wareHouseScene.fxml"));
 
-        if (Manager.wareHouse.getProductsStorage().get("Egg")>=0){
-        product1.setImage(EggImage);
-        }
-
-
-
+        EggNumber.setText("mmd");
 
 
         InputStream stream=new FileInputStream("F:\\image\\WareHouseBackGround.png");
@@ -73,6 +68,78 @@ public class WareHouse {
         window.setScene(new Scene(root, 900 , 500));
         window.showAndWait();
 
+    }
+
+    public void sellEgg() throws IOException {
+        if(Manager.wareHouse.NumberOfProducts("Egg")>0){
+         Manager.wareHouse.TakeProduct("Egg");
+         Manager.loadTruck("Egg");
+         this.display();
+        }
+    }
+
+    public void sellFeather() throws IOException {
+        if(Manager.wareHouse.NumberOfProducts("Feather")>0){
+            Manager.wareHouse.TakeProduct("Feather");
+            Manager.loadTruck("Feather");
+            this.display();
+        }
+    }
+
+    public void sellMilk() throws IOException {
+        if(Manager.wareHouse.NumberOfProducts("Milk")>0){
+            Manager.wareHouse.TakeProduct("Milk");
+            Manager.loadTruck("Milk");
+            this.display();
+        }
+    }
+
+    public void sellFlour() throws IOException {
+        if(Manager.wareHouse.NumberOfProducts("Flour")>0){
+            Manager.wareHouse.TakeProduct("Flour");
+            Manager.loadTruck("Flour");
+            this.display();
+        }
+    }
+
+    public void sellFabric() throws IOException {
+        if(Manager.wareHouse.NumberOfProducts("Fabric")>0){
+            Manager.wareHouse.TakeProduct("Fabric");
+            Manager.loadTruck("Fabric");
+            this.display();
+        }
+    }
+
+    public void sellBoxedMilk() throws IOException {
+        if(Manager.wareHouse.NumberOfProducts("BoxedMilk")>0){
+            Manager.wareHouse.TakeProduct("BoxedMilk");
+            Manager.loadTruck("BoxedMilk");
+            this.display();
+        }
+    }
+
+    public void sellBread() throws IOException {
+        if(Manager.wareHouse.NumberOfProducts("Bread")>0){
+            Manager.wareHouse.TakeProduct("Bread");
+            Manager.loadTruck("Bread");
+            this.display();
+        }
+    }
+
+    public void sellClothes() throws IOException {
+        if(Manager.wareHouse.NumberOfProducts("Clothes")>0){
+            Manager.wareHouse.TakeProduct("Clothes");
+            Manager.loadTruck("Clothes");
+            this.display();
+        }
+    }
+
+    public void sellIceCream() throws IOException {
+        if(Manager.wareHouse.NumberOfProducts("IceCream")>0){
+            Manager.wareHouse.TakeProduct("IceCream");
+            Manager.loadTruck("IceCream");
+            this.display();
+        }
     }
 
 }
