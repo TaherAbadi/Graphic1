@@ -163,8 +163,7 @@ public class GameControll {
             }
         }
         updateLand();
-        coin.setText("coin:"+String.valueOf(Manager.coin));
-        time.setText("time:"+String.valueOf(Manager.time));
+        printMissions();
         for (AnimalAnim animation:Main.animalAnims) {
             animation.play();
         }
@@ -279,6 +278,28 @@ public class GameControll {
         }
         land.getChildren().removeAll(toRemove);
 
+    }
+    public void printMissions(){
+        String missionPro="";
+        for (String animal:Manager.missionAnimal.keySet()) {
+            if(Manager.missionAnimal.get(animal)!=0){
+                for (String animalAvailable:Manager.animals.keySet()) {
+                       missionPro+=animal+":"+Manager.animals.get(animalAvailable)+"/"+Manager.missionAnimal.get(animal)+"\n";
+                }
+            }
+        }
+        String missionAnim="";
+        for (String product:Manager.missionProduct.keySet()) {
+            if(Manager.missionProduct.get(product)!=0){
+                for (String productAvailable:Manager.wareHouse.getProductsStorage().keySet()) {
+                    if(productAvailable.equals(product))
+                        if(Manager.wareHouse.getProductsStorage().get(productAvailable)==Manager.missionProduct.get(product))
+                           missionAnim+=productAvailable+":"+Manager.wareHouse.getProductsStorage().get(productAvailable)+"/"+Manager.missionProduct.get(product)+"\n";
+                }
+            }
+        }
+        coin.setText("coin:"+String.valueOf(Manager.coin)+"/"+Manager.missionCoin);
+        time.setText("time:"+String.valueOf(Manager.time));
     }
 
 

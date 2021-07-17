@@ -12,11 +12,11 @@ public class Manager {
     static int goldTime;
     static Users user;
     static HashMap<String,String> users=new HashMap <String,String>();
-    static HashMap<String,Integer> animals=new HashMap <String,Integer>();
-    static HashMap<String,Integer> missionAnimal=new HashMap <String,Integer>();
-    static HashMap<String,Integer> missionProduct=new HashMap <String,Integer>();
+    public static HashMap<String,Integer> animals=new HashMap <String,Integer>();
+    public static HashMap<String,Integer> missionAnimal=new HashMap <String,Integer>();
+    public static HashMap<String,Integer> missionProduct=new HashMap <String,Integer>();
     static HashMap<String,ArrayList<Integer>> wilds=new HashMap <String,ArrayList<Integer>>();
-    static int missionCoin;
+    public static int missionCoin;
     public static Land land=new Land();
     static Well well=new Well();
     public static WareHouse wareHouse=new WareHouse();
