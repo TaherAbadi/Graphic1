@@ -33,11 +33,11 @@ public class Dog extends Animal {
     }
 
     public Dog() throws FileNotFoundException {
-        InputStream stream=new FileInputStream("F:\\image\\dog1.png");
+        InputStream stream=new FileInputStream("F:\\image\\dog.png");
         Image image=new Image(stream);
         this.setImage(image);
-        this.setFitHeight(30);
-        this.setFitWidth(30);
+        this.setFitHeight(60);
+        this.setFitWidth(60);
         this.name="Dog"+ String.valueOf(numberOfDogs+1);
         numberOfDogs++;
         Random random=new Random();

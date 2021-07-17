@@ -128,7 +128,7 @@ public class Manager {
     public static boolean cage(int x, int y){
         boolean caged=false;
         ArrayList<WildAnimal> toRemove=new ArrayList <WildAnimal>();
-        for (Animal animal:land.fields[x-1][y-1].animals) {
+        for (Animal animal:land.fields[x][y].animals) {
             if(animal instanceof Bear ){
                 ((Bear) animal).caged(toRemove);
                 ReadWriteFile.WriteLogger(true,"A bear caged successfully in "+String.valueOf(x)+" "+String.valueOf(y));
@@ -148,7 +148,7 @@ public class Manager {
                 caged=true;
             }
         }
-        land.fields[x-1][y-1].animals.removeAll(toRemove);
+        land.fields[x][y].animals.removeAll(toRemove);
 
         if(caged==false)
             ReadWriteFile.WriteLogger(false,"There is no wild animal in");

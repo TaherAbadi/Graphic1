@@ -4,6 +4,7 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
@@ -38,12 +39,13 @@ public class GameControll {
     public Pane land;
 
     public Pane Ground;
-    public static Pane rootGame;
-
+    public ImageView well;
+    public ImageView ware;
 
 
     public void initialize(){
         addAnim();
+        wellClick();
         mouseClick();
     }
 
@@ -71,7 +73,7 @@ public class GameControll {
         if(! Manager.work("TailoringFactory"))
             ReadWriteFile.WriteLogger(false,ERROR);
     }
-    public void well(){
+    public void drainge(){
         if(Manager.drainge()==false){
             ReadWriteFile.WriteLogger(false,"The water buket is full!");
         }
@@ -165,26 +167,51 @@ public class GameControll {
             //todo silverMedal
         }
     }
-    public void openWareHouse() throws IOException {
+    public void openWareHouse() {
         // WareHouse.display();
     }
     public void mouseClick(){
         EventHandler<MouseEvent> eventHandler=new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent mouseEvent) {
-                if(!Manager.cage((int)mouseEvent.getX()/61,(int)mouseEvent.getY()/52)){
-                    int temp=Manager.pickUp((int)mouseEvent.getX()/61,(int)mouseEvent.getY()/52);
+                //System.out.println((int)mouseEvent.getX()+" "+(int)mouseEvent.getY());
+                System.out.println((int)mouseEvent.getX()/61+" "+(int)mouseEvent.getY()/50);
+                if(!Manager.cage((int)mouseEvent.getX()/61,(int)mouseEvent.getY()/50)){
+                    System.out.println("pic");
+                    int temp=Manager.pickUp(((int)mouseEvent.getX()/61)+1,((int)mouseEvent.getY()/52)+1);
                     if(temp==2){
                         //TODO full warehouse
                     }
                     else if(temp==3){
                         Manager.plantGrass(mouseEvent.getX(),mouseEvent.getY());
+                        System.out.println("grass");
                     }
                 }
             }
         } ;
         land.addEventFilter(MouseEvent.MOUSE_CLICKED,eventHandler);
     }
+
+    public void wellClick(){
+        EventHandler<MouseEvent> eventHandler=new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent mouseEvent) {
+                drainge();
+            }
+        };
+        well.addEventFilter(MouseEvent.MOUSE_CLICKED,eventHandler);
+    }
+
+    public void wareClick(){
+        EventHandler<MouseEvent> eventHandler=new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent mouseEvent) {
+                openWareHouse();
+            }
+        };
+        ware.addEventFilter(MouseEvent.MOUSE_CLICKED,eventHandler);
+    }
+
     public void addAnim(){
         for (int i = 0; i <6 ; i++) {
             for (int j = 0; j <6 ; j++) {

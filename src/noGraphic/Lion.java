@@ -13,11 +13,11 @@ public class Lion extends WildAnimal {
     static int lions=0;
     public Lion() throws FileNotFoundException {
         super(300,"Lion"+lions,3);
-        InputStream stream=new FileInputStream("F:\\image\\lion.png");
+        InputStream stream=new FileInputStream("F:\\image\\lion1.png");
         Image image=new Image(stream);
         this.setImage(image);
-        this.setFitHeight(30);
-        this.setFitWidth(30);
+        this.setFitHeight(60);
+        this.setFitWidth(60);
         lions++;
     }
     public static void produce(){

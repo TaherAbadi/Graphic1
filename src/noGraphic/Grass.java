@@ -16,11 +16,11 @@ import java.util.LinkedList;
 public class Grass extends ImageView {
     public Grass(double x,double y) throws FileNotFoundException {
         try {
-            InputStream stream=new FileInputStream("F:\\image\\grass.jpg");
+            InputStream stream=new FileInputStream("F:\\image\\grass.png");
             Image image=new Image(stream);
             this.setImage(image);
-            this.setFitHeight(20);
-            this.setFitWidth(20);
+            this.setFitHeight(30);
+            this.setFitWidth(30);
             this.setX(x);
             this.setY(y);
         }

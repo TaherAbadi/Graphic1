@@ -18,11 +18,11 @@ public class Buffalo extends DomesticAnimal {
 
     public Buffalo() throws FileNotFoundException {
         super("Buffalo"+String.valueOf(buffalos+1));
-        InputStream stream=new FileInputStream("F:\\image\\cow.png");
+        InputStream stream=new FileInputStream("F:\\image\\cow1.png");
         Image image=new Image(stream);
         this.setImage(image);
-        this.setFitHeight(30);
-        this.setFitWidth(30);
+        this.setFitHeight(60);
+        this.setFitWidth(60);
         this.price=PRICE;
         this.produce=0;
         buffalos++;

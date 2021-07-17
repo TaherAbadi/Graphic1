@@ -18,11 +18,11 @@ public class Turkey extends DomesticAnimal {
 
     public Turkey() throws FileNotFoundException {
         super("Turkey"+ String.valueOf(turkeys+1));
-        InputStream stream=new FileInputStream("F:\\image\\turkey1.png");
+        InputStream stream=new FileInputStream("F:\\image\\turkey.png");
         Image image=new Image(stream);
         this.setImage(image);
-        this.setFitHeight(30);
-        this.setFitWidth(30);
+        this.setFitHeight(60);
+        this.setFitWidth(60);
         this.price=PRICE;
         this.produce=0;
         turkeys++;
