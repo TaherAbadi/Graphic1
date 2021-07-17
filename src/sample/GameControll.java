@@ -107,7 +107,7 @@ public class GameControll {
         }
     }
     public void buildBoxedMilk(){
-        if(!Manager.buildWorkShop("BoxedMilk"))
+        if(!Manager.buildWorkShop("MilkBoxing"))
             ReadWriteFile.WriteLogger(false,ERROR);
         else {
             bBoxedMilk.setDisable(true);
