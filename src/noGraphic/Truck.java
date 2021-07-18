@@ -18,6 +18,9 @@ public class Truck {
         return CAPACITY;
     }
 
+    public boolean isOnWay(){
+        return isOnWay;
+    }
     public Truck() {
         onWay=0;
         isOnWay=false;

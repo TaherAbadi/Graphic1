@@ -52,6 +52,9 @@ public class GameControll {
     public ImageView ware;
     public Text missionAnim;
     public Text missionPro;
+    public Button winningButton;
+    public ImageView winningImage;
+    public Text winningText;
 
 
     public void initialize(){
@@ -161,7 +164,7 @@ public class GameControll {
         Manager.buyAnimal("Dog");
         updateLand();
     }
-    public void turn(){
+    public void turn() throws IOException {
         int temp= Manager.update(1);
         for (int i = 0; i <6 ; i++) {
             for (int j = 0; j <6 ; j++) {
@@ -182,6 +185,7 @@ public class GameControll {
         else if(temp==-1){
             //todo silverMedal
         }
+        showWinStatus();
     }
     public void openWareHouse() throws IOException {
         WareHouse wareHouse = new WareHouse();
@@ -329,8 +333,65 @@ public class GameControll {
         time.setText("time:"+String.valueOf(Manager.time));
     }
 
+    public int missionWon(){
+        boolean allDone=true;
+        for (String animal:Manager.missionAnimal.keySet()) {
+            if(Manager.missionAnimal.get(animal)!=0){
+                for (String animalAvailable:Manager.animals.keySet()) {
+                    if(animal.equalsIgnoreCase(animalAvailable) && Manager.animals.get(animal)<Manager.missionAnimal.get(animal))
+                       allDone=false;
+                }
+            }
+        }
 
+        for (String product:Manager.missionProduct.keySet()) {
+            if(Manager.missionProduct.get(product)!=0){
+                for (String productAvailable:Manager.wareHouse.getProductsStorage().keySet()) {
+                    if (productAvailable.equalsIgnoreCase(product) && Manager.wareHouse.NumberOfProducts(product)<Manager.missionProduct.get(product))
+                        allDone=false;
+                }
+            }
+        }
 
+        if (allDone){
+            if (Manager.time<=Manager.goldTime)
+            return 2;
+            else
+                return 1;
+        }
+        return 0;
+    }
 
+    public void showWinStatus() throws IOException {
+        if (missionWon() >= 0) {
+            Pane root = FXMLLoader.load(getClass().getResource("winningScene.fxml"));
+            if (missionWon() == 2) {
+                InputStream stream=new FileInputStream("F:\\image\\Gold.png");
+                Image image=new Image(stream);
+                //ImageView imageView=new ImageView();
+                winningImage.setImage(image);
+                //root.getChildren().add(0,imageView);
+                Main.window.setScene(new Scene(root, 600, 400));
+            }
+            if (missionWon() == 1){
+                InputStream stream=new FileInputStream("F:\\image\\Silver.png");
+                Image image=new Image(stream);
+                //ImageView imageView=new ImageView();
+                winningImage.setImage(image);
+                //root.getChildren().add(0,imageView);
+                Main.window.setScene(new Scene(root, 600, 400));
+            }
+        }
+    }
+    public void mainMenuScene() throws IOException {
+        Pane root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        InputStream stream=new FileInputStream("F:\\image\\firstPage.jpg");
+        Image image=new Image(stream);
+        ImageView imageView=new ImageView();
+        imageView.setImage(image);
+        root.getChildren().add(0,imageView);
+        Main.window.setScene(new Scene(root , 800 , 500));
+        Main.window.setTitle("Farm Frenzy");
+    }
 
 }

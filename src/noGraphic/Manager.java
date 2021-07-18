@@ -9,7 +9,7 @@ import java.util.HashMap;
 public class Manager {
     static int prize;
     public static int time=0;
-    static int goldTime;
+    public static int goldTime;
     static Users user;
     static HashMap<String,String> users=new HashMap <String,String>();
     public static HashMap<String,Integer> animals=new HashMap <String,Integer>();
@@ -219,6 +219,9 @@ public class Manager {
            }
         }
         return false;
+    }
+    public static boolean truckIsOnWay(){
+        return truck.isOnWay();
     }
     public static int truckCapacityGetter(){
         return truck.getCapacity();

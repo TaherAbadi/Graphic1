@@ -53,6 +53,7 @@ public class WareHouse {
     public Text LionNumber;
     public Text BearNumber;
     public Text truckCapacity;
+    public Button truckGoButton;
 
 
     int rows;
@@ -78,6 +79,10 @@ public class WareHouse {
         OstrichNumber.setText("* " + Manager.animals.get("Turkey"));
         BufalloNumber.setText("* " + Manager.animals.get("Buffalo"));
         truckCapacity.setText("Truck Capacity: " + Manager.truckCapacityGetter() + "/" + Manager.truckCAPACITYGetter());
+        if (Manager.truckIsOnWay())
+            truckGoButton.setDisable(true);
+        else
+            truckGoButton.setDisable(false);
     }
 
 
@@ -173,6 +178,7 @@ public class WareHouse {
 
     public void truckGo(){
         Manager.truckGo();
+        truckGoButton.setDisable(true);
     }
 
     public void unloadTruck(){
