@@ -375,32 +375,24 @@ public class GameControll {
         if (missionWon==1){
             Stage window = new Stage();
             window.initModality(Modality.APPLICATION_MODAL);
-            window.setTitle("You Won Gold Medal!");
-            window.setMinWidth(600);
             Pane root = FXMLLoader.load(GameControll.class.getResource("winningSceneGold.fxml"));
-            //InputStream stream=new FileInputStream("F:\\image\\WareHouseBackGround.png");
-            //Image image=new Image(stream);
-            //ImageView imageView=new ImageView();
-           // imageView.setImage(image);
-            //root.getChildren().add(0,imageView);
-            window.setScene(new Scene(root, 600 , 400));
+            InputStream stream=new FileInputStream("F:\\image\\win-back.png");
+            Image image=new Image(stream);
+            ImageView imageView=new ImageView(image);
+            root.getChildren().add(0,imageView);
+            window.setScene(new Scene(root, 312 , 424));
             window.showAndWait();
         }
         else if (missionWon==-1){
             Stage window = new Stage();
             window.initModality(Modality.APPLICATION_MODAL);
-            window.setTitle("You Won!");
-            window.setMinWidth(600);
-            Pane root = FXMLLoader.load(GameControll.class.getResource("winningSceneGold.fxml"));
-            //InputStream stream=new FileInputStream("F:\\image\\WareHouseBackGround.png");
-            //Image image=new Image(stream);
-            //ImageView imageView=new ImageView();
-            // imageView.setImage(image);
-            //root.getChildren().add(0,imageView);
-            window.setScene(new Scene(root, 600 , 400));
+            Pane root = FXMLLoader.load(GameControll.class.getResource("winningScene.fxml"));
+            InputStream stream=new FileInputStream("F:\\image\\win-back.png");
+            Image image=new Image(stream);
+            ImageView imageView=new ImageView(image);
+            root.getChildren().add(0,imageView);
+            window.setScene(new Scene(root, 312 , 424));
             window.showAndWait();
-
-
         }
 
     }

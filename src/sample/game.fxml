@@ -33,26 +33,41 @@
                <children>
                   <HBox prefHeight="0.0" prefWidth="330.0" GridPane.rowIndex="1">
                      <children>
-                        <Button fx:id="hen" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#buyHen" prefHeight="30.0" prefWidth="50.0" text="100" />
+                        <Button fx:id="hen" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#buyHen" prefHeight="30.0" prefWidth="50.0" text="100">
+                           <font>
+                              <Font name="Andalus" size="12.0" />
+                           </font></Button>
                         <Button fx:id="Turkey" mnemonicParsing="false" onAction="#buyTurkey" prefHeight="30.0" prefWidth="54.0" text="200">
                            <HBox.margin>
                               <Insets left="1.0" right="1.0" />
                            </HBox.margin>
+                           <font>
+                              <Font name="Andalus" size="12.0" />
+                           </font>
                         </Button>
                         <Button fx:id="Buffalo" mnemonicParsing="false" onAction="#buyBuffalo" prefHeight="30.0" prefWidth="54.0" text="400">
                            <HBox.margin>
                               <Insets left="1.0" right="1.0" />
                            </HBox.margin>
+                           <font>
+                              <Font name="Andalus" size="12.0" />
+                           </font>
                         </Button>
                         <Button fx:id="Dog" mnemonicParsing="false" onAction="#buyDog" prefHeight="30.0" prefWidth="54.0" text="100">
                            <HBox.margin>
                               <Insets left="1.0" right="1.0" />
                            </HBox.margin>
+                           <font>
+                              <Font name="Andalus" size="12.0" />
+                           </font>
                         </Button>
                         <Button fx:id="Cat" mnemonicParsing="false" onAction="#buyCat" prefHeight="29.0" prefWidth="58.0" text="150">
                            <HBox.margin>
                               <Insets left="1.0" right="1.0" />
                            </HBox.margin>
+                           <font>
+                              <Font name="Andalus" size="12.0" />
+                           </font>
                         </Button>
                      </children>
                   </HBox>
@@ -67,6 +82,9 @@
                            <HBox.margin>
                               <Insets right="30.0" top="5.0" />
                            </HBox.margin>
+                           <font>
+                              <Font name="Andalus" size="14.0" />
+                           </font>
                         </Button>
                      </children>
                   </HBox>
@@ -146,12 +164,12 @@
                      <children>
                         <Region prefHeight="200.0" prefWidth="200.0" />
                         <ImageView fitHeight="58.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true" />
-                        <Text fx:id="time" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="time:" wrappingWidth="116.38309669494629">
+                        <Text fx:id="time" fill="WHITE" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="time:" wrappingWidth="116.38309669494629">
                            <HBox.margin>
                               <Insets top="10.0" />
                            </HBox.margin>
                            <font>
-                              <Font size="18.0" />
+                              <Font name="Andalus" size="18.0" />
                            </font>
                         </Text>
                      </children>
@@ -171,6 +189,9 @@
                            <HBox.margin>
                               <Insets right="10.0" top="14.0" />
                            </HBox.margin>
+                           <font>
+                              <Font name="Andalus" size="12.0" />
+                           </font>
                         </Text>
                         <Text fx:id="missionAnim" fill="#04300d" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="50.13671875">
                            <HBox.margin>
@@ -202,9 +223,9 @@
                               <Image url="@image/coin_48.png" />
                            </image>
                         </ImageView>
-                        <Text fx:id="coin" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="119.58307647705078">
+                        <Text fx:id="coin" fill="WHITE" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="119.58307647705078">
                            <font>
-                              <Font size="24.0" />
+                              <Font name="Andalus" size="24.0" />
                            </font>
                         </Text>
                         <Text fx:id="coin1" fill="#d70e0e" fontSmoothingType="LCD" layoutX="52.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="119.58307647705078">
@@ -259,11 +280,17 @@
                      <children>
                         <VBox layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="50.0">
                            <children>
-                              <Button fx:id="bEggPowderPlant" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#buildEggPowderPlant" opacity="0.56" prefHeight="33.0" prefWidth="50.0" text="build" VBox.vgrow="ALWAYS" />
+                              <Button fx:id="bEggPowderPlant" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#buildEggPowderPlant" prefHeight="33.0" prefWidth="50.0" text="build" VBox.vgrow="ALWAYS">
+                                 <font>
+                                    <Font name="Andalus" size="12.0" />
+                                 </font></Button>
                               <Button fx:id="EggPowderPlant" disable="true" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#workEggPowderFac" prefHeight="33.0" prefWidth="50.0" text="work" VBox.vgrow="ALWAYS">
                                  <VBox.margin>
                                     <Insets />
-                                 </VBox.margin></Button>
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="Andalus" size="12.0" />
+                                 </font></Button>
                            </children>
                            <VBox.margin>
                               <Insets bottom="25.0" top="8.0" />
@@ -271,11 +298,17 @@
                         </VBox>
                         <VBox layoutX="10.0" layoutY="210.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="66.0" prefWidth="50.0" VBox.vgrow="ALWAYS">
                            <children>
-                              <Button fx:id="bCookieBakery" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#buildCookieBakery" prefHeight="33.0" prefWidth="50.0" text="build" VBox.vgrow="ALWAYS" />
+                              <Button fx:id="bCookieBakery" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#buildCookieBakery" prefHeight="33.0" prefWidth="50.0" text="build" VBox.vgrow="ALWAYS">
+                                 <font>
+                                    <Font name="Andalus" size="12.0" />
+                                 </font></Button>
                               <Button fx:id="CookieBakery" disable="true" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#workCookieBakery" prefHeight="33.0" prefWidth="50.0" text="work" VBox.vgrow="ALWAYS">
                                  <VBox.margin>
                                     <Insets bottom="10.0" />
                                  </VBox.margin>
+                                 <font>
+                                    <Font name="Andalus" size="12.0" />
+                                 </font>
                               </Button>
                            </children>
                            <VBox.margin>
@@ -284,8 +317,14 @@
                         </VBox>
                         <VBox layoutX="10.0" layoutY="277.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="66.0" prefWidth="50.0">
                            <children>
-                              <Button fx:id="bTailoringFactory" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#buildTailoringFactory" prefHeight="33.0" prefWidth="50.0" text="build" VBox.vgrow="ALWAYS" />
-                              <Button fx:id="TailoringFactory" disable="true" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#workTailoringFactory" prefHeight="33.0" prefWidth="50.0" text="work" VBox.vgrow="ALWAYS" />
+                              <Button fx:id="bTailoringFactory" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#buildTailoringFactory" prefHeight="33.0" prefWidth="50.0" text="build" VBox.vgrow="ALWAYS">
+                                 <font>
+                                    <Font name="Andalus" size="12.0" />
+                                 </font></Button>
+                              <Button fx:id="TailoringFactory" disable="true" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#workTailoringFactory" prefHeight="33.0" prefWidth="50.0" text="work" VBox.vgrow="ALWAYS">
+                                 <font>
+                                    <Font name="Andalus" size="12.0" />
+                                 </font></Button>
                            </children>
                            <VBox.margin>
                               <Insets bottom="5.0" />
@@ -304,8 +343,14 @@
                      <children>
                         <VBox layoutX="10.0" layoutY="210.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="66.0" prefWidth="50.0">
                            <children>
-                              <Button fx:id="bBoxedMilk" mnemonicParsing="false" onAction="#buildBoxedMilk" prefHeight="106.0" prefWidth="132.0" text="build milkBoxing" VBox.vgrow="ALWAYS" />
-                              <Button fx:id="BoxedMilk" disable="true" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#workBoxedMilk" prefHeight="106.0" prefWidth="132.0" text="work" VBox.vgrow="ALWAYS" />
+                              <Button fx:id="bBoxedMilk" mnemonicParsing="false" onAction="#buildBoxedMilk" prefHeight="106.0" prefWidth="132.0" text="build " VBox.vgrow="ALWAYS">
+                                 <font>
+                                    <Font name="Andalus" size="12.0" />
+                                 </font></Button>
+                              <Button fx:id="BoxedMilk" disable="true" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#workBoxedMilk" prefHeight="106.0" prefWidth="132.0" text="work" VBox.vgrow="ALWAYS">
+                                 <font>
+                                    <Font name="Andalus" size="12.0" />
+                                 </font></Button>
                            </children>
                            <VBox.margin>
                               <Insets bottom="25.0" top="8.0" />
@@ -316,8 +361,14 @@
                         </VBox>
                         <VBox layoutX="10.0" layoutY="277.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="66.0" prefWidth="50.0">
                            <children>
-                              <Button fx:id="bIceCreamFactory" mnemonicParsing="false" onAction="#buildIceCreamFactory" prefHeight="98.0" prefWidth="125.0" text="build icecream factory" VBox.vgrow="ALWAYS" />
-                              <Button fx:id="IceCreamFactory" disable="true" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#workIceCreamFactory" prefHeight="98.0" prefWidth="125.0" text="work" VBox.vgrow="ALWAYS" />
+                              <Button fx:id="bIceCreamFactory" mnemonicParsing="false" onAction="#buildIceCreamFactory" prefHeight="98.0" prefWidth="125.0" text="build " VBox.vgrow="ALWAYS">
+                                 <font>
+                                    <Font name="Andalus" size="12.0" />
+                                 </font></Button>
+                              <Button fx:id="IceCreamFactory" disable="true" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#workIceCreamFactory" prefHeight="98.0" prefWidth="125.0" text="work" VBox.vgrow="ALWAYS">
+                                 <font>
+                                    <Font name="Andalus" size="12.0" />
+                                 </font></Button>
                            </children>
                            <VBox.margin>
                               <Insets bottom="25.0" />
@@ -325,8 +376,14 @@
                         </VBox>
                         <VBox layoutX="10.0" layoutY="310.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="66.0" prefWidth="50.0">
                            <children>
-                              <Button fx:id="bFeatherFactory" mnemonicParsing="false" onAction="#buildFeatherFactory" prefHeight="83.0" prefWidth="154.0" text="build feather fac." VBox.vgrow="ALWAYS" />
-                              <Button fx:id="FeatherFactory" disable="true" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#workFeatherFactory" prefHeight="83.0" prefWidth="154.0" text="work" VBox.vgrow="ALWAYS" />
+                              <Button fx:id="bFeatherFactory" mnemonicParsing="false" onAction="#buildFeatherFactory" prefHeight="83.0" prefWidth="154.0" text="build " VBox.vgrow="ALWAYS">
+                                 <font>
+                                    <Font name="Andalus" size="12.0" />
+                                 </font></Button>
+                              <Button fx:id="FeatherFactory" disable="true" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#workFeatherFactory" prefHeight="83.0" prefWidth="154.0" text="work" VBox.vgrow="ALWAYS">
+                                 <font>
+                                    <Font name="Andalus" size="12.0" />
+                                 </font></Button>
                            </children>
                         </VBox>
                      </children>
