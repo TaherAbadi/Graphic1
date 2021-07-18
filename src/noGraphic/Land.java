@@ -62,5 +62,50 @@ public class Land {
             }
         }
     }
+    public void sellHen(){
+        ArrayList<Animal> animalha=new ArrayList<Animal>();
+        for (int i = 0; i <6 ; i++) {
+            for (int j = 0; j <6 ; j++) {
+                for (Animal animal:fields[i][j].animals) {
+                    if(animal instanceof  Hen)
+                        animalha.add(animal);
+                }
+                if(!animalha.isEmpty()) {
+                    fields[i][j].animals.remove(animalha.get(0));
+                    return;
+                }
+            }
+        }
+    }
+    public void sellBuffalo(){
+        ArrayList<Animal> animalha=new ArrayList<Animal>();
+        for (int i = 0; i <6 ; i++) {
+            for (int j = 0; j <6 ; j++) {
+                for (Animal animal:fields[i][j].animals) {
+                    if(animal instanceof  Buffalo)
+                        animalha.add(animal);
+                }
+                if(!animalha.isEmpty()) {
+                    fields[i][j].animals.remove(animalha.get(0));
+                    return;
+                }
+            }
+        }
+    }
+    public void sellTurkey(){
+        ArrayList<Animal> animalha=new ArrayList<Animal>();
+        for (int i = 0; i <6 ; i++) {
+            for (int j = 0; j <6 ; j++) {
+                for (Animal animal:fields[i][j].animals) {
+                    if(animal instanceof  Turkey)
+                        animalha.add(animal);
+                }
+                if(!animalha.isEmpty()) {
+                    fields[i][j].animals.remove(animalha.get(0));
+                    return;
+                }
+            }
+        }
+    }
 
 }

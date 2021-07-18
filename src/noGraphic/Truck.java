@@ -340,6 +340,15 @@ public class Truck {
             onWay=0;
             int coin=0;
             for (String product:productsLoaded.keySet()) {
+                if(product.equalsIgnoreCase("Hen")){
+                    Manager.land.sellHen();
+                }
+                else if(product.equalsIgnoreCase("Turkey")){
+                    Manager.land.sellTurkey();
+                }
+                else if (product.equalsIgnoreCase("Buffalo")){
+                    Manager.land.sellBuffalo();
+                }
                 coin+=productsLoaded.get(product)*productPrice(product);
                 productsLoaded.put(product,0);
             }
