@@ -22,6 +22,7 @@ public class Main extends Application {
     }
 
     static Stage window;
+    static Stage pauseMenu;
     public static ArrayList<AnimalAnim> animalAnims=new ArrayList<AnimalAnim>();
     @Override
     public void start(Stage primaryStage) throws Exception{

@@ -56,7 +56,10 @@
                         </Button>
                      </children>
                   </HBox>
-                  <HBox prefHeight="90.0" prefWidth="306.0" GridPane.columnIndex="1" />
+                  <HBox prefHeight="90.0" prefWidth="306.0" GridPane.columnIndex="1">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#pause" text="Button" />
+                     </children></HBox>
                   <HBox prefHeight="50.0" prefWidth="264.0" GridPane.columnIndex="2">
                      <children>
                         <Region prefHeight="33.0" prefWidth="269.0" />

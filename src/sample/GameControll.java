@@ -415,4 +415,15 @@ public class GameControll {
         Main.window.setTitle("Farm Frenzy");
     }
 
+    public void pause() throws IOException {
+        Main.pauseMenu = new Stage();
+        Main.pauseMenu.initModality(Modality.APPLICATION_MODAL);
+        Main.pauseMenu.setTitle("Pause");
+        Main.pauseMenu.setMinWidth(300);
+        Pane root = FXMLLoader.load(getClass().getResource("PauseScene.fxml"));
+        Main.pauseMenu.setScene(new Scene(root, 300 , 400));
+        Main.pauseMenu.showAndWait();
+
+    }
+
 }
