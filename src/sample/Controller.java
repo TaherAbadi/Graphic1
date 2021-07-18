@@ -55,7 +55,7 @@ public class Controller {
 
     public void mainMenuScene() throws IOException {
         Pane root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        InputStream stream=new FileInputStream("F:\\image\\firstPage.jpg");
+        InputStream stream=new FileInputStream("F:\\image\\menu-back.jpg");
         Image image=new Image(stream);
         ImageView imageView=new ImageView();
         imageView.setImage(image);
