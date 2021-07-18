@@ -10,6 +10,13 @@ public class Truck {
     private HashMap< String, Integer > productsLoaded = new HashMap<String, Integer>();
     private HashMap< String, Integer > animalsLoaded = new HashMap<String, Integer>();
 
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public int getCAPACITY() {
+        return CAPACITY;
+    }
 
     public Truck() {
         onWay=0;
@@ -27,10 +34,15 @@ public class Truck {
         this.productsLoaded.put("Lion",0);
         this.productsLoaded.put("Bear",0);
         this.productsLoaded.put("Tiger",0);
+        this.animalsLoaded.put("Hen",0);
+        this.animalsLoaded.put("Turkey",0);
+        this.animalsLoaded.put("Buffalo",0);
+        this.animalsLoaded.put("Dog",0);
+        this.animalsLoaded.put("Cat",0);
     }
 
     public void truckLoadProduct(String product){
-        if (isOnWay == false) {
+        if (!isOnWay) {
             if (Manager.wareHouse.NumberOfProducts(product)>0){
                 if (product.equalsIgnoreCase("Egg")){
                     if (capacity - 1 >= 0){
@@ -174,24 +186,67 @@ public class Truck {
 
     }
 
-    public void truckLoadAnimal(Animal animal){
-        if (animal instanceof Hen){
-            animalsLoaded.replace("Hen",animalsLoaded.get("Hen")+1);
-        }
-        else if (animal instanceof Turkey){
-            animalsLoaded.replace("Turkey",animalsLoaded.get("Turkey")+1);
-        }
-        else if (animal instanceof Buffalo){
-            animalsLoaded.replace("Buffalo",animalsLoaded.get("Buffalo")+1);
-        }
-        else if (animal instanceof Cat){
-            animalsLoaded.replace("Cat",animalsLoaded.get("Cat")+1);
-        }
-        else if (animal instanceof Dog){
-            animalsLoaded.replace("Dog",animalsLoaded.get("Dog")+1);
+    public void truckLoadAnimal(String animal) {
+        if (!isOnWay) {
+            if (Manager.animals.get(animal) > 0) {
+                if (animal.equalsIgnoreCase("Hen")){
+                    if (capacity - 1 >= 0){
+                        animalsLoaded.replace("Hen",animalsLoaded.get("Hen")+1);
+                        Manager.animals.put("Hen",Manager.animals.get("Hen")-1);
+                        capacity--;
+                        ReadWriteFile.WriteLogger(true,"added Hen to the truck");
+
+                    }
+                    else{ReadWriteFile.WriteLogger(false,"not enough capacity in the truck");
+                    }
+                }
+                if (animal.equalsIgnoreCase("Turkey")){
+                    if (capacity - 1 >= 0){
+                        animalsLoaded.replace("Turkey",animalsLoaded.get("Turkey")+1);
+                        Manager.animals.put("Turkey",Manager.animals.get("Turkey")-1);
+                        capacity--;
+                        ReadWriteFile.WriteLogger(true,"added Turkey to the truck");
+
+                    }
+                    else{ReadWriteFile.WriteLogger(false,"not enough capacity in the truck");
+                    }
+                }
+                if (animal.equalsIgnoreCase("Buffalo")){
+                    if (capacity - 1 >= 0){
+                        animalsLoaded.replace("Buffalo",animalsLoaded.get("Buffalo")+1);
+                        Manager.animals.put("Buffalo",Manager.animals.get("Buffalo")-1);
+                        capacity--;
+                        ReadWriteFile.WriteLogger(true,"added Buffalo to the truck");
+
+                    }
+                    else{ReadWriteFile.WriteLogger(false,"not enough capacity in the truck");
+                    }
+                }
+                if (animal.equalsIgnoreCase("Cat")){
+                    if (capacity - 1 >= 0){
+                        animalsLoaded.replace("Cat",animalsLoaded.get("Cat")+1);
+                        Manager.animals.put("Cat",Manager.animals.get("Cat")-1);
+                        capacity--;
+                        ReadWriteFile.WriteLogger(true,"added Cat to the truck");
+
+                    }
+                    else{ReadWriteFile.WriteLogger(false,"not enough capacity in the truck");
+                    }
+                }
+                if (animal.equalsIgnoreCase("Dog")){
+                    if (capacity - 1 >= 0){
+                        animalsLoaded.replace("Dog",animalsLoaded.get("Dog")+1);
+                        Manager.animals.put("Dog",Manager.animals.get("Dog")-1);
+                        capacity--;
+                        ReadWriteFile.WriteLogger(true,"added Dog to the truck");
+
+                    }
+                    else{ReadWriteFile.WriteLogger(false,"not enough capacity in the truck");
+                    }
+                }
+            }
         }
     }
-
     public void truckUnloadProduct(String product) {
         if (isOnWay !=false) {
             if (productsLoaded.get(product) - 1 >= 0) {
@@ -295,6 +350,7 @@ public class Truck {
 
     public  boolean go(){
         if(capacity<CAPACITY){
+
             isOnWay=true;
             onWay=1;
             return true;

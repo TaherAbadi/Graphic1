@@ -55,6 +55,11 @@ public class Manager {
     }
 
     static public boolean level(int level){
+        animals.put("Hen", 0);
+        animals.put("Turkey", 0);
+        animals.put("Buffalo", 0);
+        animals.put("Dog", 0);
+        animals.put("Cat", 0);
         if(user.getMaxLevel()>=level){
             missionAnimal=ReadWriteFile.ReadMissionsAnimals(level);
             missionProduct=ReadWriteFile.ReadMissionsProducts(level);
@@ -74,31 +79,46 @@ public class Manager {
             if(Hen.purchase(coin)==false){
                 ReadWriteFile.WriteLogger(false,"not enough coin");
             }
-            else  ReadWriteFile.WriteLogger(true,"purchased a hen");
+            else{
+                animals.put("Hen", animals.get("Hen")+1);
+                ReadWriteFile.WriteLogger(true,"purchased a hen");
+            }
         }
         else if(animal.equals("Turkey")){
             if(Turkey.purchase(coin)==false){
                 ReadWriteFile.WriteLogger(false,"not enough coin");
             }
-            else ReadWriteFile.WriteLogger(true,"purchased a turkey");
+            else{
+                animals.put("Turkey", animals.get("Turkey")+1);
+                ReadWriteFile.WriteLogger(true,"purchased a turkey");
+            }
         }
         else if(animal.equals("Buffalo")){
             if(Buffalo.purchase(coin)==false){
                 ReadWriteFile.WriteLogger(false,"not enough coin");
             }
-            else ReadWriteFile.WriteLogger(true,"purchased a buffalo");
+            else{
+                animals.put("Buffalo", animals.get("Buffalo")+1);
+                ReadWriteFile.WriteLogger(true,"purchased a buffalo");
+            }
         }
         else if(animal.equals("Cat")){
             if(Cat.purchase(coin)==false){
                 ReadWriteFile.WriteLogger(false,"not enough coin");
             }
-            else ReadWriteFile.WriteLogger(true,"purchased a cat");
+            else{
+                animals.put("Cat", animals.get("Cat")+1);
+                ReadWriteFile.WriteLogger(true,"purchased a cat");
+            }
         }
         else if(animal.equals("Dog")){
             if(Dog.purchase(coin)==false){
                 ReadWriteFile.WriteLogger(false,"not enough coin");
             }
-            else ReadWriteFile.WriteLogger(true,"purchased a buffalo");
+            else{
+                animals.put("Dog", animals.get("Dog")+1);
+                ReadWriteFile.WriteLogger(true,"purchased a buffalo");
+            }
         }
         else
             ReadWriteFile.WriteLogger(false, "Incorrect command!");
@@ -200,8 +220,17 @@ public class Manager {
         }
         return false;
     }
+    public static int truckCapacityGetter(){
+        return truck.getCapacity();
+    }
+    public static int truckCAPACITYGetter(){
+        return truck.getCAPACITY();
+    }
     public static void loadTruck(String product){
         truck.truckLoadProduct(product);
+    }
+    public static void truckLoadAnimal(String animal){
+        truck.truckLoadAnimal(animal);
     }
     public static void unloadTruck(String product) {
         truck.truckUnloadProduct(product);
