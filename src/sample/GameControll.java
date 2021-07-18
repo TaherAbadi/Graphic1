@@ -4,6 +4,7 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
@@ -371,7 +372,18 @@ public class GameControll {
 
     public void showWinStatus(int missionWon) throws IOException {
         if (missionWon!=0){
-            System.out.println(missionWon);
+            Stage window = new Stage();
+            window.initModality(Modality.APPLICATION_MODAL);
+            window.setTitle("You Won!");
+            window.setMinWidth(600);
+            Parent root = FXMLLoader.load(GameControll.class.getResource("winningScene.fxml"));
+            //InputStream stream=new FileInputStream("F:\\image\\WareHouseBackGround.png");
+            //Image image=new Image(stream);
+            //ImageView imageView=new ImageView();
+           // imageView.setImage(image);
+            //root.getChildren().add(0,imageView);
+            window.setScene(new Scene(root, 600 , 400));
+            window.showAndWait();
         }
         else if (missionWon==0)
         System.out.println("hechi");
