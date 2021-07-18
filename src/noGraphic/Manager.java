@@ -3,6 +3,7 @@ package noGraphic;
 import sample.AnimalAnim;
 import sample.Main;
 
+import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -75,7 +76,27 @@ public class Manager {
         return false;
     }
 
+    public static void checkNumberOfAnimals(){
+        int hen=0;
+        int turkey=0;
+        int buffalo=0;
+        for (int i = 0; i < 6; i++) {
+            for (int j = 0; j < 6; j++) {
+                for (Animal animal:land.fields[i][j].animals) {
+                    if (animal instanceof Hen)
+                        hen++;
+                    else if (animal instanceof Turkey)
+                        turkey++;
+                    else if (animal instanceof Buffalo)
+                        buffalo++;
 
+                }
+            }
+        }
+        animals.put("Hen" , hen);
+        animals.put("Turkey" , turkey);
+        animals.put("Buffalo", buffalo);
+    }
 
     static public void buyAnimal(String animal) {
         if(animal.equals("Hen")){
@@ -191,15 +212,15 @@ public class Manager {
             tailoringFactory.update();
             land.updateLand();
             coin+=truck.updateTruck();
-
+            checkNumberOfAnimals();
             if(win()){
                 inquiry();
                 if(time<=goldTime) {
                     Manager.user.addToSavedCoins(prize);
-                return -1;
+                return 1;
                 }
                 else
-                    return 1;
+                    return -1;
             }
         }
         inquiry();
@@ -244,28 +265,33 @@ public class Manager {
     public static boolean truckGo(){
         return truck.go();
     }
-    public static boolean win(){
-        for (String animal:missionAnimal.keySet()) {
-            if(missionAnimal.get(animal)!=0){
-                for (String animalAvailable:animals.keySet()) {
-                    if(animalAvailable.equals(animal))
-                        if(animals.get(animalAvailable)!=missionAnimal.get(animal))
+    public static boolean win() {
+        for (String animal : missionAnimal.keySet())
+            if (missionAnimal.get(animal) != 0)
+                for (String animalAvailable : animals.keySet())
+                    if (animalAvailable.equals(animal))
+                        if (animals.get(animalAvailable) < missionAnimal.get(animal)) {
+                            System.out.println("Animal");
                             return false;
-                }
-            }
-        }
+                        }
+
+
         for (String product:missionProduct.keySet()) {
             if(missionProduct.get(product)!=0){
                 for (String productAvailable:wareHouse.getProductsStorage().keySet()) {
                     if(productAvailable.equals(product))
-                        if(wareHouse.getProductsStorage().get(productAvailable)==missionProduct.get(product))
+                        if(wareHouse.getProductsStorage().get(productAvailable)<missionProduct.get(product)){
+                            System.out.println("Product");
                             return false;
+
+                    }
                 }
             }
         }
-        if(missionCoin!=coin)
+        if(missionCoin>coin) {
+            System.out.println("coin");
             return false;
-
+        }
 
         ReadWriteFile.WriteLogger(true,"You win level"+user.getMaxLevel());
         user.addMaxLevel();

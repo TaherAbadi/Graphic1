@@ -181,13 +181,8 @@ public class GameControll {
         for (AnimalAnim animation:Main.animalAnims) {
             animation.play();
         }
-        if(temp==1){
-            //todo goldMedal
-        }
-        else if(temp==-1){
-            //todo silverMedal
-        }
-        showWinStatus();
+        showWinStatus(temp);
+
     }
     public void openWareHouse() throws IOException {
         WareHouse wareHouse = new WareHouse();
@@ -345,7 +340,7 @@ public class GameControll {
         time.setText("time:"+String.valueOf(Manager.time));
     }
 
-    public int missionWon(){
+    /*public int missionWon(){
         boolean allDone=true;
         for (String animal:Manager.missionAnimal.keySet()) {
             if(Manager.missionAnimal.get(animal)!=0){
@@ -372,28 +367,14 @@ public class GameControll {
                 return 1;
         }
         return 0;
-    }
+    }*/
 
-    public void showWinStatus() throws IOException {
-        if (missionWon() >= 0) {
-            Pane root = FXMLLoader.load(getClass().getResource("winningScene.fxml"));
-            if (missionWon() == 2) {
-                InputStream stream=new FileInputStream("F:\\image\\Gold.png");
-                Image image=new Image(stream);
-                //ImageView imageView=new ImageView();
-                winningImage.setImage(image);
-                //root.getChildren().add(0,imageView);
-                Main.window.setScene(new Scene(root, 600, 400));
-            }
-            if (missionWon() == 1){
-                InputStream stream=new FileInputStream("F:\\image\\Silver.png");
-                Image image=new Image(stream);
-                //ImageView imageView=new ImageView();
-                winningImage.setImage(image);
-                //root.getChildren().add(0,imageView);
-                Main.window.setScene(new Scene(root, 600, 400));
-            }
+    public void showWinStatus(int missionWon) throws IOException {
+        if (missionWon!=0){
+            System.out.println(missionWon);
         }
+        else if (missionWon==0)
+        System.out.println("hechi");
     }
     public void mainMenuScene() throws IOException {
         Pane root = FXMLLoader.load(getClass().getResource("sample.fxml"));
