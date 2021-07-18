@@ -244,7 +244,7 @@ public class GameControll {
         EventHandler<MouseEvent> eventHandler=new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent mouseEvent) {
-                //TODO
+                Manager.henProducer();
                 System.out.println("+");
             }
         };
