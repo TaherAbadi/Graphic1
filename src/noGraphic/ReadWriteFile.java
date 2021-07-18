@@ -49,6 +49,37 @@ import java.util.Scanner;
             }
         }
 
+        public static void addMaxLevel(Users user) {
+            try {
+                ArrayList <Users> usersArrayList;
+                usersArrayList = ReadUsers();
+                FileWriter myWriter = new FileWriter("Users.txt");
+                for (int i = 0; i < usersArrayList.size(); i++) {
+                    if (usersArrayList.get(i).getUserName().equals(user.getUserName())){
+                        myWriter.write(usersArrayList.get(i).getUserName());
+                        myWriter.write(" ");
+                        myWriter.write(usersArrayList.get(i).getPassWord());
+                        myWriter.write(" ");
+                        myWriter.write(String.valueOf(usersArrayList.get(i).getMaxLevel())+1);
+                        myWriter.write("\r\n");
+                    }else{
+                    myWriter.write(usersArrayList.get(i).getUserName());
+                    myWriter.write(" ");
+                    myWriter.write(usersArrayList.get(i).getPassWord());
+                    myWriter.write(" ");
+                    myWriter.write(String.valueOf(usersArrayList.get(i).getMaxLevel()));
+                    myWriter.write("\r\n");
+
+                    }
+                }
+                myWriter.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+
+
 
         public static ArrayList <String> ReadLogger() {
             ArrayList <String> loggers = new ArrayList <>();

@@ -19,6 +19,6 @@
             <Image url="@image/coin_48.png" />
          </image>
       </ImageView>
-      <Text layoutX="131.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+extrar coint" wrappingWidth="76.498046875" />
+      <Text layoutX="131.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+extra coin" wrappingWidth="76.498046875" />
     </children>
 </Pane>

@@ -295,6 +295,7 @@ public class Manager {
 
         ReadWriteFile.WriteLogger(true,"You win level"+user.getMaxLevel());
         user.addMaxLevel();
+        ReadWriteFile.addMaxLevel(user);
         return true;
     }
     public static  String nearestProduct(int x,int y){
