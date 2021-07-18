@@ -179,7 +179,6 @@ public class WareHouse {
 
     public int NumberOfProducts(String product){
         return productsStorage.get(product);
-
     }
 
     public void ProductNumberChanger(String product , int number){

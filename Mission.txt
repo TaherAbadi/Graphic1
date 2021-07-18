@@ -1,9 +1,21 @@
 Missions : 5
-Animal{ hen : 1 }
-Animal{ turkey : 0 }
-Animal{ bofulao : 0 }
-Product{ egg : 2 }
-Product{ feather : 0 }
+Animal{ Hen : 1 }
+Animal{ Turkey : 0 }
+Animal{ Buffalo : 0 }
+Animal{ Cat : 0 }
+Animal{ Dog : 0 }
+Product{ Egg : 2 }
+Product{ Feather : 0 }
+Product{ Milk : 0 }
+Product{ Flour : 0 }
+Product{ Fabric : 0 }
+Product{ BoxedMilk : 0 }
+Product{ Bread : 0 }
+Product{ Clothes : 0 }
+Product{ IceCream : 0 }
+Product{ Lion : 0 }
+Product{ Bear : 0 }
+Product{ Tiger : 0 }
 Coin : 300
 WildAnimals{ Bear : 3 10 12 15 }
 WildAnimals{ Lion : 2 8 7 }
