@@ -179,7 +179,19 @@
                            </HBox.margin></Text>
                      </children>
                   </HBox>
-                  <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <children>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Region prefHeight="72.0" prefWidth="76.0" />
+                              <ImageView fx:id="henProducer" fitHeight="72.0" fitWidth="74.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/henPro.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                     </children></HBox>
                   <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="2">
                      <children>
                         <ImageView fitHeight="41.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
@@ -324,8 +336,14 @@
                   </VBox>
                   <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="288.0" prefWidth="100.0">
                      <children>
-                        <ImageView fx:id="milkBoxing" fitHeight="89.0" fitWidth="98.0" pickOnBounds="true" preserveRatio="true" />
-                        <ImageView fx:id="iceCreamFac" fitHeight="89.0" fitWidth="98.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fx:id="milkBoxing" fitHeight="89.0" fitWidth="98.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@image/milkPacking_1.png" />
+                           </image></ImageView>
+                        <ImageView fx:id="iceCreamFac" fitHeight="89.0" fitWidth="98.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@image/iceCream_1.png" />
+                           </image></ImageView>
                         <ImageView fx:id="featherFac" fitHeight="89.0" fitWidth="98.0" layoutX="10.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@image/FeatherFac.png" />
