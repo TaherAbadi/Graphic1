@@ -16,8 +16,10 @@ public class Product extends ImageView {
     protected int y;
 
     public void imageLoc(){
-        this.setX((x-1)*61);
-        this.setY((y-1)*50);
+        this.setFitWidth(30);
+        this.setFitHeight(30);
+        this.setX(((x-1)*61)+30);
+        this.setY(((y-1)*50)+25);
     }
 
     public void setOnTheGround(boolean onTheGround) {
