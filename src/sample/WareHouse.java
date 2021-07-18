@@ -182,10 +182,30 @@ public class WareHouse {
     }
 
     public void unloadTruck(){
-
-
-
-
+        System.out.println("unloaded");
+        Manager.unloadTruck("Egg");
+        Manager.unloadTruck("Flour");
+        Manager.unloadTruck("Bread");
+        Manager.unloadTruck("Feather");
+        Manager.unloadTruck("Fabric");
+        Manager.unloadTruck("Clothes");
+        Manager.unloadTruck("Milk");
+        Manager.unloadTruck("BoxedMilk");
+        Manager.unloadTruck("IceCream");
+        Manager.unloadTruck("Lion");
+        Manager.unloadTruck("Bear");
+        Manager.unloadTruck("Tiger");
+        EggNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Egg"));
+        FeatherNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Feather"));
+        ClothesNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Clothes"));
+        BreadNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Bread"));
+        BoxedMilkNumber.setText("* " + Manager.wareHouse.NumberOfProducts("BoxedMilk"));
+        FabricNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Fabric"));
+        FlourNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Flour"));
+        MilkNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Milk"));
+        IceCreamNumber.setText("* " + Manager.wareHouse.NumberOfProducts("IceCream"));
+        LionNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Lion"));
+        BearNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Bear"));
     }
 
 

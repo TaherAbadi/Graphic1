@@ -38,7 +38,7 @@ public class Pause {
 
     public void mainMenu() throws IOException {
         Pane root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        InputStream stream=new FileInputStream("F:\\image\\firstPage.jpg");
+        InputStream stream=new FileInputStream("F:\\image\\menu-back.png");
         javafx.scene.image.Image image=new Image(stream);
         ImageView imageView=new ImageView();
         imageView.setImage(image);
@@ -48,6 +48,9 @@ public class Pause {
         Main.pauseMenu.close();
     }
 
+    public void restart(){
 
+
+    }
 
 }

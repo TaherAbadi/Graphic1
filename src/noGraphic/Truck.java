@@ -49,6 +49,7 @@ public class Truck {
             if (Manager.wareHouse.NumberOfProducts(product)>0){
                 if (product.equalsIgnoreCase("Egg")){
                     if (capacity - 1 >= 0){
+                        System.out.println("Egg loaded");
                         productsLoaded.replace("Egg",productsLoaded.get("Egg")+1);
                         Manager.wareHouse.TakeProduct(product);
                         capacity--;
@@ -253,6 +254,7 @@ public class Truck {
     public void truckUnloadProduct(String product) {
         if (isOnWay !=false) {
             if (productsLoaded.get(product) - 1 >= 0) {
+                System.out.println("egg unloaded");
                 if (product.equalsIgnoreCase("Egg")) {
                     productsLoaded.replace("Egg", productsLoaded.get("Egg") - 1);
                     Manager.wareHouse.AddProduct(product);
