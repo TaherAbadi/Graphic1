@@ -39,14 +39,7 @@ public class Main extends Application {
         window.show();
 
     }
-    public void play(Stage window) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("game.fxml"));
-        window.setTitle("Farm Frenzy");
-        window.setScene(new Scene(root, 800 , 500));
-        boolean win=false, lose=false;
-        window.show();
 
-    }
 
 
 
