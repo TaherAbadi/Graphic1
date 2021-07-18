@@ -9,7 +9,7 @@ public class WareHouse {
    // protected static int Capacity=30;
     private final int CAPACITY=30;
     private int capacity;
-    private HashMap< String, Integer > productsStorage = new HashMap<String, Integer>();
+    public HashMap< String, Integer > productsStorage = new HashMap<String, Integer>();
     private ArrayList<Product> productArrayList=new ArrayList <Product>();
 
 

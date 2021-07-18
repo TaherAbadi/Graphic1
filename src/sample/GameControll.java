@@ -43,6 +43,8 @@ public class GameControll {
     public Pane Ground;
     public ImageView well;
     public ImageView ware;
+    public Text missionAnim;
+    public Text missionPro;
 
 
     public void initialize(){
@@ -280,25 +282,32 @@ public class GameControll {
 
     }
     public void printMissions(){
-        String missionPro="";
+        String missA="";
         for (String animal:Manager.missionAnimal.keySet()) {
             if(Manager.missionAnimal.get(animal)!=0){
+                missA+=animal+":";
                 for (String animalAvailable:Manager.animals.keySet()) {
-                       missionPro+=animal+":"+Manager.animals.get(animalAvailable)+"/"+Manager.missionAnimal.get(animal)+"\n";
+                    if(animal.equalsIgnoreCase(animalAvailable))
+                       missA+=Manager.animals.get(animalAvailable);
                 }
+                missA+="/"+Manager.missionAnimal.get(animal)+"\n";
             }
         }
-        String missionAnim="";
+        String missPro="";
         for (String product:Manager.missionProduct.keySet()) {
             if(Manager.missionProduct.get(product)!=0){
+                missPro+=product+":";
                 for (String productAvailable:Manager.wareHouse.getProductsStorage().keySet()) {
-                    if(productAvailable.equals(product))
-                        if(Manager.wareHouse.getProductsStorage().get(productAvailable)==Manager.missionProduct.get(product))
-                           missionAnim+=productAvailable+":"+Manager.wareHouse.getProductsStorage().get(productAvailable)+"/"+Manager.missionProduct.get(product)+"\n";
+                    if (productAvailable.equalsIgnoreCase(product)){
+                        missPro+=Manager.wareHouse.getProductsStorage().get(productAvailable);
+                    }
                 }
+                missPro+="/"+Manager.missionProduct.get(product)+"\n";
             }
         }
-        coin.setText("coin:"+String.valueOf(Manager.coin)+"/"+Manager.missionCoin);
+        missionAnim.setText(missA);
+        missionPro.setText(missPro);
+        coin.setText(String.valueOf(Manager.coin)+"/"+Manager.missionCoin);
         time.setText("time:"+String.valueOf(Manager.time));
     }
 
