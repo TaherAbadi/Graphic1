@@ -72,87 +72,69 @@ public class WareHouse {
         LionNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Lion"));
         BearNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Bear"));
         //IceCreamNumber.setText("* " + Manager.wareHouse.NumberOfProducts("IceCream"));
-       // HenNumber.setText("* " + Manager.wareHouse.Num("IceCream"));
-       // IceCreamNumber.setText("* " + Manager.wareHouse.NumberOfProducts("IceCream"));
-       // IceCreamNumber.setText("* " + Manager.wareHouse.NumberOfProducts("IceCream"));
+        HenNumber.setText("* " + Manager.animals.get("Hen"));
+        System.out.println(Manager.animals.get("Hen"));
+        OstrichNumber.setText("* " + Manager.animals.get("Turkey"));
+        BufalloNumber.setText("* " + Manager.animals.get("Buffalo"));
     }
 
 
     public void sellEgg() throws IOException {
-        if(Manager.wareHouse.NumberOfProducts("Egg")>0){
-         Manager.wareHouse.TakeProduct("Egg");
          Manager.loadTruck("Egg");
          EggNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Egg"));
-        }
+
     }
 
     public void sellFeather() throws IOException {
-        if(Manager.wareHouse.NumberOfProducts("Feather")>0){
-            Manager.wareHouse.TakeProduct("Feather");
             Manager.loadTruck("Feather");
             FeatherNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Feather"));
-        }
+
     }
 
     public void sellMilk() throws IOException {
-        if(Manager.wareHouse.NumberOfProducts("Milk")>0){
-            Manager.wareHouse.TakeProduct("Milk");
             Manager.loadTruck("Milk");
             MilkNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Milk"));
-        }
+
     }
 
     public void sellFlour() throws IOException {
-        if(Manager.wareHouse.NumberOfProducts("Flour")>0){
-            Manager.wareHouse.TakeProduct("Flour");
             Manager.loadTruck("Flour");
             FlourNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Flour"));
-        }
+
     }
 
     public void sellFabric() throws IOException {
-        if(Manager.wareHouse.NumberOfProducts("Fabric")>0){
-            Manager.wareHouse.TakeProduct("Fabric");
             Manager.loadTruck("Fabric");
             FabricNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Fabric"));
-        }
     }
 
     public void sellBoxedMilk() throws IOException {
-        if(Manager.wareHouse.NumberOfProducts("BoxedMilk")>0){
-            Manager.wareHouse.TakeProduct("BoxedMilk");
             Manager.loadTruck("BoxedMilk");
             BoxedMilkNumber.setText("* " + Manager.wareHouse.NumberOfProducts("BoxedMilk"));
-        }
     }
 
     public void sellBread() throws IOException {
-        if(Manager.wareHouse.NumberOfProducts("Bread")>0){
-            Manager.wareHouse.TakeProduct("Bread");
             Manager.loadTruck("Bread");
             BreadNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Bread"));
-        }
+
     }
 
     public void sellClothes() throws IOException {
-        if(Manager.wareHouse.NumberOfProducts("Clothes")>0){
-            Manager.wareHouse.TakeProduct("Clothes");
             Manager.loadTruck("Clothes");
             ClothesNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Clothes"));
-        }
+
     }
 
     public void sellIceCream() throws IOException {
-        if(Manager.wareHouse.NumberOfProducts("IceCream")>0){
-            Manager.wareHouse.TakeProduct("IceCream");
             Manager.loadTruck("IceCream");
             IceCreamNumber.setText("* " + Manager.wareHouse.NumberOfProducts("IceCream"));
-        }
     }
 
     public void sellHen(){
+        if(Manager.animals.get("Hen")>0){
 
 
+        }
     }
 
 
@@ -165,24 +147,27 @@ public class WareHouse {
 
 
     public void sellLion(){
-        if(Manager.wareHouse.NumberOfProducts("Lion")>0){
-            Manager.wareHouse.TakeProduct("Lion");
             Manager.loadTruck("Lion");
             EggNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Lion"));
-        }
 
     }
 
     public void sellBear(){
-        if(Manager.wareHouse.NumberOfProducts("Bear")>0){
-            Manager.wareHouse.TakeProduct("Bear");
             Manager.loadTruck("Bear");
             EggNumber.setText("* " + Manager.wareHouse.NumberOfProducts("Bear"));
-        }
 
     }
 
     public void truckGo(){
         Manager.truckGo();
     }
+
+    public void unloadTruck(){
+
+
+
+
+    }
+
+
 }
