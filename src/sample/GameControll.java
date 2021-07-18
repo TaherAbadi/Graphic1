@@ -373,26 +373,26 @@ public class GameControll {
 
     public void showWinStatus(int missionWon) throws IOException {
         if (missionWon==1){
-            Stage window = new Stage();
-            window.initModality(Modality.APPLICATION_MODAL);
+            //Stage window = new Stage();
+            //window.initModality(Modality.APPLICATION_MODAL);
             Pane root = FXMLLoader.load(GameControll.class.getResource("winningSceneGold.fxml"));
             InputStream stream=new FileInputStream("F:\\image\\win-back.png");
             Image image=new Image(stream);
             ImageView imageView=new ImageView(image);
             root.getChildren().add(0,imageView);
-            window.setScene(new Scene(root, 312 , 424));
-            window.showAndWait();
+            Main.window.setScene(new Scene(root, 312 , 424));
+            Main.window.showAndWait();
         }
         else if (missionWon==-1){
-            Stage window = new Stage();
-            window.initModality(Modality.APPLICATION_MODAL);
+            //Stage window = new Stage();
+            //window.initModality(Modality.APPLICATION_MODAL);
             Pane root = FXMLLoader.load(GameControll.class.getResource("winningScene.fxml"));
             InputStream stream=new FileInputStream("F:\\image\\win-back.png");
             Image image=new Image(stream);
             ImageView imageView=new ImageView(image);
             root.getChildren().add(0,imageView);
-            window.setScene(new Scene(root, 312 , 424));
-            window.showAndWait();
+            Main.window.setScene(new Scene(root, 312 , 424));
+            Main.window.showAndWait();
         }
 
     }
