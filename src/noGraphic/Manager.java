@@ -1,5 +1,8 @@
 package noGraphic;
 
+import sample.AnimalAnim;
+import sample.Main;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -378,6 +381,19 @@ public class Manager {
                         Bear.produce();
                     }
                 }
+            }
+        }
+    }
+    public static void henProducer(){
+        if(wareHouse.getProductsStorage().get("Egg")>0){
+            wareHouse.getProductsStorage().put("Egg",wareHouse.getProductsStorage().get("Egg")-1);
+            try {
+                Hen newHen=new Hen();
+                AnimalAnim animalAnim=new AnimalAnim(newHen);
+                Main.animalAnims.add(animalAnim);
+            }
+            catch (Exception FileNotFoundException){
+
             }
         }
     }

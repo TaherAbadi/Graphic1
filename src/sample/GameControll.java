@@ -55,6 +55,7 @@ public class GameControll {
     public Button winningButton;
     public ImageView winningImage;
     public Text winningText;
+    public ImageView henProducer;
 
 
     public void initialize(){
@@ -62,6 +63,7 @@ public class GameControll {
         wellClick();
         mouseClick();
         wareClick();
+        henProduceClick();
     }
 
     public void workEggPowderFac(){
@@ -244,7 +246,17 @@ public class GameControll {
         };
         ware.addEventFilter(MouseEvent.MOUSE_CLICKED,eventHandler);
     }
+    public void henProduceClick(){
+        EventHandler<MouseEvent> eventHandler=new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent mouseEvent) {
+                Manager.henProducer();
+                System.out.println("+");
+            }
+        };
+        henProducer.addEventFilter(MouseEvent.MOUSE_CLICKED,eventHandler);
 
+    }
     public void updateLand(){
         for (int i = 0; i <6 ; i++) {
             for (int j = 0; j <6 ; j++) {
