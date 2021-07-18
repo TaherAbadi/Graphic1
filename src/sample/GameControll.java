@@ -381,7 +381,7 @@ public class GameControll {
             ImageView imageView=new ImageView(image);
             root.getChildren().add(0,imageView);
             Main.window.setScene(new Scene(root, 312 , 424));
-            Main.window.showAndWait();
+            Main.window.show();
         }
         else if (missionWon==-1){
             //Stage window = new Stage();
@@ -392,7 +392,7 @@ public class GameControll {
             ImageView imageView=new ImageView(image);
             root.getChildren().add(0,imageView);
             Main.window.setScene(new Scene(root, 312 , 424));
-            Main.window.showAndWait();
+            Main.window.show();
         }
 
     }
