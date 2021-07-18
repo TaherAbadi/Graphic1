@@ -85,6 +85,7 @@ public class Controller {
         Main.window.setScene(new Scene(root , 800 , 500));
     }
 
+
     public void signUp() throws IOException {
         if (!Manager.isUser(usernameTextField.getText())) {
             Manager.addUser(usernameTextField.getText(),passwordTextField.getText());

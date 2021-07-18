@@ -372,12 +372,12 @@ public class GameControll {
     }*/
 
     public void showWinStatus(int missionWon) throws IOException {
-        if (missionWon!=0){
+        if (missionWon==1){
             Stage window = new Stage();
             window.initModality(Modality.APPLICATION_MODAL);
-            window.setTitle("You Won!");
+            window.setTitle("You Won Gold Medal!");
             window.setMinWidth(600);
-            Parent root = FXMLLoader.load(GameControll.class.getResource("winningScene.fxml"));
+            Pane root = FXMLLoader.load(GameControll.class.getResource("winningSceneGold.fxml"));
             //InputStream stream=new FileInputStream("F:\\image\\WareHouseBackGround.png");
             //Image image=new Image(stream);
             //ImageView imageView=new ImageView();
@@ -386,8 +386,23 @@ public class GameControll {
             window.setScene(new Scene(root, 600 , 400));
             window.showAndWait();
         }
-        else if (missionWon==0)
-        System.out.println("hechi");
+        else if (missionWon==-1){
+            Stage window = new Stage();
+            window.initModality(Modality.APPLICATION_MODAL);
+            window.setTitle("You Won!");
+            window.setMinWidth(600);
+            Pane root = FXMLLoader.load(GameControll.class.getResource("winningSceneGold.fxml"));
+            //InputStream stream=new FileInputStream("F:\\image\\WareHouseBackGround.png");
+            //Image image=new Image(stream);
+            //ImageView imageView=new ImageView();
+            // imageView.setImage(image);
+            //root.getChildren().add(0,imageView);
+            window.setScene(new Scene(root, 600 , 400));
+            window.showAndWait();
+
+
+        }
+
     }
     public void mainMenuScene() throws IOException {
         Pane root = FXMLLoader.load(getClass().getResource("sample.fxml"));
