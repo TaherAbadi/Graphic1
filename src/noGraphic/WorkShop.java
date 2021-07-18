@@ -62,6 +62,7 @@ public abstract class WorkShop {
             }
         }
 
-
-
+    public boolean isWorking() {
+        return isWorking;
+    }
 }

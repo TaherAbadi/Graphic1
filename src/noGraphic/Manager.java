@@ -24,13 +24,13 @@ public class Manager {
     public static Land land=new Land();
     static Well well=new Well();
     public static WareHouse wareHouse=new WareHouse();
-    static MilkBoxing milkBoxing=new MilkBoxing();
-    static IceCreamFactory iceCreamFactory=new IceCreamFactory();
-    static EggPowderPlant eggPowderPlant=new EggPowderPlant();
-    static CookieBakery cookieBakery=new CookieBakery();
-    static FeatherFactory featherFactory=new FeatherFactory();
-    static TailoringFactory tailoringFactory=new TailoringFactory();
-    static WorkShop[] workShops={milkBoxing,iceCreamFactory,eggPowderPlant,cookieBakery,featherFactory,tailoringFactory};
+    public static MilkBoxing milkBoxing=new MilkBoxing();
+    public static IceCreamFactory iceCreamFactory=new IceCreamFactory();
+    public static EggPowderPlant eggPowderPlant=new EggPowderPlant();
+    public static CookieBakery cookieBakery=new CookieBakery();
+    public static FeatherFactory featherFactory=new FeatherFactory();
+    public static TailoringFactory tailoringFactory=new TailoringFactory();
+    public static WorkShop[] workShops={milkBoxing,iceCreamFactory,eggPowderPlant,cookieBakery,featherFactory,tailoringFactory};
     static Truck truck=new Truck();
     public static int coin=1000;
 

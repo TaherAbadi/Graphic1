@@ -67,34 +67,57 @@ public class GameControll {
         henProduceClick();
     }
 
+    public void updateWorkShopButton(){
+        if (Manager.milkBoxing.getLevel()>=1)
+        BoxedMilk.setDisable(Manager.milkBoxing.isWorking());
+        if (Manager.iceCreamFactory.getLevel()>=1)
+        IceCreamFactory.setDisable(Manager.iceCreamFactory.isWorking());
+        if (Manager.eggPowderPlant.getLevel()>=1)
+        EggPowderPlant.setDisable(Manager.eggPowderPlant.isWorking());
+        if (Manager.cookieBakery.getLevel()>=1)
+        CookieBakery.setDisable(Manager.cookieBakery.isWorking());
+        if (Manager.featherFactory.getLevel()>=1)
+        FeatherFactory.setDisable(Manager.featherFactory.isWorking());
+        if (Manager.tailoringFactory.getLevel()>=1)
+        TailoringFactory.setDisable(Manager.tailoringFactory.isWorking());
+    }
+
+
     public void workEggPowderFac(){
         if(! Manager.work("EggPowderPlant"))
             ReadWriteFile.WriteLogger(false,ERROR);
+        updateWorkShopButton();
     }
     public void workCookieBakery(){
         if(! Manager.work("CookieBakery"))
             ReadWriteFile.WriteLogger(false,ERROR);
+        updateWorkShopButton();
     }
     public void workBoxedMilk(){
         System.out.println("work");
         if(! Manager.work("MilkBoxing"))
             ReadWriteFile.WriteLogger(false,ERROR);
+        updateWorkShopButton();
     }
     public void workIceCreamFactory(){
         if(! Manager.work("IceCreamFactory"))
             ReadWriteFile.WriteLogger(false,ERROR);
+        updateWorkShopButton();
     }
     public void workFeatherFactory(){
         if(! Manager.work("FeatherFactory"))
             ReadWriteFile.WriteLogger(false,ERROR);
+        updateWorkShopButton();
     }
     public void workTailoringFactory(){
         if(! Manager.work("TailoringFactory"))
             ReadWriteFile.WriteLogger(false,ERROR);
+        updateWorkShopButton();
     }
-    public void drainge(){
+    public void drainge() throws IOException {
         if(Manager.drainge()==false){
             ReadWriteFile.WriteLogger(false,"The water buket is full!");
+            AlertBox.display("Error" , "Well is Full!");
         }
         else
             ReadWriteFile.WriteLogger(true,"Drainaged successfully");
@@ -183,6 +206,7 @@ public class GameControll {
         for (AnimalAnim animation:Main.animalAnims) {
             animation.play();
         }
+        updateWorkShopButton();
         showWinStatus(temp);
 
     }
@@ -208,7 +232,11 @@ public class GameControll {
                 if(!Manager.cage((int)mouseEvent.getX()/61,(int)mouseEvent.getY()/50)){
                     int temp=Manager.pickUp(((int)mouseEvent.getX()/61)+1,((int)mouseEvent.getY()/52)+1);
                     if(temp==2){
-                        //TODO full warehouse
+                        try {
+                            AlertBox.display("Error" , "WareHouse is Full!");
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                     }
                     else if(temp==3){
                         Manager.plantGrass(mouseEvent.getX(),mouseEvent.getY());
@@ -224,7 +252,11 @@ public class GameControll {
         EventHandler<MouseEvent> eventHandler=new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent mouseEvent) {
-                drainge();
+                try {
+                    drainge();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
         };
         well.addEventFilter(MouseEvent.MOUSE_CLICKED,eventHandler);
