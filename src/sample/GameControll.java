@@ -76,7 +76,8 @@ public class GameControll {
             ReadWriteFile.WriteLogger(false,ERROR);
     }
     public void workBoxedMilk(){
-        if(! Manager.work("BoxedMilk"))
+        System.out.println("work");
+        if(! Manager.work("MilkBoxing"))
             ReadWriteFile.WriteLogger(false,ERROR);
     }
     public void workIceCreamFactory(){
